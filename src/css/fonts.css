@@ -1,0 +1,112 @@
+/* Byrd ExtraBold */
+@font-face {
+    font-family: 'GTF Byrd ExtraBold';
+    src: url('/fonts/Byrd-ExtraBold.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/Byrd-ExtraBold.woff2') format('woff2'),
+         url('/fonts/Byrd-ExtraBold.woff') format('woff');
+    font-weight: 700; 
+    font-style: normal;
+    font-display: swap; 
+}
+
+/* Byrd Light */
+@font-face {
+    font-family: 'GTF Byrd Light';
+    src: url('/fonts/Byrd-Light.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/Byrd-Light.woff2') format('woff2'),
+         url('/fonts/Byrd-Light.woff') format('woff');
+    font-weight: 300; 
+    font-style: normal;
+    font-display: swap; 
+}
+
+/* Inter is a variable font */  
+@font-face {
+    font-family: 'Inter';
+    src: url('/fonts/Inter-VariableFont_slnt,wght.woff2') format('woff2');
+    src: url('/fonts/Inter-VariableFont_slnt,wght.ttf') format('truetype');
+    font-display: swap; 
+}
+
+/* --------------------------------------------------------------- */
+/*                    General Font Styling                         */
+/* --------------------------------------------------------------- */
+
+/* Byrd - For Headlines */
+.byrd-2xl-light, .byrd-2xl-extra-bold, .byrd-xl-light, .byrd-xl-extra-bold, .byrd-l-light, .byrd-l-extra-bold, .byrd-m-light, .byrd-m-extra-bold, .byrd-s-light, .byrd-s-extra-bold {
+    line-height: normal;
+}
+
+.byrd-2xl-extra-bold, .byrd-xl-extra-bold, .byrd-l-extra-bold, .byrd-m-extra-bold, .byrd-s-extra-bold { 
+    font-family: 'GTF Byrd ExtraBold'; 
+}
+
+.byrd-2xl-light, .byrd-xl-light, .byrd-l-light, .byrd-m-light, .byrd-s-light {
+    font-family: 'GTF Byrd Light';
+}
+
+.byrd-2xl-light, .byrd-xl-light  {
+    word-wrap: break-word;
+}
+
+/* Inter - For Copy */
+.inter-2xl-bold, .inter-2xl-light, .inter-xl-bold, .inter-xl-light, .inter-l-bold, .inter-l-light {
+    line-height: 130%;
+}
+
+.inter-m-bold, .inter-m-light, .inter-s-bold, .inter-s-light { 
+    line-height: normal; 
+}
+
+.inter-2xl-bold, .inter-xl-bold, .inter-l-bold, .inter-m-bold, .inter-s-bold { 
+    font-weight: bold; 
+}
+
+.inter-2xl-light, .inter-xl-light, .inter-l-light, .inter-m-light, .inter-s-light { 
+    font-weight: light; 
+}
+
+
+/* --------------------------------------------------------------- */
+/*            Font Sizing for really large Screens                 */
+/* --------------------------------------------------------------- */
+
+.byrd-2xl-light, .byrd-2xl-extra-bold { 
+    font-size: var(--font-heading-2xl); 
+}
+
+.byrd-xl-light, .byrd-xl-extra-bold { 
+    font-size: var(--font-heading-xl);  
+}
+
+.byrd-l-light, .byrd-l-extra-bold { 
+    font-size: var(--font-heading-l); 
+}
+
+.byrd-m-light, .byrd-m-extra-bold { 
+    font-size: var(--font-heading-m); 
+}
+
+.byrd-s-light, .byrd-s-extra-bold { 
+    font-size: var(--font-heading-s); 
+}
+
+.inter-2xl-bold, .inter-2xl-light { 
+    font-size: var(--font-copy-2xl); 
+}
+
+.inter-xl-bold, .inter-xl-light { 
+    font-size: var(--font-copy-xl);
+}
+
+.inter-l-bold, .inter-l-light { 
+    font-size: var(--font-copy-l);
+}
+
+.inter-m-bold, .inter-m-light { 
+    font-size: var(--font-copy-m);
+}
+
+.inter-s-bold, .inter-s-light { 
+    font-size: var(--font-copy-s); 
+}
