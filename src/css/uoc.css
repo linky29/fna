@@ -311,7 +311,7 @@ html {
 }
 
 .footer-logo {
-  width: 30vw;
+  width: 20vw;
 }
 
 .footer-links p, .footer-links a {
@@ -323,4 +323,214 @@ html {
 
 .footer-links a:hover {
   font-weight: bold;
+}
+
+
+/* #region OrderForm */
+
+/* Basis-Styles für Formularbereiche */
+.floating-label-group,
+.textarea-floating-label-group {
+  position: relative;
+  width: 100%;
+}
+
+/* Flexbox-Layout für Textarea */
+.textarea-floating-label-group {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+/* Grundlegende Styles für schwebende Labels */
+.input-label,
+.textarea-label {
+  position: absolute;
+  left: 10px; /* Mehr Abstand nach links */
+  top: 0;
+  transition: top 0.2s ease, font-size 0.2s ease, color 0.2s ease;
+  color: var(--color-almostblack);
+  font-family: 'Inter';
+  font-weight: 200;
+  pointer-events: none;
+}
+
+/* Verhalten von schwebenden Labels beim Fokussieren oder wenn ein Wert vorhanden ist */
+.textarea-element:focus ~ .textarea-label,
+.textarea-element:not(:placeholder-shown) ~ .textarea-label,
+.input-element:focus ~ .input-label,
+.input-element:not(:placeholder-shown) ~ .input-label {
+  top: -20px; /* Weniger hoher Sprung */
+  font-size: var(--font-copy-s);
+  color: var(--color-almostwhite);
+}
+
+.order-form {
+  position: relative; /* Stellt sicher, dass der Kreis relativ zur Form positioniert wird */
+}
+
+
+
+/* Flexbox-Layout für Zeilen im Formular */
+.order-form-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px; /* Mehr Abstand zwischen den Reihen */
+}
+
+.floating-label-group {
+  flex-grow: 1;
+  margin-right: 10px; /* Fügt Abstand zwischen den Feldern hinzu */
+}
+
+.floating-label-group:last-child,
+.order-form-row:last-child .floating-label-group {
+  margin-right: 0; /* Entfernt den Abstand am rechten Rand des letzten Elements */
+}
+
+/* Anpassungen für kleinere Bildschirme */
+@media (max-width: 600px) {
+  .order-form-row {
+    flex-direction: column;
+  }
+
+  .floating-label-group {
+    margin-right: 0; /* Entfernt den rechten Abstand für schmalere Ansichten */
+  }
+}
+
+/* Allgemeine Styles für Input-Elemente und Textarea */
+.floating-label-group input,
+.textarea-floating-label-group textarea {
+  width: 100%;
+  min-height: 40px;
+  padding: 8px 8px 8px 16px; /* Mehr Abstand nach links */
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  color: var(--color-almostblack);
+  transition: border-color 0.3s;
+  align-items: center; /* Zentriert den Text vertikal */
+}
+
+.floating-label-group input:focus,
+.textarea-floating-label-group textarea:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+/* Besondere Eigenschaften für die Textarea */
+.textarea-floating-label-group textarea {
+  min-height: 80px;
+  resize: vertical;
+}
+
+/* Zusätzliche Textzeile für Pflichtfeld-Ankündigung */
+.order-form-text-row {
+  text-align: left;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 0.8rem;
+}
+
+/* Styling für den Submit-Button */
+.order-form-button-submit {
+  min-width: calc(var(--size-m) + var(--size-m));
+  background-color: var(--color-pink);
+  border: 2px solid var(--color-lightblue);
+  color: var(--color-almostwhite);
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  border-radius: 20px;
+}
+
+.order-form-button-submit:hover {
+  background-color: var(--color-almostblack);
+  color: var(--color-pink);
+}
+
+/* Positionierung und Styling des Preis-Tags */
+.order-form-price-tag {
+  position: absolute;
+  top: -28%;
+  left: 88%;
+  width: var(--size-m);
+  height: var(--size-m);
+  color: var(--color-almostblack);
+  background-color: var(--color-pink);
+  border: 2px solid var(--color-lightblue);
+  border-radius: 50%; /* Macht den Block kreisförmig */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  box-shadow: 0px 4px 6px rgba(0,0,0,0.1); /* Optional: Schatten für bessere Sichtbarkeit */
+  z-index: 2;
+}
+
+/* #endregion */
+
+/* Modal */
+
+.contact-form-modal {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  min-width: var(--size-l);
+}
+
+.contact-form-modal-content {
+  background-color: var(--color-pink);
+  color: var(--color-almostblack);
+  border: var(--line-size-m) solid var(--color-lightblue);     
+}
+
+.contact-form-modal-content {
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      overflow: auto;
+      border-radius: var(--padding-l);
+      outline: none;
+      padding: var(--padding-l);
+      position: fixed;
+}
+
+.contact-form-modal-header {
+  padding: 0 0 var(--spacer-s) 0;
+}
+
+.contact-form-modal-message {
+  padding: 0 0 var(--spacer-s);
+}
+
+.contact-form-modal-button {
+    border-radius: var(--padding-s);
+    display: flex;
+    padding: var(--spacer-xs) var(--spacer-s);
+    justify-content: center;
+    align-items: center;
+    gap: var(--spacer-2xs);
+    transition: background-color 0.3s, color 0.3s;
+    text-transform: uppercase; 
+    width: calc(var(--size-l) + var(--size-s));
+}
+
+.contact-form-modal-button {
+  background: var(--color-almostblack);
+  border: var(--line-size-m) solid var(--color-lightblue);
+  color: var(--color-pink);
+}
+
+.contact-form-modal-button:hover {
+  background: var(--color-pink);
+  border: var(--line-size-m) solid var(--color-lightblue);
+  color: var(--color-almostblack);
+}
+
+/* #endregion */
+.ReactModal__Overlay {
+  z-index: 50; /* Setzt einen hohen z-index, um sicherzustellen, dass das Overlay über anderen Elementen liegt */
 }

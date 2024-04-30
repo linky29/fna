@@ -10,7 +10,7 @@ const Basics = lazy(() => import('./components/Basics'));
 const Details = lazy(() => import('./components/Details'));
 const Commercials = lazy(() => import('./components/Commercials'));
 const References = lazy(() => import('./components/References'));
-const OrderForm = lazy(() => import('./components/OrderForm'));
+const ContactForm = lazy(() => import('./components/ContactForm'));
 const Footer = lazy(() => import('./components/Footer'));
 
 function Head() {
@@ -44,7 +44,7 @@ function App() {
                                 <Details />
                                 <Commercials />
                                 <References />
-                                <OrderForm />
+                                <ContactForm />
                                 <Footer />
                             </>
                         </Suspense>

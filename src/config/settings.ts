@@ -1,6 +1,10 @@
 export const settings = {
     // Google Analytics ID
     googleAnalyticsId: import.meta.env.VITE_UOC_GOOGLE_ANALYTICS_ID,
+
+    apiUrl: import.meta.env.VITE_UOC_BASE_API_URL,
+    linkedInUrl: 'https://www.linkedin.com/company/12950627/',
+
     
     // Meta-Informationen
     geometry: {

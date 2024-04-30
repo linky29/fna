@@ -62,21 +62,50 @@
         },
         "Haufe": "Auszug aus dem Praxisbuch Agilität von André Häusling (Haufe Verlag)"
     },
-    "OrderForm": {
+
+    "ContactForm": {
         "Title": "Bestellt hier euer Spiel!",
-           "Content": "Ja! Ich möchte UNIVERSE OF CULTURE bestellen."
+        "Header": {
+            "1": "Lust auf Universe of Culture bekommen? Dann schick uns hier rasch eine Nachricht und lass uns dabei gerne wissen, ",
+            "2": "wie viele Spielsets",
+            "3": "(ein Spielset reicht für bis zu 24 Spieler) und",
+            "4": "in welcher Sprache",
+            "5": "(englisch oder deutsch)",
+            "6": "du dein(e) Spielset(s) benötigst. Wir melden uns dann schnellstmöglich bei dir."
         },
-        
         "Fields": {
-            "GermanGames": "Anzahl der Spiele (DE)",
-            "EnglishGames": "Anzahl der Spiele (EN)",
-            "DeliveryAddress": "Lieferadresse",
-            "BillingAddress": "Rechnungsadresse",
-            "Comments": "Bemerkungen",
-            "EducationalDiscount": "Ich möchte den reduzierten Preis für Bildungseinrichtungen, Vereine und Non-Profit-Organisationen von 49€ netto inkl. Versand beantragen.",
-            "AcceptTerms": "Ich akzeptiere die AGB und die Datenschutzerklärung.",
-            "Submit": "Bestellen"
+            "Name": "Dein Name",
+            "ReplyTo": "Deine E-Mailadresse",
+            "Message": "Deine Nachricht an uns",
+            "Consent": "Ich erkläre mich mit der Verarbeitung der eingegebenen Daten sowie der Datenschutzerklärung einverstanden."
+        },
+        "PriceTag": "79 € netto inklusive Versand",
+        "Submit":  "Nachricht senden",
+
+        "Message": {
+            "Sender": "Im Formular angegebener Name des Absenders",
+            "Message": "Nachricht"
+        },
+        "Modal": {
+            "Success": {
+            "Header": "Vielen Dank für deine Nachricht!",
+            "Message": "Wir melden uns so schnell wie möglich bei dir. Das sollte unter der Woche in der Regel nicht länger als 24 Stunden dauern. Wenn doch, melde dich bitte gerne direkt unter info@scalamento.de bei uns."
+            },
+            "Failure": {
+            "Header": "Ups, da ist was schiefgelaufen!",
+            "Message": "Leider ist beim Versenden deiner Nachricht etwas schief gelaufen. Bitte versuche es später noch einmal oder kontaktiere uns direkt unter info@scalamento.de.",
+            "Info": "Fehlermeldung: "
+            },
+            "Validation": {
+            "Header": "Bitte überprüfe deine Eingaben!",
+            "InvalidEmail": "Die E-Mailadresse scheint ungültig zu sein. Bitte probiere das noch einmal.",
+            "ConsentNotChecked": "Bitte bestätige, dass du mit der Verarbeitung deiner Daten einverstanden bist."
+            },
+            "Button": "Schließen"
+        },
+        "Required": "* Pflichtfeld"
     },
+
     "Footer": {
         "Imprint": "Impressum & AGB",
         "Privacy": "Datenschutz",
