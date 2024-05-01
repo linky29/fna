@@ -1,10 +1,29 @@
-// References.tsx
 import { useTranslation } from 'react-i18next';
+import { settings } from '../config/settings';
 import IconTitle from './IconTitle';
 
+// Define an interface for the quote marks structure
+interface QuoteMarks {
+  start: string;
+  end: string;
+}
+
+// Define a type for the object that holds all language-specific quote marks
+interface Quotes {
+  [key: string]: QuoteMarks;
+}
+
 const References = () => {
-    const { t } = useTranslation();
-  
+    const { t, i18n } = useTranslation();
+
+    // Define the quotes with proper typing
+    const quotes: Quotes = {
+        en: { start: `“`, end: `”` },
+        de: { start: `„`, end: `“` },
+        fr: { start: `« `, end: ` »` }
+    };
+    const currentQuotes = quotes[i18n.language] || quotes['en']; // Default to English if not available
+
     return (
         <>
             <div className="container">
@@ -14,13 +33,27 @@ const References = () => {
             <div className="module references" id="References">
                 <div className="container">
                     <div className="references-content">
-                        <div className="left-column inter-l-light">
-                            <p><i>{t('References.1.Voice')}</i><br/> <b>{t('References.1.Customer')}</b></p>
-                            <p><i>{t('References.2.Voice')}</i><br/> <b>{t('References.2.Customer')}</b></p>
+                        <div className="references-content-voices">
+                            <div className="references-left-column inter-l-light">
+                                <p><i>{currentQuotes.start}{t('References.1.Voice')}{currentQuotes.end}</i></p>
+                                <p><b>{t('References.1.Customer')}</b></p>                               
+                                <p><i>{currentQuotes.start}{t('References.2.Voice')}{currentQuotes.end}</i></p>
+                                <p><b>{t('References.2.Customer')}</b></p>
+                            </div>
+                            <div className="references-right-column inter-l-light">
+                                <p><i>{currentQuotes.start}{t('References.2.Voice')}{currentQuotes.end}</i></p>
+                                <p><b>{t('References.2.Customer')}</b></p>                               
+                                <p><i>{currentQuotes.start}{t('References.1.Voice')}{currentQuotes.end}</i></p>
+                                <p><b>{t('References.1.Customer')}</b></p>
+                            </div>
                         </div>
-                        <div className="right-column">
-                            <h3>{t('References.Haufe')}</h3>
-                            <img src="path/to/haufe_image.jpg" alt="Haufe" />
+                        <div className="spacer-s"></div>
+                        <div className="inter-l-light">
+                            {t('References.Haufe.Pre')}{' '}
+                            <a href={settings.haufeUrl} target="_blank" rel="noopener noreferrer" className="references-linkout">
+                                <b>{t('References.Haufe.Mid')}</b>
+                            </a>
+                            {' '}{t('References.Haufe.End')}
                         </div>
                     </div>
                 </div>

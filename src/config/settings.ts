@@ -2,9 +2,9 @@ export const settings = {
     // Google Analytics ID
     googleAnalyticsId: import.meta.env.VITE_UOC_GOOGLE_ANALYTICS_ID,
 
-    apiUrl: import.meta.env.VITE_UOC_BASE_API_URL,
+    apiUrl: import.meta.env.VITE_BETAOS_BASE_API_URL,
     linkedInUrl: 'https://www.linkedin.com/company/12950627/',
-
+    haufeUrl: 'https://www.haufe.de/personal/hr-management/agilitaet-agile-werte-und-agile-unternehmenskultur_80_386204.html',
     
     // Meta-Informationen
     geometry: {
@@ -21,5 +21,20 @@ export const settings = {
             xxl:   1400, // XXL-Geräte (noch größere Desktops, 1400px und darüber)
             xxxl:  1600  // XXXL-Geräte (ultra große Desktops, 1600px und darüber)
         }
+    },
+
+    agb: {
+        basePath: '/agb',
+        prefix: 'scalamento_gmbh_',
+        generalTermsFileName: {
+            en: 'terms-and-conditions.pdf',
+            de: 'agb.pdf',
+            fr: 'conditions-generales-de-vente.pdf',
+        },
+        salesTermsFileName: {
+            en: 'terms-and-conditions.pdf',
+            de: 'agb_verkauf.pdf',
+            fr: 'conditions-generales-de-vente.pdf',
+        },
     }
 };

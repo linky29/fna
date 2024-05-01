@@ -1,4 +1,5 @@
 import { useTranslation } from 'react-i18next';
+import { settings } from '../config/settings';
 import ScalamentoWordmarkSvg from './ScalamentoWordmarkSvg';
 
 const Footer = () => {
@@ -13,7 +14,7 @@ const Footer = () => {
                 <p className="inter-m-light">
                     <a href="/imprint">{t('Footer.Imprint')}</a>
                     <a href="/privacy">{t('Footer.Privacy')}</a>
-                    <a href="https://www.linkedin.com/company/scalamento" target="_blank" rel="noopener noreferrer">
+                    <a href={settings.linkedInUrl} target="_blank" rel="noopener noreferrer">
                         LinkedIn
                     </a>
                     © {new Date().getFullYear()} {t('Footer.Company')}

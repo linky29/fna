@@ -12,6 +12,8 @@ const Commercials = lazy(() => import('./components/Commercials'));
 const References = lazy(() => import('./components/References'));
 const ContactForm = lazy(() => import('./components/ContactForm'));
 const Footer = lazy(() => import('./components/Footer'));
+const Imprint = lazy(() => import('./components/Imprint'));
+const Privacy = lazy(() => import('./components/Privacy'));
 
 function Head() {
   const { t } = useTranslation(); 
@@ -28,32 +30,33 @@ function Head() {
 }
 
 function App() {
-
   return (
     <BrowserRouter>
         <Suspense fallback={<div>Loading...</div>}>
             <div className="canvas">
                 <Head />
                 <div className="spacer-s"></div>
+                <Header />               
                 <Routes>
                     <Route index element={
                         <Suspense fallback={<div>Loading...</div>}>
                             <>
-                                <Header />
                                 <Basics />
                                 <Details />
                                 <Commercials />
                                 <References />
                                 <ContactForm />
-                                <Footer />
                             </>
                         </Suspense>
                     } />
+                    <Route path="/imprint" element={<Imprint />} />
+                    <Route path="/privacy" element={<Privacy />} />
                 </Routes>
+                <Footer />
             </div>
         </Suspense>
     </BrowserRouter>
-);
+  );
 }
 
 export default App;

@@ -17,9 +17,9 @@
 
 :root {
   /* Global Sizes */
-  --max-width-canvas: max(320px, min(90vw, 1000px));
-  --max-width-module: max(300px, min(88vw, 950px));
-  --max-width-container: max(280px, min(86vw, 900px));
+  --max-width-canvas: max(320px, min(90vw, 1200px));
+  --max-width-module: max(300px, min(88vw, 1150px));
+  --max-width-container: max(280px, min(86vw, 1100px));
     
   --font-size-basic:  clamp(10px, 1.2vw, 16px);
 
@@ -92,6 +92,7 @@
   --color-lightblue:   #8CD3F7;
   --color-blue:        #083BDB;
   --color-pink:        #D24B9E;
+  --color-uocblue:     #0B0028;
 
   /* Mapping */
   --background-color-details:    var(--color-pink);
@@ -138,8 +139,9 @@ html {
   margin: 0 auto;
   max-width: var(--max-width-canvas);
   padding: 0;
-  background-image: url('/public/background.webp'); 
-  background-repeat: repeat;
+  background-color: var(--color-uocblue);
+  /*background-image: url('/public/background.webp'); 
+  background-repeat: repeat;*/
 }
 
 /* All modules shall have the same basics  */
@@ -224,6 +226,7 @@ html {
   height: auto;
 }
 
+/* #region Basics */
 
 #basics .basics-action-images {
   display: flex;
@@ -241,6 +244,10 @@ html {
   width: 100%; /* Stellt sicher, dass das Bild den verfügbaren Platz innerhalb seines Containers ausfüllt */
   height: auto; /* Behält das ursprüngliche Seitenverhältnis des Bildes bei */
 }
+
+/* #endregion */
+
+/* #region Details */
 
 #details .module.details {
   display: flex;
@@ -267,6 +274,8 @@ html {
   height: auto; /* Behält das Seitenverhältnis bei */
 }
 
+/* #endregion */
+
 .title-with-icon {
   display: flex;
   align-items: center; /* Zentriert die Elemente vertikal */
@@ -279,29 +288,43 @@ html {
   height: auto; /* Behält das Seitenverhältnis des Icons bei */
 }
 
+
+/* #region References */
+
 .references-content {
   display: flex;
   justify-content: space-between;
+  flex-direction: column;
 }
 
-.left-column, .right-column {
-  flex: 1; /* Beide Spalten nehmen gleich viel Platz ein */
-  padding: 20px; /* Fügt etwas Platz im Inneren jeder Spalte hinzu */
+.references-content-voices {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
 }
 
-.right-column {
-  max-width: 50%; /* Begrenzt die Breite der rechten Spalte, um das Layout auszubalancieren */
+.references-linkout,
+.order-form-privacy {
+  text-decoration: none;
+  color: var(--color-almostwhite);
 }
 
-.left-column {
+.references-left-column, .references-right-column {
+  flex: 1;
+}
+
+.references-right-column {
+  max-width: 50%;
+}
+
+.references-left-column {
   max-width: 50%; /* Begrenzt die Breite der linken Spalte */
 }
 
-/* Stile für das Bild */
-.right-column img {
-  width: 100%; /* Sorgt dafür, dass das Bild sich der Breite der Spalte anpasst */
-  height: auto; /* Behält das Seitenverhältnis des Bildes bei */
-}
+
+/* #endregion */
+
+/* #region Footer */
 
 .footer-container {
   display: flex;
@@ -312,6 +335,7 @@ html {
 
 .footer-logo {
   width: 20vw;
+  max-width: 400px;
 }
 
 .footer-links p, .footer-links a {
@@ -325,6 +349,7 @@ html {
   font-weight: bold;
 }
 
+/* #endregion */
 
 /* #region OrderForm */
 
@@ -346,12 +371,10 @@ html {
 .input-label,
 .textarea-label {
   position: absolute;
-  left: 10px; /* Mehr Abstand nach links */
-  top: 0;
+  left: 10px; 
+  top: 8px;
   transition: top 0.2s ease, font-size 0.2s ease, color 0.2s ease;
   color: var(--color-almostblack);
-  font-family: 'Inter';
-  font-weight: 200;
   pointer-events: none;
 }
 
@@ -368,8 +391,6 @@ html {
 .order-form {
   position: relative; /* Stellt sicher, dass der Kreis relativ zur Form positioniert wird */
 }
-
-
 
 /* Flexbox-Layout für Zeilen im Formular */
 .order-form-row {
@@ -470,9 +491,13 @@ html {
   z-index: 2;
 }
 
+.order-form-consent {
+  max-width: 80%;
+}
+
 /* #endregion */
 
-/* Modal */
+/* #region Modal */
 
 .contact-form-modal {
   display: flex;
@@ -531,6 +556,54 @@ html {
 }
 
 /* #endregion */
+
 .ReactModal__Overlay {
   z-index: 50; /* Setzt einen hohen z-index, um sicherzustellen, dass das Overlay über anderen Elementen liegt */
 }
+
+.flexSection {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flexSection > .imprintSectionLeft, .flexSection > .imprintSectionRight {
+  flex: 1;
+}
+
+.imprintSectionLeft {
+  margin-right: var(--padding-m);
+}
+
+.imprintSectionRight {
+  margin-left: var(--padding-m);
+}
+
+.imprintHeadline,
+.privacyHeadline {
+  padding: var(--spacer-s) 0 0 0;
+}
+
+.imprintTitle,
+.privacyTitle {
+  padding: 0;
+}
+
+.imprintHeading,
+.privacyHeading {
+  padding-top: var(--spacer-xs);
+}
+
+.imprintHeader,
+.privacyHeader {
+  padding-top: var(--spacer-xs);
+}
+
+.imprintContent,
+.privacyContent {
+  padding-top: var(--spacer-xs);
+}
+
+.imprintSection {
+  padding-top: var(--spacer-xs);
+}
+

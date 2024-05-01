@@ -6,6 +6,8 @@ const Basics = () => {
   
     return (
         <div className="container" id="basics">
+            <div className="inter-xl-light">{t('Header.Intro')}</div>
+            <div className="spacer-s"></div>
             <IconTitle titleKey="Basics.Title" />
             <div className='spacer-s'></div>
             <div className="inter-l-light">{t('Basics.Content.1')}</div>

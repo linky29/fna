@@ -5,6 +5,8 @@ import { ContactFormData } from '../interfaces/ContactFormData';
 import { settings } from '../config/settings';
 import Modal from 'react-modal';
 
+Modal.setAppElement('#root');
+
 const ContactForm: React.FC = () => {
     const { t } = useTranslation();
 
@@ -52,7 +54,12 @@ const ContactForm: React.FC = () => {
         try {
             const response = await fetch(`${settings.apiUrl}mail`, {
                 method: 'POST',
-                body: JSON.stringify(formData),
+                body: JSON.stringify({
+                    replyTo: formData.email,
+                    subject: "Bestellanfrage von " + formData.name + " fuer UoC",
+                    body: formData.message                   
+                }),
+
                 headers: { 'Content-Type': 'application/json' },
             });
     
@@ -135,7 +142,7 @@ const ContactForm: React.FC = () => {
                         value={formData.message} 
                         onChange={handleChange}
                         required
-                        className="textarea-element"
+                        className="textarea-element inter-l-light"
                         placeholder=" "
                     />
                     <label className="textarea-label inter-l-light">{t('ContactForm.Fields.Message')}</label>
@@ -146,14 +153,18 @@ const ContactForm: React.FC = () => {
                 </div>
 
                 <div className="order-form-row">
-                    <label>
+                    <label className="order-form-consent">
                         <input 
                             type="checkbox" 
                             name="consent" 
                             checked={formData.consent} 
-                            onChange={handleChange}
+                            onChange={handleChange}                           
                         />
-                        {t('ContactForm.Fields.Consent')}
+                        {t('ContactForm.Fields.Consent.Start')}{' '}
+                        <a href="/privacy" className="order-form-privacy">
+                            <b>{t('ContactForm.Fields.Consent.Privacy')}</b>{' '}
+                        </a>
+                        {t('ContactForm.Fields.Consent.End')}
                     </label>
                     <button type="submit" className="order-form-button-submit byrd-m-extra-bold">{t('ContactForm.Submit')}</button>
                 </div>
