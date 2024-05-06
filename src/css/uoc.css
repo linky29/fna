@@ -611,3 +611,13 @@ html {
   padding-top: var(--spacer-xs);
 }
 
+.imprintContent a {
+  text-decoration: none; /* Entfernt die Unterstreichung */
+  color: inherit; /* Beibehaltung der Farbe, die der Link von seinem umgebenden Text erbt */
+  cursor: pointer; /* Cursor als Hand anzeigen */
+}
+
+.imprintContent a:hover {
+  font-weight: bold; /* Textgewicht auf "bold" setzen */
+}
+
