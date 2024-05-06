@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 
 const Header = () => {
-
+    
     return (
         <div className="container" id="Header">
             <Link to="/" style={{ textDecoration: 'none' }}> {/* Hinzufügen des Link-Wrappers mit der Zielroute '/' */}

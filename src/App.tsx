@@ -7,6 +7,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import GoogleAnalyticsLoader from './components/GoogleAnalyticsLoader';
 
 // Dynamisch importierte Komponenten
+const LanguageSwitch = lazy(() => import('./components/LanguageSwitch'));
 const Header = lazy(() => import('./components/Header'));
 const Basics = lazy(() => import('./components/Basics'));
 const Details = lazy(() => import('./components/Details'));
@@ -40,7 +41,7 @@ const App: React.FC = () => {
         <Suspense fallback={<div>{t('Misc.Loading')}</div>}>
             <div className="canvas">
                 <Head />
-                <div className="spacer-s"></div>
+                <LanguageSwitch />
                 <Header />               
                 <Routes>
                     <Route index element={

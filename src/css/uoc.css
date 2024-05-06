@@ -21,7 +21,7 @@
   --max-width-module: max(300px, min(88vw, 1150px));
   --max-width-container: max(280px, min(86vw, 1100px));
     
-  --font-size-basic:  clamp(10px, 1.2vw, 16px);
+  --font-size-basic:  clamp(10px, 1.2vw, 14px);
 
   --font-heading-xl:  clamp(2.000rem, 4.00vw, 2.000em); 
   --font-heading-l:   clamp(1.500rem, 3.20vw, 1.500em); 
@@ -117,7 +117,9 @@ body {
   font-family: "Inter", sans-serif;
   margin: 0; 
   background-image: url('/public/background.webp'); 
-  background-repeat: repeat;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; 
 }
 
 
@@ -141,9 +143,7 @@ html {
   margin: 0 auto;
   max-width: var(--max-width-canvas);
   padding: 0;
-  background-color: rgba(69, 95, 128, 0.8); 
-  box-shadow: 0 48px 96px rgba(255, 255, 255, 0.5); 
- /* border: 1px solid rgba(255, 255, 255, 0.2);*/
+  background-color: rgba(60, 105, 164, 0.3); 
 }
 
 /* All modules shall have the same basics  */
@@ -190,6 +190,39 @@ html {
 /*                          Colors Regional                        */
 /* --------------------------------------------------------------- */
 
+/* #region Language Switch */
+
+.language-switch-buttons {
+  display: block;
+  padding-top: var(--spacer-xs);
+  padding-right: var(--spacer-xs);
+  text-align: right;
+}
+
+.language-switch-button {
+  width: var(--spacer-l);
+  height: var(--spacer-l);
+  color: var(--color-almostwhite);
+  background-color: var(--color-blue);
+  border: 2px solid var(--color-lightblue);
+  border-radius: 50%;
+  padding: 0;
+  margin: 0 0.3rem; 
+}
+
+.language-switch-button-selected {
+  background-color: var(--color-pink);
+}
+
+.language-switch-button:hover {
+  transform: scale(1.1) rotate(10deg); /* Vergrößert und rotiert den Button leicht */
+  background-color: var(--color-lightblue); /* Ändert die Hintergrundfarbe */
+  transition: all 0.3s ease; /* Sanfter Übergang bei der Hover-Aktion */
+}
+
+
+/* #endregion */
+
 .references {
   background-color: var(--background-color-references);
   border: 2px solid var(--color-lightblue);
@@ -221,6 +254,25 @@ html {
   max-width: 100%;
   height: auto;
 }
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.header-image-logo:hover img {
+  animation: rotate 4s linear infinite;
+}
+
+
+/* #endregion */
+
+
+
 
 /* #region Basics */
 
