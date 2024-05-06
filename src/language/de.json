@@ -6,11 +6,12 @@
   },
 
   "Header": {
-      "Language": {
-        "German": "DE",
-        "English": "EN",
-        "French": "FR"
-      }
+    "Intro": "Herzlich Willkommen! Du interessierst dich für das Brettspiel UNIVERSE OF CULTURE? Hier findest du alle Informationen!",
+    "Language": {
+      "German": "DE",
+      "English": "EN",
+      "French": "FR"
+    }
   },
 
   "Basics": {
@@ -374,5 +375,14 @@
         "Headline": "Bestehen einer automatisierten Entscheidungsfindung",
         "Content": "Als verantwortungsbewusstes Unternehmen verzichten wir auf eine automatische Entscheidungsfindung oder ein Profiling."
       }
+  },
+
+  "NotFound": {
+    "Title": "Seite nicht gefunden",
+    "Content": {
+      "1": "Es tut uns sehr leid, aber die von Ihnen gesuchte Seite existiert nicht oder ist vorübergehend nicht verfügbar. Bitte versuchen Sie es später erneut oder kehren Sie",
+      "2": "zur Startseite",
+      "3": "zurück."
+    }
   }
 }

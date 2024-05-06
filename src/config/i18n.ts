@@ -3,8 +3,12 @@ import { initReactI18next } from "react-i18next";
 
 import deTranslation from '../language/de.json';
 import enTranslation from '../language/en.json';
+import frTranslation from '../language/fr.json';
 
 const resources = {
+  fr: {
+    translation: frTranslation
+  },
   en: {
     translation: enTranslation
   },
