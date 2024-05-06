@@ -67,27 +67,26 @@
   "References": {
       "Title": "Was Andere über das Spiel sagen",
       "1": {
-          "Voice": "Das Spiel hat wesentlich dazu beigetragen, dass sich die Klassensituation verändert hat und ein sehr viel besseres Klassenklima und ein Gemeinschaftsgefühl entstanden ist.",
-          "Customer": "Heidrun Freier, Fachschule Sozialpädagogik"
-      },
-      "2": {
-          "Voice": "Die Teilnehmenden waren sehr zurückhaltend mit Feedback in der Reflexionsrunde. Meine Kolleginnen, die die Azubis durch den weiteren Tag geführt haben, haben mir aber berichtet, dass in der abschließenden Feedbackrunde zum Azubi-Tag 'das Spiel' von mehreren Teilnehmenden als 'Highlight' bezeichnet worden ist.",
-          "Customer": "Julian Nolte, stw Berlin"
-      },
-      "3": {
         "Voice": " Ich fand die Idee des Spiels klasse und bin jetzt erst recht überzeugt – Universe of Culture hat einen festen Platz in meinem Werkzeugkoffer und ich denke, ich werde es noch oft und in verschiedenen Varianten spielen lassen.",
         "Customer": "Martin Skowronek, LEB Niedersachsen e.V."
       },
-      "4": {
+      "2": {
         "Voice": "Die Teilnehmenden waren sehr zurückhaltend mit Feedback in der Reflexionsrunde. Meine Kolleginnen, die die Azubis durch den weiteren Tag geführt haben, haben mir aber berichtet, dass in der abschließenden Feedbackrunde zum Azubi-Tag 'das Spiel' von mehreren Teilnehmenden als 'Highlight' bezeichnet worden ist.",
         "Customer": "Julian Nolte, stw Berlin"
-      },
-
-      "Haufe": {
-          "Pre": "Weitere Details zum Spiel findet ihr auch im",
-          "Mid": "Praxisbuch Agilität",
-          "End": "erschienen im Haufe-Verlag."
-      }
+    },
+    "3": {
+      "Voice": "Nach dem ersten Mischen der Spieler wurde es dann lustig. Verzweifelte Gesichter, wilde Gesten und der noch schwierigere Moment nicht sprechen zu dürfen. Interessant war die Frage am Schluss „Was war denn jetzt das richtige Verhalten? Sollten wir uns anpassen? Sollte jeder so Spielen, wie er es für richtig hält? Sollten wir unsere Regeln durchsetzen?“ Somit waren wir mitten im Thema und konnten die Diskussionen zielführend für die Situationen im Arbeitsalltag nutzen.",
+      "Customer": "Julia Meihöfer von Datadrivers"
+    },
+    "4": {
+        "Voice": "Das Spiel hat wesentlich dazu beigetragen, dass sich die Klassensituation verändert hat und ein sehr viel besseres Klassenklima und ein Gemeinschaftsgefühl entstanden ist.",
+        "Customer": "Heidrun Freier, Fachschule Sozialpädagogik"
+    },
+    "Haufe": {
+        "Pre": "Weitere Details zum Spiel findet ihr auch im",
+        "Mid": "Praxisbuch Agilität",
+        "End": "erschienen im Haufe-Verlag."
+    }
   },
 
   "ContactForm": {
