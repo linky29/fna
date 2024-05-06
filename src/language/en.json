@@ -1,76 +1,387 @@
 {
+    "Misc": {
+      "MetaDescription": "UNIVERSE OF CULTURE is a team-building game that simulates the dynamics of self-organized teams. Learn more about the game and order it directly here!",
+      "PageTitle": "UNIVERSE OF CULTURE - The Team Building Game from Scalamento",
+      "Loading": "Loading..."
+    },
+  
     "Header": {
-        "Title": "Das Spiel",
-        "Content": "Herzlich Willkommen! Du interessierst dich für das Brettspiel UNIVERSE OF CULTURE? Hier findest du alle Informationen!"
+      "Language": {
+        "German": "DE",
+        "English": "EN",
+        "French": "FR"
+      }
     },
+  
     "Basics": {
-        "Title": "Die Basics",
-        "Content": {
-            "1": "Der Kern jeder hochperformanten Organisation ist das eigenverantwortliche, am Markt agierende Team. Doch wie fühlt es sich  eigentlich an, wenn Teams in ein eigenverantwortliches, auf Prinzipien basierendes Miteinander umsteigen? Welche Effekte können entstehen?",
-            "2": "Mit UNIVERSE OF CULTURE könnt ihr die Dynamiken selbstorganisierter Teams  nachempfinden. Taucht ein in ein spannendes, aufregendes und emotionales Spiel und erlebt selbst, wie Höchstleistung zwischen Menschen entsteht!",
-            "3": "Keine Sorge, das Regelwerk ist ganz und gar ungalaktisch. Auf dem weltweit bekannten Mensch-Ärgere-Dich-Nicht-Spielprinzip beruhend seid ihr und euer Team im Handumdrehen einsatzbereit für euren Ausflug in das Universum der Kulturen. Scalamento wünscht euch eine gute und erkenntnisreiche Reise!"
-        }
+      "Title": "The Game",
+      "Content": {
+        "1": "The core of every high-performing organization is the self-reliant, market-acting team. But how does it actually feel when teams switch to a self-reliant, principle-based cooperation? What effects can arise?",
+        "2": "With UNIVERSE OF CULTURE, you can experience the dynamics of self-organized teams. Immerse yourself in an exciting, thrilling, and emotional game and experience for yourself how peak performance emerges between people!",
+        "3": "Don't worry, the rules are not intergalactic at all. Based on the worldwide well-known Mensch-Ärgere-Dich-Nicht game principle, you and your team will be ready in no time for your excursion into the universe of cultures. Scalamento wishes you a good and insightful journey!"
+      }
     },
+  
     "Details": {
-        "1": {
-            "Title": "Mehr Details zum Spiel",
-            "Content": {
-                "1": "Universe of Culture ist ein von Scalamento in Kooperation mit der Uni Nürnberg-Erlangen entwickeltes Teambuilding-Spiel. Es hilft den Spielern, das eigene Verhalten in selbst-organisierter Zusammenarbeit zu reflektieren: Wie reagiere ich darauf, wenn jemand nach anderen Regeln spielt? Welche Strategien wählen wir als Gruppe?",
-                "2": "Die Spieler durchlaufen in kurzer Zeit die Teamphasen nach Bruce Wayne Tuckman: Forming, Storming, Norming und Performing. Dies gelingt allein dadurch, dass das Spiel nur non-verbale Kommunikation zulässt, Worte also verboten sind.",
-                "3": "Gespielt wird UNIVERSE OF CULTURE in drei Gruppen von je 3-8 Personen. Grundlage des Spiels ist das Prinzip von „Mensch-Ärgere-Dich-Nicht“. Die Spieler eignen sich die Spielregeln zu Beginn des Spiels selbst an – dies gehört zum Spielablauf.",
-                "4": "Ein gut moderierter Spieldurchlauf dauert in der Regel 60-90 Minuten inkl. einer Retrospektive zum Zusammentragen der Learnings.",
-                "5": "Das Spiel kann nur einmalig gespielt werden, weil die Spieler nach der Durchführung den Kniff des Spiels durchschaut haben. Erfahrungsgemäß gehen viele Spieler mit prägenden Eindrücken vom Spieltisch.",
-                "6": "Der Effekt von Universe of Culture entfaltet sich dadurch, dass alle Spieler meinen, mit demselben Regelsatz zu spielen. Allerdings weichen die Regeln zwischen den drei Gruppen leicht ab und sind teilweise bewusst ungenau formuliert. Im späteren Verlauf des Spiels sind die Auswirkungen der abweichenden Spielregeln in der Spieldynamik deutlich zu erkennen.",
-                "7": "Persönliche Erkenntnisse reichen von 'Ich dachte echt, alle um mich herum seien doof, weil sie anders spielten, als es in den Regeln stand' über 'Im Nachhinein bin ich erschrocken darüber, wie abwertend ich auf die Anderen geblickt habe!' bis hin zu 'Mir ist jetzt klar, wie wichtig es ist, in einer neuen Gruppe erstmal nach den zugrundeliegenden Prinzipien Ausschau zu halten'.",
-                "8": "Das Spiel besteht aus einem Spielbrett, 6 Spielfiguren, 2 Würfeln, 1 Spielanleitung und 1 Kulturkarte. Es ist in einer hochwertigen Verpackung erhältlich."
-            }
-        },
-        "2":  {
-            "Title": "Für wie viele Personen ist das Spiel ausgelegt?",
-            "Content": {
-                "1": "Ein Spielset enthält 3 Spielbretter und ist für 9-24 Personen ausgelegt.",
-                "2": "Es ist mit Scalamento gebrandet und in den Sprachen deutsch und englisch erhältlich."
-            }
-        },
-
-        "3":  {
-            "Title": "Was kostet das Spiel?",
-            "Content": {
-                "1": "Der Preis pro Spielset beträgt",
-                "2": "79€ netto inklusive Versand",
-                "3": "innerhalb Deutschlands.",
-                "4": "Für staatliche Bildungseinrichtungen, Vereine und Non-Profit-Organisationen berechnen wir reduziert 49€ netto."
-            }
-        }
+      "Title": "More Details About the Game",
+      "Content": {
+        "1": "UNIVERSE OF CULTURE is a team-building game developed by Scalamento in cooperation with the University of Nuremberg-Erlangen. It helps players reflect on their behavior in self-organized collaboration: How do I react when someone plays by different rules? What strategies do we choose as a group?",
+        "2": "Players go through the team phases according to",
+        "3": "Bruce Wayne Tuckman: Forming, Storming, Norming, and Performing.",
+        "4": "This is achieved simply by the fact that the game only allows non-verbal communication, meaning words are forbidden. UNIVERSE OF CULTURE is played in",
+        "5": "three groups of 3-8 people each.",
+        "6": "The basis of the game is the 'Mensch-Ärgere-Dich-Nicht' principle. Players learn the game rules at the beginning of the game themselves - this is part of the gameplay.",
+        "7": "A well-moderated gameplay usually lasts",
+        "8": "60-90 minutes",
+        "9": "including a retrospective to compile the learnings. The game can only be played once because after the run-through, players understand the twist of the game. Typically, many players leave the game table with lasting impressions.",
+        "10": "The effect of UNIVERSE OF CULTURE unfolds because all players think they are playing by the same rule set. However, the rules vary slightly between the three groups and are deliberately formulated somewhat vaguely. As the game progresses, the effects of the different game rules become apparent in the game dynamics.",
+        "11": "Personal insights range from",
+        "12": "'I really thought everyone around me was dumb because they were playing differently than the rules said'",
+        "13": "to",
+        "14": "'In retrospect, I was shocked by how condescending I looked at others!'",
+        "15": "to",
+        "16": "'Now I realize how important it is to first look for the underlying principles in a new group.'"
+      }
     },
+    
+    "Commercials": {
+      "1":  {
+        "Title": "For How Many People Is the Game Designed?",
+        "Content": {
+          "1": "A game set contains 3 game boards and is designed for",
+          "2": "9-24 people",
+          "3": ". It is branded with Scalamento and available in the languages",
+          "4": "German",
+          "5": "and",
+          "6": "English",
+          "7": "."
+        }
+      },
+  
+      "2":  {
+        "Title": "What Is the Price of the Game?",
+        "Content": {
+          "1": "The price per game set is",
+          "2": "€79 net, including shipping",
+          "3": "within Germany. For public educational institutions, clubs, and non-profit organizations, we charge a reduced price of €49 net."
+        }
+      }
+    },
+  
     "References": {
-        "Title": "Was Andere über das Spiel sagen",
-        "1": {
-            "Voice": "Das Spiel hat wesentlich dazu beigetragen, dass sich die Klassensituation verändert hat und ein sehr viel besseres Klassenklima und ein Gemeinschaftsgefühl entstanden ist.",
-            "Customer": "Heidrun Freier, Fachschule Sozialpädagogik"
-        },
-        "2": {
-            "Voice": "Die Teilnehmenden waren sehr zurückhaltend mit Feedback in der Reflexionsrunde. Meine Kolleginnen, die die Azubis durch den weiteren Tag geführt haben, haben mir aber berichtet, dass in der abschließenden Feedbackrunde zum Azubi-Tag 'das Spiel' von mehreren Teilnehmenden als 'Highlight' bezeichnet worden ist.",
-            "Customer": "Julian Nolte, stw Berlin"
-        },
-        "Haufe": "Auszug aus dem Praxisbuch Agilität von André Häusling (Haufe Verlag)"
+      "Title": "What Others Say About the Game",
+      "1": {
+        "Voice": "I thought the idea of the game was great and am now even more convinced - Universe of Culture has a permanent place in my toolkit, and I think I'll let it be played often and in different variations.",
+        "Customer": "Martin Skowronek, LEB Niedersachsen e.V."
+      },
+      "2": {
+        "Voice": "The participants were very reserved with feedback in the reflection round. However, my colleagues, who guided the trainees through the rest of the day, reported to me that in the final feedback round for the trainee day, 'the game' was described as the 'highlight' by several participants.",
+        "Customer": "Julian Nolte, stw Berlin"
+      },
+      "3": {
+        "Voice": "After the first mixing of the players, it became fun. Desperate faces, wild gestures, and the even more difficult moment of not being allowed to speak. An interesting question at the end was, 'What was the right behavior now? Should we adapt? Should everyone play the way they think is right? Should we enforce our rules?' So we were right in the middle of the topic and were able to use the discussions to guide the situations in everyday work.",
+        "Customer": "Julia Meihöfer from Datadrivers"
+      },
+      "4": {
+        "Voice": "The game has contributed significantly to changing the class situation, creating a much better class atmosphere and sense of community.",
+        "Customer": "Heidrun Freier, Fachschule Sozialpädagogik"
+      },
+      "Haufe": {
+        "Pre": "You can also find more details about the game in the",
+        "Mid": "Agility Handbook",
+        "End": "published by Haufe."
+      }
     },
-    "OrderForm": {
-        "Title": "Bestellung",
-        "Content": "Ja! Ich möchte UNIVERSE OF CULTURE bestellen.",
-        "Fields": {
-            "Name": "Name",
-            "Company": "Firma",
-            "Street": "Straße",
-            "Zip": "PLZ",
-            "City": "Ort",
-            "Email": "E-Mail",
-            "Phone": "Telefon",
-            "Quantity": "Anzahl",
-            "Message": "Nachricht"
+  
+    "ContactForm": {
+      "Title": "Order Your Game Here!",
+      "Header": {
+        "1": "Fascinated by Universe of Culture? Then send us a message here and let us know,",
+        "2": "how many game sets",
+        "3": "(one game set is enough for up to 24 players) and",
+        "4": "in which language",
+        "5": "(English or German)",
+        "6": "you need your game set(s). We will get back to you as soon as possible."
+      },
+      "Fields": {
+        "Name": "Your Name*",
+        "ReplyTo": "Your Email Address*",
+        "Message": "Your Message to Us*",
+        "Consent": {
+          "Start": "I agree to the processing of the data entered here and to the",
+          "Privacy": "Privacy Policy",
+          "End": "."
+        }
+      },
+      "PriceTag": "€79 net, including shipping",
+      "Submit": "Send Message",
+  
+      "Message": {
+        "Sender": "Sender Name Entered in the Form",
+        "Message": "Message"
+      },
+      "Modal": {
+        "Success": {
+          "Header": "Thank you for your message!",
+          "Message": "We will get back to you as soon as possible. This should generally not take longer than 24 hours on weekdays. If it does, please contact us directly at info@scalamento.de."
+        },
+        "Failure": {
+          "Header": "Oops, something went wrong!",
+          "Message": "Unfortunately, something went wrong when sending your message. Please try again later or contact us directly at info@scalamento.de.",
+          "Info": "Error message: "
+        },
+        "Validation": {
+          "Header": "Please check your entries!",
+          "InvalidEmail": "The email address seems invalid. Please try again.",
+          "ConsentNotChecked": "Please confirm that you agree to the processing of your data."
+        },
+        "Button": "Close"
+      },
+      "Required": "* Required field"
+    },
+  
+    "Footer": {
+      "Imprint": "Imprint & Terms",
+      "Privacy": "Privacy",
+      "Company": "Scalamento GmbH",
+      "LinkedIn": "LinkedIn"
+    },
+  
+    "Imprint": {
+        "Title": "Legal Notice",
+        "Header": "'Universe of Culture' is a trademark of Scalamento GmbH.",
+        "VisitorAddress": {
+          "Title": "Visitor Address",
+          "Address": {
+            "1": "Scalamento GmbH",
+            "2": "An der Alster 63",
+            "3": "20099 Hamburg"
+          }
+        },
+        "Address": {
+          "Title": "Registered Address",
+          "Address": {
+            "1": "Scalamento GmbH",
+            "2": "Elfriede-Lohse-Wächtler-Weg 26",
+            "3": "22081 Hamburg"
+          }
+        },
+        "ManagingDirector": {
+          "Title": "Managing Director",
+          "Name": "Dr. Stefan Link"
+        },
+        "Contact": {
+          "Title": "Contact",
+          "Details": { 
+            "1": "+49 151 200 16587",
+            "2": "info@scalamento.de"
+            }
+        },
+        "CommercialRegister": {
+          "Title": "Commercial Register, Hamburg, HRB 172844",
+          "TaxNumber": "VAT ID No. DE349799123"
+        },
+        "TermsAndConditions": {
+          "Title": "General Terms and Conditions",
+          "General": "Download General Terms and Conditions",
+          "Sales": "Download Sales Terms and Conditions"
+        },
+        "Disclaimer": {
+          "Title": "Disclaimer",
+          "Content": {
+              "1": "As a service provider, we are responsible according to Section 7, Paragraph 1 of the German Telemedia Act (TMG) for our own content on these pages under the general laws. However, according to Sections 8 to 10 of the TMG, we as a service provider are not obligated to monitor transmitted or stored third-party information or to investigate circumstances that indicate illegal activity. Obligations to remove or block the use of information under general laws remain unaffected. However, liability in this respect is only possible from the time of knowledge of a specific infringement.", 
+              "2": "Upon becoming aware of corresponding legal violations, we will remove this content immediately. Our offer includes links to external third-party websites, over whose content we have no control. Therefore, we cannot assume any liability for these external contents. The respective provider or operator of the pages is always responsible for the contents of the linked pages. The linked pages were checked for possible legal violations at the time of linking. Illegal content was not recognizable at the time of linking. However, permanent monitoring of the content of the linked pages is not reasonable without concrete evidence of a violation of the law. Upon becoming aware of legal violations, we will remove such links immediately.",
+              "3": "The contents and works created by the site operators on these pages are subject to German copyright law. Duplication, editing, distribution, and any kind of use outside the limits of copyright law require the written consent of the respective author or creator. Downloads and copies of this page are permitted only for private, non-commercial use. Insofar as the content on this page was not created by the operator, the copyrights of third parties are respected. In particular, third-party content is identified as such. Should you still become aware of a copyright infringement, please inform us accordingly. Upon becoming aware of legal violations, we will remove such content immediately."
+          }
         }
     },
-    "Footer": {
-        "Content": "Scalamento - Spielend die Zukunft gestalten"
+    
+    "Privacy": {
+    "Title": "Privacy Policy",
+    "PrivacyPolicy": {
+        "Content": {
+        "1": "The operators of these pages take the protection of your personal data very seriously. We treat your personal data confidentially and in accordance with the legal data protection regulations and this privacy policy.",
+        "2": "The use of our website is usually possible without providing personal data. As far as personal data (such as name, address, or email addresses) are collected on our pages, this is always done, as far as possible, on a voluntary basis. These data will not be passed on to third parties without your explicit consent.",
+        "3": "If a data subject wants to use special services of our company via our website, processing of personal data could become necessary. If the processing of personal data is necessary and there is no statutory basis for such processing, we generally obtain consent from the data subject.",
+        "4": "The processing of personal data, such as the name, address, email address, or telephone number of a data subject, shall always be in line with the General Data Protection Regulation (GDPR), and in accordance with the country-specific data protection regulations applicable to Scalamento. By means of this data protection declaration, our enterprise would like to inform the general public of the nature, scope, and purpose of the personal data we collect, use and process. Furthermore, data subjects are informed, by means of this data protection declaration, of the rights to which they are entitled.",
+        "5": "As the controller, Scalamento has implemented numerous technical and organizational measures to ensure the most complete protection of personal data processed through this website. However, Internet-based data transmissions may in principle have security gaps, so absolute protection may not be guaranteed. For this reason, every data subject is free to transfer personal data to us via alternative means, e.g., by telephone."
+        }
+    },
+    "Definitions": {
+        "Intro": "The data protection declaration of Scalamento is based on the terms used by the European legislator for the adoption of the General Data Protection Regulation (GDPR). Our data protection declaration should be legible and understandable for the general public, as well as our customers and business partners. To ensure this, we would like to first explain the terminology used. In this data protection declaration, we use, among other things, the following terms:",
+        "Headline": "Definitions",
+        "Content": {
+        "PersonalData": { 
+            "Heading": "a) Personal data",
+            "Content": "Personal data means any information relating to an identified or identifiable natural person ('data subject'). An identifiable natural person is one who can be identified, directly or indirectly, in particular by reference to an identifier such as a name, an identification number, location data, an online identifier or to one or more factors specific to the physical, physiological, genetic, mental, economic, cultural, or social identity of that natural person."
+        },
+        "DataSubject": { 
+            "Heading": "b) Data subject",
+            "Content": "Data subject is any identified or identifiable natural person, whose personal data is processed by the controller responsible for the processing."
+        },
+        "Processing": { 
+            "Heading": "c) Processing",
+            "Content": "Processing is any operation or set of operations which is performed on personal data or on sets of personal data, whether or not by automated means, such as collection, recording, organisation, structuring, storage, adaptation or alteration, retrieval, consultation, use, disclosure by transmission, dissemination or otherwise making available, alignment or combination, restriction, erasure or destruction."
+        },
+        "ProcessingRestriction": { 
+            "Heading": "d) Restriction of processing",
+            "Content": "Restriction of processing is the marking of stored personal data with the aim of limiting their processing in the future."
+        },
+        "Profiling": { 
+            "Heading": "e) Profiling",
+            "Content": "Profiling means any form of automated processing of personal data consisting of the use of personal data to evaluate certain personal aspects relating to a natural person, in particular to analyse or predict aspects concerning that natural person's performance at work, economic situation, health, personal preferences, interests, reliability, behaviour, location or movements."
+        },
+        "Pseudonymisation": { 
+            "Heading": "f) Pseudonymisation",
+            "Content": "Pseudonymisation is the processing of personal data in such a manner that the personal data can no longer be attributed to a specific data subject without the use of additional information, provided that such additional information is kept separately and is subject to technical and organisational measures to ensure that the personal data are not attributed to an identified or identifiable natural person."
+        },
+        "Controller": { 
+            "Heading": "g) Controller or controller responsible for the processing",
+            "Content": "Controller or controller responsible for the processing is the natural or legal person, public authority, agency or other body which, alone or jointly with others, determines the purposes and means of the processing of personal data; where the purposes and means of such processing are determined by Union or Member State law, the controller or the specific criteria for its nomination may be provided for by Union or Member State law."
+        },
+        "Processor": { 
+            "Heading": "h) Processor",
+            "Content": "Processor is a natural or legal person, public authority, agency or other body which processes personal data on behalf of the controller."
+        },
+        "Recipient": { 
+            "Heading": "i) Recipient",
+            "Content": "Recipient is a natural or legal person, public authority, agency or another body, to which the personal data are disclosed, whether a third party or not. However, public authorities which may receive personal data in the framework of a particular inquiry in accordance with Union or Member State law shall not be regarded as recipients; the processing of those data by those public authorities shall be in compliance with the applicable data protection rules according to the purposes of the processing."
+        },
+        "ThirdParty": { 
+            "Heading": "j) Third party",
+            "Content": "Third party is a natural or legal person, public authority, agency or body other than the data subject, controller, processor and persons who, under the direct authority of the controller or processor, are authorised to process personal data."
+        },
+        "Consent": { 
+            "Heading": "k) Consent",
+            "Content": "Consent of the data subject is any freely given, specific, informed and unambiguous indication of the data subject’s wishes by which he or she, by a statement or by a clear affirmative action, signifies agreement to the processing of personal data relating to him or her."
+        }
+        }
+    },
+    "ControllerInformation": {
+        "Headline": "Name and Address of the Controller",
+        "Content": {
+        "1": "The controller for the purposes of the General Data Protection Regulation (GDPR), other data protection laws applicable in Member states of the European Union and other provisions related to data protection is:",
+        "2": "Scalamento GmbH",
+        "3": "Elfriede-Lohse-Wächtler-Weg 26",
+        "4": "22081 Hamburg",
+        "5": "Deutschland" ,
+        "6": "E-Mail: info@scalamento.de",
+        "7": "Website: https://www.scalamento.de"
+        }
+    },
+    "GeneralDataCollection": {
+        "Headline": "Collection of General Data and Information",
+        "Collection": "The website of Scalamento collects a series of general data and information when a data subject or automated system calls up the website. These general data and information are stored in the server log files. Collected may be (1) the browser types and versions used, (2) the operating system used by the accessing system, (3) the website from which an accessing system reaches our website (so-called referrers), (4) the sub-websites, (5) the date and time of access to the Internet site, (6) an Internet protocol address (IP address), (7) the Internet service provider of the accessing system, and (8) any other similar data and information that may be used in the event of attacks on our information technology systems.",
+        "Usage": "When using these general data and information, Scalamento does not draw any conclusions about the data subject. Rather, this information is needed to (1) deliver the content of our website correctly, (2) optimize the content of our website as well as its advertisement, (3) ensure the long-term viability of our information technology systems and website technology, and (4) provide law enforcement authorities with the information necessary for criminal prosecution in case of a cyber-attack. Therefore, Scalamento analyzes anonymously collected data and information statistically, with the aim of increasing the data protection and data security of our enterprise, and to ensure an optimal level of protection for the personal data we process. The anonymous data of the server log files are stored separately from all personal data provided by a data subject.",
+        "Footer": "These anonymously collected data and information are therefore evaluated by Scalamento on the one hand statistically and also with the aim of increasing the data protection and data security in our company to ultimately ensure an optimal level of protection for the personal data we process. The anonymous data of the server log files are stored separately from all personal data provided by a data subject."
+    },    
+    "DataDeletionAndStorageDuration": {
+        "Headline": "Routine Deletion and Blocking of Personal Data",
+        "Content": {
+        "1": "The data controller shall process and store the personal data of the data subject only for the period necessary to achieve the purpose of storage, or as far as this is granted by the European legislator or other legislators in laws or regulations to which the controller is subject to.",
+        "2": "If the storage purpose is not applicable, or if a storage period prescribed by the European legislator or another competent legislator expires, the personal data are routinely blocked or erased in accordance with legal requirements."
+        }
+    },    
+    "DataSubjectRights": {
+        "Headline": "Rights of the Data Subject",
+        "Content": {
+        "RightToConfirmation": {
+            "Heading": "a) Right to confirmation",
+            "Content": "Every data subject shall have the right granted by the European legislator to obtain from the controller the confirmation as to whether or not personal data concerning him or her are being processed. If a data subject wishes to avail himself of this right of confirmation, he or she may, at any time, contact any employee of the controller."
+        },
+        "RightToInformation": {
+            "Heading": "b) Right to information",
+            "Content": {
+            "Intro": "Every data subject shall have the right granted by the European legislator to obtain from the controller free information about his or her personal data stored at any time and a copy of this information. Furthermore, the European directives and regulations grant the data subject access to the following information:",
+            "1": "the purposes of the processing;",
+            "2": "the categories of personal data concerned;",
+            "3": "the recipients or categories of recipients to whom the personal data have been or will be disclosed, in particular recipients in third countries or international organisations;",
+            "4": "where possible, the envisaged period for which the personal data will be stored, or, if not possible, the criteria used to determine that period;",
+            "5": "the existence of the right to request from the controller rectification or erasure of personal data, or restriction of processing of personal data concerning the data subject, or to object to such processing;",
+            "6": "the existence of the right to lodge a complaint with a supervisory authority;",
+            "7": "where the personal data are not collected from the data subject, any available information as to their source;",
+            "8": "the existence of automated decision-making, including profiling, referred to in Article 22(1) and (4) of the GDPR and, at least in those cases, meaningful information about the logic involved, as well as the significance and the envisaged consequences of such processing for the data subject."
+            }
+        },
+        "RightToRectification": {
+            "Heading": "c) Right to rectification",
+            "Content": "Every data subject shall have the right granted by the European legislator to obtain from the controller without undue delay the rectification of inaccurate personal data concerning him or her. Taking into account the purposes of the processing, the data subject shall have the right to have incomplete personal data completed, including by means of providing a supplementary statement."
+        },
+        "RightToErasure": {
+            "Heading": "d) Right to erasure (Right to be forgotten)",
+            "Content": "Every data subject shall have the right granted by the European legislator to obtain from the controller the erasure of personal data concerning him or her without undue delay, and the controller shall have the obligation to erase personal data without undue delay where one of the following grounds applies, as long as the processing is not necessary: ... (this would continue with the conditions under which a data subject can request erasure of data)."
+        },
+        "RightToRestrictionOfProcessing": {
+            "Heading": "e) Right to restriction of processing",
+            "Content": "Every data subject shall have the right granted by the European legislator to obtain from the controller restriction of processing where one of the following applies: ... (this section would detail the conditions under which processing can be restricted)."
+        },
+        "RightToDataPortability": {
+            "Heading": "f) Right to data portability",
+            "Content": "Every data subject shall have the right granted by the European legislator, to receive the personal data concerning him or her, which he or she has provided to a controller, in a structured, commonly used and machine-readable format. He or she shall have the right to transmit those data to another controller without hindrance from the controller to which the personal data have been provided, as long as the processing is based on consent pursuant to point (a) of Article 6(1) of the GDPR or point (a) of Article 9(2) of the GDPR, or on a contract pursuant to point (b) of Article 6(1) of the GDPR, and the processing is carried out by automated means, as long as the processing is not necessary for the performance of a task carried out in the public interest or in the exercise of official authority vested in the controller."
+        },
+        "RightToObject": {
+            "Heading": "g) Right to object",
+            "Content": "Every data subject shall have the right granted by the European legislator to object, on grounds relating to his or her particular situation, at any time, to processing of personal data concerning him or her, which is based on point (e) or (for (f) of Article 6(1) of the GDPR. This also applies to profiling based on these provisions. Scalamento shall no longer process the personal data in the event of the objection, unless we can demonstrate compelling legitimate grounds for the processing which override the interests, rights and freedoms of the data subject, or for the establishment, exercise or defence of legal claims. If Scalamento processes personal data for direct marketing purposes, the data subject shall have the right to object at any time to processing of personal data concerning him or her for such marketing. This applies to profiling to the extent that it is related to such direct marketing. If the data subject objects to Scalamento to the processing for direct marketing purposes, Scalamento will no longer process the personal data for these purposes. In addition, the data subject has the right, on grounds relating to his or her particular situation, to object to processing of personal data concerning him or her by Scalamento for scientific or historical research purposes, or for statistical purposes pursuant to Article 89(1) of the GDPR, unless the processing is necessary for the performance of a task carried out for reasons of public interest."
+        },
+        "AutomatedIndividualDecisionMaking": {
+            "Heading": "h) Automated individual decision-making, including profiling",
+            "Content": "Every data subject shall have the right granted by the European legislator not to be subject to a decision based solely on automated processing, including profiling, which produces legal effects concerning him or her, or similarly significantly affects him or her, as long as the decision (1) is not necessary for entering into, or the performance of, a contract between the data subject and a data controller, or (2) is not authorised by Union or Member State law to which the controller is subject and which also lays down suitable measures to safeguard the data subject's rights and freedoms and legitimate interests, or (3) is not based on the data subject's explicit consent. If the decision (1) is necessary for entering into, or the performance of, a contract between the data subject and a data controller, or (2) it is based on the data subject's explicit consent, Scalamento shall implement suitable measures to safeguard the data subject's rights and freedoms and legitimate interests, at least the right to obtain human intervention on the part of the controller, to express his or her point of view and contest the decision."
+        },
+        "RightToWithdrawConsent": {
+            "Heading": "i) Right to withdraw data protection consent",
+            "Content": "Every data subject shall have the right granted by the European legislator to withdraw his or her consent to processing of his or her personal data at any time. If the data subject wishes to exercise the right to withdraw consent, he or she may, at any time, contact any employee of Scalamento."
+        }
+        }
+    },   
+    "PrivacyInApplicationsAndInTheApplicationProcess": {
+        "Headline": "Data Protection in Applications and the Application Process",
+        "Content": "The data controller collects and processes the personal data of applicants for the purpose of handling the application process. The processing may also be carried out electronically. This is particularly the case if an applicant submits corresponding application documents to the controller by electronic means, for example by email or via a web form on the website. If the data controller concludes an employment contract with an applicant, the data submitted will be stored for the purpose of processing the employment relationship in compliance with legal requirements. If no employment contract is concluded with the applicant by the controller, the application documents shall be automatically erased two months after notification of the refusal decision, provided that no other legitimate interests of the controller are opposed to the erasure. Other legitimate interests in this relation might be, for example, a burden of proof in a procedure under the General Equal Treatment Act (AGG)."
+    },
+    "Cookies": {
+        "Headline": "Cookies",
+        "Content": {
+        "SessionCookies": {
+            "Title": "a) Session cookies",
+            "Content": "We use cookies on our website. Cookies are small text files or other storage technologies that are stored and saved on your device by the internet browser you use. These cookies process certain specific information about you, such as your browser, location data, or IP address. This processing makes our website more user-friendly, efficient, and secure, allowing us, for example, to display our website in different languages or to offer a shopping cart function. The legal basis for such processing is Article 6(1) lit. b GDPR, provided these cookies are used for contract initiation or contract execution. If the processing does not serve to initiate or execute the contract, our legitimate interest lies in improving the functionality of our website. The legal basis is then Article 6(1) lit. f GDPR. When you close your internet browser, these session cookies are deleted."
+        },
+        "ThirdPartyCookies": {
+            "Title": "b) Third-party cookies",
+            "Content": "Our website may also use cookies from partner companies with whom we cooperate for the purpose of advertising, analysis, or the functionalities of our website. Please refer to the following information for details, in particular for the legal basis and purpose of such third-party collection and processing of data collected through cookies."
+        },
+        "CookieRemovalOption": {
+            "Title": "c) Removing cookies",
+            "Content": "You can prevent or restrict the installation of cookies by setting your internet browser. You can also delete previously saved cookies at any time. The steps and measures required for this, however, depend on your specific internet browser. If you have any questions, please use the help function or documentation of your internet browser or contact its maker or support. With regard to so-called Flash cookies, processing cannot be prevented via the settings of your browser, but by changing the settings of your Flash player. If you prevent or restrict the installation of cookies, not all of the functions on our site may be fully usable."
+        }
+        }
+    },
+    "LegalBasisForProcessing": {
+        "Headline": "Legal Basis for Processing",
+        "Content": "Art. 6(1) lit. a GDPR serves as the legal basis for processing operations for which we obtain consent for a specific processing purpose. If the processing of personal data is necessary for the performance of a contract to which the data subject is party, as is the case, for example, when processing operations are necessary for the supply of goods or to provide any other service, the processing is based on Article 6(1) lit. b GDPR. The same applies to processing operations that are necessary for carrying out pre-contractual measures, for example in the case of inquiries concerning our products or services. If our company is subject to a legal obligation by which processing of personal data is required, such as for the fulfillment of tax obligations, the processing is based on Art. 6(1) lit. c GDPR. In rare cases, the processing of personal data may be necessary to protect the vital interests of the data subject or of another natural person. This would be the case, for example, if a visitor were injured in our company and his name, age, health insurance data, or other vital information would have to be passed on to a doctor, hospital, or other third party. Then the processing would be based on Art. 6(1) lit. d GDPR. Finally, processing operations could be based on Article 6(1) lit. f GDPR. This legal basis is used for processing operations that are not covered by any of the abovementioned legal grounds, if processing is necessary for the purposes of the legitimate interests pursued by our company or by a third party, except where such interests are overridden by the interests or fundamental rights and freedoms of the data subject which require protection of personal data. Such processing operations are particularly permissible because they have been specifically mentioned by the European legislator. He considered that a legitimate interest could be assumed if the data subject is a client of the controller (Recital 47 Sentence 2 GDPR)."
+    },
+    "LegitimateInterestsPursuedByTheControllerOrByAThirdParty": {
+        "Headline": "Legitimate Interests Pursued by the Controller or by a Third Party",
+        "Content": "Where the processing of personal data is based on Article 6(1) lit. f GDPR our legitimate interest is to carry out our business in favor of the well-being of all our employees and the shareholders."
+    },
+    "DurationForWhichThePersonalDataWillBeStored": {
+        "Headline": "Duration for Which the Personal Data Will Be Stored",
+        "Content": "The criterion used to determine the period of storage of personal data is the respective statutory retention period. After expiration of that period, the corresponding data is routinely deleted, as long as it is no longer necessary for the fulfillment of the contract or the initiation of a contract."
+    },
+    "ProvisionOfPersonalDataAsStatutoryOrContractualRequirement": {
+        "Headline": "Provision of Personal Data as Statutory or Contractual Requirement; Requirement Necessary to Enter into a Contract; Obligation of the Data Subject to Provide the Personal Data; Possible Consequences of Failure to Provide Such Data",
+        "Content": "We clarify that the provision of personal data is partly required by law (e.g., tax regulations) or can also result from contractual provisions (e.g., information on the contractual partner). Sometimes it may be necessary to conclude a contract that the data subject provides us with personal data, which must subsequently be processed by us. The data subject is, for example, obliged to provide us with personal data when our company signs a contract with him or her. The non-provision of the personal data would have the consequence that the contract with the data subject could not be concluded. Before personal data is provided by the data subject, the data subject must contact any employee. The employee clarifies to the data subject whether the provision of the personal data is required by law or contract or is necessary for the conclusion of the contract, whether there is an obligation to provide the personal data and the consequences of non-provision of the personal data."
+    },
+    "ExistenceOfAutomatedDecisionMaking": {
+        "Headline": "Existence of Automated Decision-Making",
+        "Content": "As a responsible company, we do not use automatic decision-making or profiling."
+    }
+    },
+    
+    "NotFound": {
+    "Title": "Page Not Found",
+    "Content": {
+        "1": "We are very sorry, but the page you are looking for does not exist or is temporarily unavailable. Please try again later or return",
+        "2": "to the homepage",
+        "3": "."
+    }
     }
 }

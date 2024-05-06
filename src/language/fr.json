@@ -1,0 +1,387 @@
+{
+    "Misc": {
+      "MetaDescription": "UNIVERSE OF CULTURE est un jeu de renforcement d'équipe qui simule la dynamique des équipes auto-organisées. En savoir plus sur le jeu et le commander directement ici!",
+      "PageTitle": "UNIVERSE OF CULTURE - Le jeu de renforcement d'équipe de Scalamento",
+      "Loading": "Chargement..."
+    },
+  
+    "Header": {
+      "Language": {
+        "German": "DE",
+        "English": "EN",
+        "French": "FR"
+      }
+    },
+  
+    "Basics": {
+      "Title": "Le Jeu",
+      "Content": {
+        "1": "Le noyau de chaque organisation performante est l'équipe autonome qui agit sur le marché. Mais qu'est-ce que ça fait quand les équipes passent à une coopération autonome et basée sur des principes ? Quels effets peuvent en résulter ?",
+        "2": "Avec UNIVERSE OF CULTURE, vous pouvez vivre la dynamique des équipes auto-organisées. Plongez-vous dans un jeu passionnant, palpitant et émotionnel et découvrez par vous-même comment la performance de pointe émerge entre les gens!",
+        "3": "Ne vous inquiétez pas, les règles ne sont pas du tout intergalactiques. Basé sur le principe mondialement connu du jeu Mensch-Ärgere-Dich-Nicht, vous et votre équipe serez prêts en un rien de temps pour votre excursion dans l'univers des cultures. Scalamento vous souhaite un bon voyage plein de découvertes!"
+      }
+    },
+  
+    "Details": {
+      "Title": "Plus de détails sur le jeu",
+      "Content": {
+        "1": "UNIVERSE OF CULTURE est un jeu de renforcement d'équipe développé par Scalamento en coopération avec l'Université de Nuremberg-Erlangen. Il aide les joueurs à réfléchir à leur comportement dans une collaboration auto-organisée : Comment réagis-je lorsque quelqu'un joue selon d'autres règles ? Quelles stratégies choisissons-nous en tant que groupe ?",
+        "2": "Les joueurs traversent les phases d'équipe selon",
+        "3": "Bruce Wayne Tuckman : Formation, Tempête, Norme et Performance.",
+        "4": "Cela est réalisé simplement par le fait que le jeu n'autorise que la communication non verbale, ce qui signifie que les mots sont interdits. UNIVERSE OF CULTURE se joue dans",
+        "5": "trois groupes de 3 à 8 personnes chacun.",
+        "6": "La base du jeu est le principe du 'Mensch-Ärgere-Dich-Nicht'. Les joueurs apprennent les règles du jeu eux-mêmes au début du jeu - cela fait partie du jeu.",
+        "7": "Une partie bien modérée dure généralement",
+        "8": "60-90 minutes",
+        "9": "y compris une rétrospective pour compiler les enseignements. Le jeu ne peut être joué qu'une seule fois car après le jeu, les joueurs comprennent le coup du jeu. En général, de nombreux joueurs quittent la table de jeu avec des impressions durables.",
+        "10": "L'effet d'UNIVERSE OF CULTURE se déploie car tous les joueurs pensent jouer selon le même ensemble de règles. Cependant, les règles varient légèrement entre les trois groupes et sont délibérément formulées de manière quelque peu vague. Au fur et à mesure que le jeu progresse, les effets des différentes règles du jeu deviennent apparents dans la dynamique du jeu.",
+        "11": "Les insights personnels vont de",
+        "12": "'Je pensais vraiment que tout le monde autour de moi était idiot parce qu'ils jouaient différemment de ce que disaient les règles'",
+        "13": "à",
+        "14": "'En rétrospective, j'ai été choqué par la façon dont je regardais les autres avec condescendance!'",
+        "15": "à",
+        "16": "'Je me rends compte maintenant à quel point il est important de rechercher d'abord les principes sous-jacents dans un nouveau groupe.'"
+      }
+    },
+    
+    "Commercials": {
+      "1":  {
+        "Title": "Pour combien de personnes le jeu est-il conçu?",
+        "Content": {
+          "1": "Un set de jeu contient 3 plateaux de jeu et est conçu pour",
+          "2": "9 à 24 personnes",
+          "3": ". Il est marqué Scalamento et disponible dans les langues",
+          "4": "allemand",
+          "5": "et",
+          "6": "anglais",
+          "7": "."
+        }
+      },
+  
+      "2":  {
+        "Title": "Quel est le prix du jeu?",
+        "Content": {
+          "1": "Le prix par set de jeu est de",
+          "2": "79 € net, y compris la livraison",
+          "3": "en Allemagne. Pour les établissements d'enseignement publics, les clubs et les organisations à but non lucratif, nous facturons un prix réduit de 49 € net."
+        }
+      }
+    },
+  
+    "References": {
+      "Title": "Ce que les autres disent du jeu",
+      "1": {
+        "Voice": "Je trouvais l'idée du jeu super et maintenant je suis encore plus convaincu - Universe of Culture a une place permanente dans ma boîte à outils et je pense que je le laisserai jouer souvent et dans différentes variations.",
+        "Customer": "Martin Skowronek, LEB Niedersachsen e.V."
+      },
+      "2": {
+        "Voice": "Les participants étaient très réservés sur les commentaires dans la table ronde de réflexion. Cependant, mes collègues, qui ont guidé les stagiaires tout au long de la journée, m'ont dit que dans la table ronde de feedback finale pour la journée des stagiaires, 'le jeu' a été décrit comme 'le point culminant' par plusieurs participants.",
+        "Customer": "Julian Nolte, stw Berlin"
+      },
+      "3": {
+        "Voice": "Après le premier mélange des joueurs, c'était amusant. Des visages désespérés, des gestes sauvages et le moment encore plus difficile de ne pas pouvoir parler. Une question intéressante à la fin était, 'Quel était le bon comportement maintenant? Devrions-nous nous adapter? Chacun devrait-il jouer comme il le pense? Devrions-nous faire appliquer nos règles?' Nous étions donc en plein milieu du sujet et avons pu utiliser les discussions pour orienter les situations dans la vie professionnelle quotidienne.",
+        "Customer": "Julia Meihöfer de Datadrivers"
+      },
+      "4": {
+        "Voice": "Le jeu a grandement contribué à changer la situation en classe, créant une bien meilleure ambiance de classe et un sentiment de communauté.",
+        "Customer": "Heidrun Freier, Fachschule Sozialpädagogik"
+      },
+      "Haufe": {
+        "Pre": "Vous pouvez également trouver plus de détails sur le jeu dans le",
+        "Mid": "Manuel d'agilité",
+        "End": "publié par Haufe."
+      }
+    },
+  
+    "ContactForm": {
+      "Title": "Commandez votre jeu ici!",
+      "Header": {
+        "1": "Fasciné par Universe of Culture? Ensuite, envoyez-nous un message ici et faites-nous savoir,",
+        "2": "combien de sets de jeu",
+        "3": "(un set de jeu suffit pour jusqu'à 24 joueurs) et",
+        "4": "dans quelle langue",
+        "5": "(anglais ou allemand)",
+        "6": "vous avez besoin de votre(vos) set(s) de jeu. Nous reviendrons vers vous dès que possible."
+      },
+      "Fields": {
+        "Name": "Votre nom*",
+        "ReplyTo": "Votre adresse e-mail*",
+        "Message": "Votre message à nous*",
+        "Consent": {
+          "Start": "J'accepte le traitement des données saisies ici et la",
+          "Privacy": "politique de confidentialité",
+          "End": "."
+        }
+      },
+      "PriceTag": "79 € net, y compris la livraison",
+      "Submit": "Envoyer le message",
+  
+      "Message": {
+        "Sender": "Nom de l'expéditeur saisi dans le formulaire",
+        "Message": "Message"
+      },
+      "Modal": {
+        "Success": {
+          "Header": "Merci pour votre message!",
+          "Message": "Nous reviendrons vers vous dès que possible. Cela ne devrait généralement pas prendre plus de 24 heures en semaine. Si c'est le cas, veuillez nous contacter directement à info@scalamento.de."
+        },
+        "Failure": {
+          "Header": "Oups, quelque chose s'est mal passé!",
+          "Message": "Malheureusement, quelque chose s'est mal passé lors de l'envoi de votre message. Veuillez réessayer plus tard ou nous contacter directement à info@scalamento.de.",
+          "Info": "Message d'erreur: "
+        },
+        "Validation": {
+          "Header": "Veuillez vérifier vos entrées!",
+          "InvalidEmail": "L'adresse e-mail semble invalide. Veuillez réessayer.",
+          "ConsentNotChecked": "Veuillez confirmer que vous acceptez le traitement de vos données."
+        },
+        "Button": "Fermer"
+      },
+      "Required": "* Champ obligatoire"
+    },
+  
+    "Footer": {
+      "Imprint": "Mentions légales & CGU",
+      "Privacy": "Confidentialité",
+      "Company": "Scalamento GmbH",
+      "LinkedIn": "LinkedIn"
+    },
+
+    "Imprint": {
+    "Title": "Mentions légales",
+    "Header": "'Universe of Culture' est une marque de Scalamento GmbH.",
+    "VisitorAddress": {
+        "Title": "Adresse de visite",
+        "Address": {
+        "1": "Scalamento GmbH",
+        "2": "An der Alster 63",
+        "3": "20099 Hamburg"
+        }
+    },
+    "Address": {
+        "Title": "Adresse postale",
+        "Address": {
+        "1": "Scalamento GmbH",
+        "2": "Elfriede-Lohse-Wächtler-Weg 26",
+        "3": "22081 Hamburg"
+        }
+    },
+    "ManagingDirector": {
+        "Title": "Directeur général",
+        "Name": "Dr. Stefan Link"
+    },
+    "Contact": {
+        "Title": "Contact",
+        "Details": {
+        "1": "+49 151 200 16587",
+        "2": "info@scalamento.de"
+        }
+    },
+    "CommercialRegister": {
+        "Title": "Registre du commerce, Hambourg, HRB 172844",
+        "TaxNumber": "Numéro de TVA DE349799123"
+    },
+    "TermsAndConditions": {
+        "Title": "Conditions Générales",
+        "General": "Télécharger les CGV Générales",
+        "Sales": "Télécharger les CGV Ventes"
+    },
+    "Disclaimer": {
+        "Title": "Clause de non-responsabilité",
+        "Content": {
+        "1": "En tant que prestataire de services, nous sommes responsables selon l'article 7, paragraphe 1 de la TMG (loi allemande sur les médias télématiques) pour nos propres contenus sur ces pages conformément aux lois générales. Selon les articles 8 à 10 de la TMG, nous ne sommes pas obligés, en tant que prestataire de services, de surveiller les informations externes transmises ou stockées, ni d'enquêter sur des circonstances qui indiquent une activité illégale. Les obligations de suppression ou de blocage de l'utilisation des informations en vertu des lois générales restent inchangées. Cependant, la responsabilité à cet égard n'est possible qu'à partir du moment de la connaissance d'une infraction spécifique.",
+        "2": "Dès que nous aurons connaissance de telles violations de la loi, nous retirerons immédiatement ce contenu. Notre offre contient des liens vers des sites Web externes de tiers, sur lesquels nous n'avons aucune influence. Par conséquent, nous ne pouvons pas assumer de responsabilité pour ces contenus externes. Le fournisseur ou l'opérateur respectif des pages est toujours responsable du contenu des pages liées. Les pages liées ont été vérifiées pour d'éventuelles violations légales au moment de la liaison. Aucun contenu illégal n'a été détecté au moment de la liaison.",
+        "3": "Un contrôle permanent du contenu des pages liées n'est cependant pas raisonnable sans preuves concrètes d'une violation de la loi. Dès que nous aurons connaissance d'infractions, nous retirerons de tels liens immédiatement. Les contenus et œuvres créés par les opérateurs du site sur ces pages sont soumis au droit d'auteur allemand. La duplication, l'édition, la distribution et toute sorte d'utilisation en dehors des limites du droit d'auteur nécessitent le consentement écrit de l'auteur ou créateur respectif. Les téléchargements et les copies de ce site ne sont autorisés que pour un usage privé et non commercial. Dans la mesure où le contenu de ce site n'a pas été créé par l'opérateur, les droits d'auteur de tiers sont respectés. En particulier, les contenus de tiers sont identifiés comme tels. Si vous deviez néanmoins avoir connaissance d'une violation du droit d'auteur, veuillez nous en informer. Dès que nous aurons connaissance de violations, nous retirerons de tels contenus immédiatement."
+        }
+    }
+    },
+    
+    "Privacy": {
+    "Title": "Politique de confidentialité",
+    "PrivacyPolicy": {
+        "Content": {
+        "1": "Les opérateurs de ces pages prennent très au sérieux la protection de vos données personnelles. Nous traitons vos données personnelles de manière confidentielle et conformément aux dispositions légales en matière de protection des données et à cette politique de confidentialité.",
+        "2": "L'utilisation de notre site Web est généralement possible sans fournir de données personnelles. Dans la mesure où des données personnelles (telles que le nom, l'adresse ou les adresses e-mail) sont collectées sur nos pages, cela se fait, autant que possible, toujours sur une base volontaire. Ces données ne seront pas transmises à des tiers sans votre consentement explicite.",
+        "3": "Si un sujet de données souhaite utiliser des services spéciaux de notre entreprise via notre site Web, le traitement des données personnelles pourrait devenir nécessaire. Si le traitement des données personnelles est nécessaire et qu'il n'y a pas de base juridique pour un tel traitement, nous obtenons généralement le consentement du sujet de données.",
+        "4": "Le traitement des données personnelles, telles que le nom, l'adresse, l'adresse e-mail ou le numéro de téléphone d'un sujet de données, est toujours effectué en conformité avec le Règlement général sur la protection des données (RGPD) et conformément aux réglementations de protection des données applicables à Scalamento. Par cette déclaration de protection des données, notre entreprise souhaite informer le public de la nature, de l'étendue et du but des données personnelles que nous collectons, utilisons et traitons. En outre, les sujets de données sont informés, par le biais de cette déclaration de protection des données, de leurs droits.",
+        "5": "En tant que responsable du traitement, Scalamento a mis en œuvre de nombreuses mesures techniques et organisationnelles pour assurer une protection complète des données personnelles traitées via ce site Web. Cependant, les transmissions de données sur Internet peuvent présenter des lacunes de sécurité, de sorte qu'une protection absolue ne peut être garantie. C'est pourquoi chaque sujet de données est libre de transférer des données personnelles à nous de manière alternative, par exemple par téléphone."
+        }
+    },
+    "Definitions": {
+        "Intro": "La politique de confidentialité de Scalamento est basée sur les termes utilisés par le législateur européen pour l'adoption du Règlement général sur la protection des données (RGPD). Notre politique de confidentialité vise à être compréhensible et claire pour le grand public, ainsi que pour nos clients et partenaires commerciaux. Afin de garantir cela, nous aimerions d'abord expliquer la terminologie utilisée. Dans cette politique de confidentialité, nous utilisons, entre autres, les termes suivants :",
+        "Headline": "Définitions",
+        "Content": {
+        "PersonalData": {
+            "Heading": "a) Données personnelles",
+            "Content": "Les données personnelles désignent toute information se rapportant à une personne physique identifiée ou identifiable (« sujet des données »). Une personne physique identifiable est celle qui peut être identifiée, directement ou indirectement, notamment par référence à un identifiant tel qu'un nom, un numéro d'identification, des données de localisation, un identifiant en ligne, ou à un ou plusieurs éléments spécifiques propres à son identité physique, physiologique, génétique, psychique, économique, culturelle ou sociale."
+        },
+        "DataSubject": {
+            "Heading": "b) Sujet des données",
+            "Content": "Le sujet des données est toute personne physique identifiée ou identifiable dont les données personnelles sont traitées par le responsable du traitement."
+        },
+        "Processing": {
+            "Heading": "c) Traitement",
+            "Content": "Le traitement est toute opération ou ensemble d'opérations effectuées sur des données personnelles ou des ensembles de données personnelles, que ce soit par des moyens automatisés ou non, tels que la collecte, l'enregistrement, l'organisation, la structuration, la conservation, l'adaptation ou la modification, l'extraction, la consultation, l'utilisation, la divulgation par transmission, la diffusion ou toute autre forme de mise à disposition, l'alignement ou la combinaison, la restriction, l'effacement ou la destruction."
+        },
+        "ProcessingRestriction": {
+            "Heading": "d) Restriction de traitement",
+            "Content": "La restriction de traitement est le marquage de données personnelles stockées avec l'intention de limiter leur traitement futur."
+        },
+        "Profiling": {
+            "Heading": "e) Profilage",
+            "Content": "Le profilage désigne toute forme de traitement automatisé de données personnelles consistant à utiliser ces données pour évaluer certains aspects personnels relatifs à une personne physique, en particulier pour analyser ou prévoir des éléments concernant le rendement au travail, la situation économique, la santé, les préférences personnelles, les intérêts, la fiabilité, le comportement, la localisation ou les déplacements de cette personne physique."
+        },
+        "Pseudonymisation": {
+            "Heading": "f) Pseudonymisation",
+            "Content": "La pseudonymisation est le traitement de données personnelles de manière à ce que les données ne puissent plus être attribuées à un sujet de données spécifique sans recourir à des informations supplémentaires, pour autant que ces informations supplémentaires soient conservées séparément et soient soumises à des mesures techniques et organisationnelles garantissant que les données personnelles ne sont pas attribuées à une personne physique identifiée ou identifiable."
+        },
+        "Controller": {
+            "Heading": "g) Responsable du traitement",
+            "Content": "Le responsable du traitement est la personne physique ou morale, l'autorité publique, le service ou un autre organisme qui, seul ou conjointement avec d'autres, détermine les finalités et les moyens du traitement de données personnelles. Lorsque les finalités et les moyens de ce traitement sont déterminés par le droit de l'Union ou le droit de l'État membre, le responsable du traitement ou les critères spécifiques de sa nomination peuvent être prévus par le droit de l'Union ou par le droit de l'État membre."
+        },
+        "Processor": {
+            "Heading": "h) Sous-traitant",
+            "Content": "Le sous-traitant est une personne physique ou morale, une autorité publique, un service ou un autre organisme qui traite des données personnelles pour le compte du responsable du traitement."
+        },
+        "Recipient": {
+            "Heading": "i) Destinataire",
+            "Content": "Le destinataire est une personne physique ou morale, une autorité publique, un service ou un autre organisme auquel les données personnelles sont divulguées, qu'il s'agisse ou non d'un tiers. Toutefois, les autorités publiques qui peuvent recevoir des données personnelles dans le cadre d'une mission d'enquête particulière conformément au droit de l'Union ou au droit des États membres ne sont pas considérées comme des destinataires."
+        },
+        "ThirdParty": {
+            "Heading": "j) Tiers",
+            "Content": "Le tiers est une personne physique ou morale, une autorité publique, un service ou un organisme autre que le sujet des données, le responsable du traitement, le sous-traitant et les personnes qui, sous l'autorité directe du responsable du traitement ou du sous-traitant, sont autorisées à traiter les données personnelles."
+        },
+        "Consent": {
+            "Heading": "k) Consentement",
+            "Content": "Le consentement du sujet des données est toute indication de volonté libre, spécifique, informée et sans équivoque par laquelle la personne concernée accepte, par une déclaration ou un acte positif clair, que des données personnelles la concernant soient traitées."
+        }
+        }
+    },           
+    "ControllerInformation": {
+        "Headline": "Nom et adresse du responsable du traitement",
+        "Content": {
+        "1": "Le responsable au sens du Règlement général sur la protection des données, d'autres lois de protection des données applicables dans les États membres de l'Union européenne et d'autres dispositions ayant un caractère de protection des données est :",
+        "2": "Scalamento GmbH",
+        "3": "Elfriede-Lohse-Wächtler-Weg 26",
+        "4": "22081 Hamburg",
+        "5": "Allemagne",
+        "6": "Email : info@scalamento.de",
+        "7": "Site web : https://www.scalamento.de"
+        }
+    },
+    "GeneralDataCollection": {
+        "Headline": "Collecte de données générales et informations",
+        "Collection": "Le site Web de Scalamento collecte un ensemble de données générales et d'informations lorsque le sujet des données ou un système automatisé accède au site. Ces données générales et informations sont stockées dans les fichiers journaux du serveur. Peuvent être collectés (1) les types et versions de navigateurs utilisés, (2) le système d'exploitation utilisé par le système accédant, (3) le site Web à partir duquel un système accédant parvient à notre site Web (le référent), (4) les sous-sites, (5) la date et l'heure d'accès au site Web, (6) une adresse de protocole Internet (adresse IP), (7) le fournisseur d'accès Internet du système accédant et (8) d'autres données et informations similaires qui peuvent être utilisées en cas d'attaques contre nos systèmes technologiques.",
+        "Usage": "Lors de l'utilisation de ces données générales et informations, Scalamento ne tire aucune conclusion sur le sujet des données. Au contraire, ces informations sont nécessaires pour (1) livrer correctement le contenu de notre site Web, (2) optimiser le contenu de notre site Web ainsi que la publicité pour celui-ci, (3) assurer la viabilité à long terme de nos systèmes technologiques et de la technologie de notre site Web et (4) fournir aux autorités de poursuite pénale les informations nécessaires à des fins d'enquête en cas d'attaque cybernétique. Par conséquent, Scalamento analyse de manière anonyme les données et informations collectées statistiquement, avec l'objectif d'augmenter la protection et la sécurité des données dans notre entreprise, afin d'assurer un niveau optimal de protection pour les données personnelles que nous traitons. Les données anonymes des fichiers journaux du serveur sont stockées séparément de toutes les données personnelles fournies par un sujet des données.",
+        "Footer": "Ces données et informations collectées de manière anonyme sont donc évaluées par Scalamento d'une part statistiquement et également avec l'objectif d'augmenter la protection des données et la sécurité des données dans notre entreprise, pour finalement garantir un niveau de protection optimal pour les données personnelles que nous traitons. Les données anonymes des fichiers journaux du serveur sont stockées séparément de toutes les données personnelles fournies par un sujet des données."
+    },
+    "DataDeletionAndStorageDuration": {
+        "Headline": "Suppression routinière et durée de conservation des données personnelles",
+        "Content": {
+        "1": "Le responsable du traitement ne traite et ne conserve les données personnelles du sujet des données que pendant la période nécessaire à la réalisation de l'objectif de stockage, ou dans la mesure où cela est accordé par le législateur européen ou d'autres législateurs dans les lois ou règlements auxquels le responsable du traitement est soumis.",
+        "2": "Si l'objectif de stockage n'est pas applicable, ou si une période de stockage prescrite par le législateur européen ou un autre législateur compétent expire, les données personnelles sont bloquées ou effacées de manière routinière conformément aux exigences légales."
+        }
+    },
+    "DataSubjectRights": {
+        "Headline": "Droits de la personne concernée",
+        "Content": {
+        "RightToConfirmation": {
+            "Heading": "a) Droit de confirmation",
+            "Content": "Chaque personne concernée a le droit accordé par le législateur européen d'obtenir du responsable du traitement la confirmation que des données personnelles la concernant sont ou ne sont pas traitées. Si une personne concernée souhaite exercer ce droit de confirmation, elle peut à tout moment contacter un employé du responsable du traitement."
+        },
+        "RightToInformation": {
+            "Heading": "b) Droit à l'information",
+            "Content": {
+            "Intro": "Chaque personne concernée a le droit accordé par le législateur européen d'obtenir du responsable du traitement des informations gratuites sur ses données personnelles stockées à tout moment et une copie de ces informations. De plus, les directives et règlements européens accordent à la personne concernée l'accès aux informations suivantes:",
+            "1": "les finalités du traitement;",
+            "2": "les catégories de données personnelles concernées;",
+            "3": "les destinataires ou catégories de destinataires auxquels les données personnelles ont été ou seront communiquées, en particulier les destinataires dans des pays tiers ou des organisations internationales;",
+            "4": "si possible, la durée envisagée pour laquelle les données personnelles seront stockées, ou, si ce n'est pas possible, les critères utilisés pour déterminer cette durée;",
+            "5": "l'existence du droit de demander au responsable du traitement la rectification ou l'effacement des données personnelles, ou une limitation du traitement des données personnelles concernant la personne concernée, ou le droit de s'opposer à ce traitement;",
+            "6": "l'existence du droit de déposer une plainte auprès d'une autorité de contrôle;",
+            "7": "si les données personnelles ne sont pas collectées auprès de la personne concernée, toutes les informations disponibles sur la source des données;",
+            "8": "l'existence d'une prise de décision automatisée, y compris le profilage, visée à l'article 22, paragraphes 1 et 4, du RGPD et, au moins dans ces cas, des informations significatives sur la logique impliquée, ainsi que la portée et les effets escomptés de ce traitement pour la personne concernée."
+            }
+        },
+        "RightToRectification": {
+            "Heading": "c) Droit de rectification",
+            "Content": "Chaque personne concernée a le droit accordé par le législateur européen d'obtenir du responsable du traitement sans retard injustifié la rectification des données personnelles inexactes la concernant. Compte tenu des finalités du traitement, la personne concernée a le droit de compléter des données personnelles incomplètes, y compris en fournissant une déclaration supplémentaire."
+        },
+        "RightToErasure": {
+            "Heading": "d) Droit à l'effacement (droit à l'oubli)",
+            "Content": "Chaque personne concernée a le droit accordé par le législateur européen d'obtenir du responsable du traitement l'effacement sans retard injustifié des données personnelles la concernant, et le responsable du traitement a l'obligation d'effacer les données personnelles sans retard injustifié lorsque l'un des motifs suivants s'applique, tant que le traitement n'est pas nécessaire: ... (ceci continuerait avec les conditions sous lesquelles une personne concernée peut demander l'effacement des données)."
+        },
+        "RightToRestrictionOfProcessing": {
+            "Heading": "e) Droit à la limitation du traitement",
+            "Content": "Chaque personne concernée a le droit accordé par le législateur européen d'obtenir du responsable du traitement la limitation du traitement lorsque l'une des conditions suivantes s'applique: ... (cette section détaillerait les conditions sous lesquelles le traitement peut être limité)."
+        },
+        "RightToDataPortability": {
+            "Heading": "f) Droit à la portabilité des données",
+            "Content": "lisible par machine. Elle a également le droit de transmettre ces données à un autre responsable du traitement sans entrave de la part du responsable du traitement auquel les données personnelles ont été fournies, à condition que le traitement repose sur le consentement en vertu de l'article 6, paragraphe 1, lettre a, du RGPD ou de l'article 9, paragraphe 2, lettre a, du RGPD, ou sur un contrat en vertu de l'article 6, paragraphe 1, lettre b, du RGPD, et que le traitement soit effectué à l'aide de procédés automatisés, tant que le traitement n'est pas nécessaire à l'exécution d'une mission d'intérêt public ou relevant de l'exercice de l'autorité publique dont est investi le responsable du traitement."
+        },
+        "RightToObject": {
+            "Heading": "g) Droit d'opposition",
+            "Content": "Chaque personne concernée a le droit accordé par le législateur européen de s'opposer, pour des raisons tenant à sa situation particulière, à tout moment, au traitement des données personnelles la concernant, qui est fondé sur l'article 6, paragraphe 1, lettres e ou f, du RGPD. Cela vaut également pour le profilage fondé sur ces dispositions. Scalamento ne traitera plus les données personnelles en cas d'opposition, à moins que nous ne puissions démontrer des motifs légitimes et impérieux pour le traitement qui l'emportent sur les intérêts, droits et libertés de la personne concernée, ou pour la constatation, l'exercice ou la défense de droits en justice."
+        },
+        "AutomatedIndividualDecisionMaking": {
+            "Heading": "h) Décisions individuelles automatisées, y compris le profilage",
+            "Content": "Chaque personne concernée a le droit accordé par le législateur européen de ne pas être soumise à une décision fondée exclusivement sur un traitement automatisé, y compris le profilage, qui produit des effets juridiques la concernant ou l'affecte de manière significative de façon similaire, à condition que la décision (1) n'est pas nécessaire pour la conclusion ou l'exécution d'un contrat entre la personne concernée et un responsable du traitement, ou (2) n'est pas autorisée par le droit de l'Union ou le droit de l'État membre auquel le responsable du traitement est soumis et qui prévoit également des mesures appropriées pour sauvegarder les droits et libertés ainsi que les intérêts légitimes de la personne concernée, ou (3) n'est pas fondée sur le consentement explicite de la personne concernée."
+        },
+        "RightToWithdrawConsent": {
+            "Heading": "i) Droit de retirer le consentement à la protection des données",
+            "Content": "Chaque personne concernée a le droit accordé par le législateur européen de retirer à tout moment son consentement au traitement des données personnelles la concernant. Si la personne concernée souhaite exercer le droit de retirer le consentement, elle peut, à tout moment, contacter un employé du responsable du traitement."
+        }
+        }
+    },
+    "PrivacyInApplicationsAndInTheApplicationProcess": {
+        "Headline": "Protection des données lors des candidatures et du processus de candidature",
+        "Content": "Le responsable du traitement collecte et traite les données personnelles des candidats aux fins de la gestion du processus de candidature. Le traitement peut également être effectué électroniquement. Ceci est particulièrement le cas si un candidat soumet des documents de candidature correspondants au responsable du traitement par des moyens électroniques, par exemple par courriel ou via un formulaire Web sur le site. Si le responsable du traitement conclut un contrat de travail avec un candidat, les données soumises seront stockées aux fins de la relation de travail conformément aux exigences légales. Si aucun contrat de travail n'est conclu avec le candidat par le responsable du traitement, les documents de candidature seront automatiquement effacés deux mois après l'annonce de la décision de refus, à moins qu'aucun autre intérêt légitime du responsable du traitement ne s'oppose à l'effacement. Un autre intérêt légitime dans ce contexte pourrait être une charge de preuve dans une procédure selon la loi générale sur l'égalité de traitement (AGG)."
+    },
+    "Cookies": {
+        "Headline": "Cookies",
+        "Content": {
+        "SessionCookies": {
+            "Title": "a) Cookies de session",
+            "Content": "Nous utilisons des cookies sur notre site Internet. Les cookies sont de petits fichiers texte ou d'autres technologies de stockage stockés sur votre appareil par le navigateur Internet que vous utilisez. Ces cookies traitent certaines informations spécifiques à votre sujet, telles que votre navigateur, les données de localisation ou votre adresse IP. Ce traitement rend notre site Internet plus convivial, efficace et sécurisé, permettant par exemple l'affichage de notre site Internet dans différentes langues ou l'offre d'une fonction de panier d'achat. La base juridique de ce traitement est l'Art. 6 (1) lit. b) GDPR, pour autant que ces cookies soient utilisés pour initier ou exécuter un contrat. Si le traitement ne sert pas à initier ou à exécuter un contrat, notre intérêt légitime réside dans l'amélioration de la fonctionnalité de notre site Internet. La base juridique est alors l'Art. 6 (1) lit. f) GDPR. Ces cookies de session sont supprimés lorsque vous fermez votre navigateur Internet."
+        },
+        "ThirdPartyCookies": {
+            "Title": "b) Cookies de tiers",
+            "Content": "Il se peut que notre site Internet utilise également des cookies de sociétés partenaires avec lesquelles nous coopérons aux fins de la publicité, de l'analyse ou des fonctionnalités de notre site. Veuillez consulter les informations suivantes pour plus de détails, notamment sur les bases légales et les finalités de tels traitements par des cookies de tiers."
+        },
+        "CookieRemovalOption": {
+            "Title": "c) Possibilité de suppression",
+            "Content": "Vous pouvez empêcher ou limiter l'installation des cookies en paramétrant votre navigateur Internet. Vous pouvez également supprimer à tout moment les cookies déjà enregistrés. Les étapes et mesures nécessaires dépendent toutefois de votre navigateur Internet spécifique. Si vous avez des questions, utilisez donc la fonction d'aide ou la documentation de votre navigateur Internet ou contactez son fabricant ou support. Pour les soi-disant cookies Flash, le traitement ne peut pas être empêché par les paramètres du navigateur, mais plutôt par les paramètres du lecteur Flash. Si vous empêchez ou limitez l'installation des cookies, cela peut toutefois entraîner que toutes les fonctions de notre site Internet ne seront pas entièrement utilisables."
+        }
+        }
+    }, 
+    "LegalBasisForProcessing": {
+        "Headline": "Base légale pour le traitement",
+        "Content": "L'Art. 6 I lit. a RGPD sert de base légale pour les opérations de traitement pour lesquelles nous obtenons le consentement pour un but de traitement spécifique. Si le traitement de données personnelles est nécessaire à l'exécution d'un contrat dont la partie contractante est la personne concernée, comme c'est le cas, par exemple, lorsque des opérations de traitement sont nécessaires pour la livraison de marchandises ou pour fournir tout autre service, le traitement est basé sur l'Art. 6 I lit. b RGPD. Le même s'applique aux opérations de traitement nécessaires à l'exécution de mesures précontractuelles, par exemple dans les cas de demandes concernant nos produits ou services. Si notre entreprise est soumise à une obligation légale qui nécessite le traitement de données personnelles, comme par exemple pour l'exécution d'obligations fiscales, le traitement est basé sur l'Art. 6 I lit. c RGPD. Dans de rares cas, le traitement de données personnelles peut être nécessaire pour protéger les intérêts vitaux de la personne concernée ou d'une autre personne physique. Ceci serait le cas, par exemple, si un visiteur était blessé dans notre entreprise et que son nom, son âge, ses données d'assurance maladie ou d'autres informations vitales devaient être transmis à un médecin, un hôpital ou une autre tierce partie. Alors le traitement serait basé sur l'Art. 6 I lit. d RGPD. Finalement, les opérations de traitement pourraient être basées sur l'Art. 6 I lit. f RGPD. Cette base légale est utilisée pour les opérations de traitement qui ne sont couvertes par aucune des bases légales mentionnées ci-dessus, si le traitement est nécessaire aux fins des intérêts légitimes poursuivis par notre entreprise ou par un tiers, sauf si les intérêts, les droits fondamentaux et les libertés de la personne concernée prévalent. De tels traitements sont notamment permis parce qu'ils ont été spécifiquement mentionnés par le législateur européen. Il a considéré qu'un intérêt légitime pourrait être supposé si la personne concernée est un client du responsable du traitement (considérant 47, phrase 2 RGPD)."
+    },
+    "LegitimateInterestsPursuedByTheControllerOrByAThirdParty": {
+        "Headline": "Intérêts légitimes poursuivis par le responsable du traitement ou par un tiers",
+        "Content": "Si le traitement de données personnelles est basé sur l'article 6 I lit. f RGPD, notre intérêt légitime est de mener nos affaires au bénéfice du bien-être de tous nos employés et de nos actionnaires."
+    },
+    "DurationForWhichThePersonalDataWillBeStored": {
+        "Headline": "Durée pendant laquelle les données personnelles seront stockées",
+        "Content": "Le critère utilisé pour déterminer la période de stockage des données personnelles est la période de conservation légale respective. Après l'expiration de cette période, les données correspondantes sont régulièrement effacées, pour autant qu'elles ne soient plus nécessaires à l'exécution du contrat ou à l'initiation d'un contrat."
+    },
+    "ProvisionOfPersonalDataAsStatutoryOrContractualRequirement": {
+        "Headline": "Fourniture des données personnelles en tant qu'exigence légale ou contractuelle; nécessité pour la conclusion d'un contrat; obligation du sujet des données de fournir les données personnelles; conséquences possibles de la non-fourniture de telles données",
+        "Content": "Nous clarifions que la fourniture de données personnelles est partiellement requise par la loi (par exemple, les réglementations fiscales) ou peut également résulter de dispositions contractuelles (par exemple, informations sur le partenaire contractuel). Parfois, il peut être nécessaire de conclure un contrat que le sujet des données nous fournisse des données personnelles, qui doivent ensuite être traitées par nous. Le sujet des données est, par exemple, obligé de nous fournir des données personnelles lorsque notre entreprise signe un contrat avec lui ou elle. Le non-fournissement des données personnelles aurait pour conséquence que le contrat avec le sujet des données ne pourrait pas être conclu. Avant de fournir des données personnelles, le sujet des données doit contacter un employé. L'employé clarifie au sujet des données si la fourniture des données personnelles est requise par la loi ou le contrat ou est nécessaire pour la conclusion du contrat, si il existe une obligation de fournir les données personnelles et les conséquences de la non-fourniture des données personnelles."
+    },
+    "ExistenceOfAutomatedDecisionMaking": {
+        "Headline": "Existence d'une prise de décision automatisée",
+        "Content": "En tant qu'entreprise responsable, nous renonçons à une prise de décision automatique ou à un profilage."
+    } 
+    },
+
+    "NotFound": {
+        "Title": "Page non trouvée",
+        "Content": {
+            "1": "Nous sommes désolés, mais la page que vous cherchez n'existe pas ou est temporairement indisponible. Veuillez réessayer plus tard ou retourner",
+            "2": "à la page d'accueil",
+            "3": "."
+        }
+    }
+}
