@@ -41,10 +41,10 @@ const References = () => {
                                 <p><b>{t('References.2.Customer')}</b></p>
                             </div>
                             <div className="references-right-column inter-l-light">
-                                <p><i>{currentQuotes.start}{t('References.2.Voice')}{currentQuotes.end}</i></p>
-                                <p><b>{t('References.2.Customer')}</b></p>                               
-                                <p><i>{currentQuotes.start}{t('References.1.Voice')}{currentQuotes.end}</i></p>
-                                <p><b>{t('References.1.Customer')}</b></p>
+                                <p><i>{currentQuotes.start}{t('References.3.Voice')}{currentQuotes.end}</i></p>
+                                <p><b>{t('References.3.Customer')}</b></p>                               
+                                <p><i>{currentQuotes.start}{t('References.4.Voice')}{currentQuotes.end}</i></p>
+                                <p><b>{t('References.4.Customer')}</b></p>
                             </div>
                         </div>
                         <div className="spacer-s"></div>

@@ -1,6 +1,7 @@
 export const settings = {
-    // Google Analytics ID
-    googleAnalyticsId: import.meta.env.VITE_UOC_GOOGLE_ANALYTICS_ID,
+
+    cookiebotId: import.meta.env.VITE_COOKIEBOT_ID,
+    googleAnalyticsId: import.meta.env.VITE_GOOGLE_ANALYTICS_ID,
 
     apiUrl: import.meta.env.VITE_BETAOS_BASE_API_URL,
     linkedInUrl: 'https://www.linkedin.com/company/12950627/',

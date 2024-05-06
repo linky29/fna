@@ -13,26 +13,41 @@ const Details = () => {
         <div className="module details" id="details">
             <div className="container">
                 <div className="inter-l-light">{t('Details.Content.1')}</div>
-                <div className='spacer-s'></div>
-                <div className="inter-l-light">{t('Details.Content.2')}</div>
-                <div className='spacer-s'></div>
-                <div className="content-with-image">
-                    <div className="text-side">
-                        <div className="inter-l-light">{t('Details.Content.3')}</div>
-                        <div className='spacer-s'></div>
-                        <div className="inter-l-light">{t('Details.Content.4')}</div>
-                        <div className='spacer-s'></div>
-                        <div className="inter-l-light">{t('Details.Content.5')}</div>
-                        <div className='spacer-s'></div>
+                <div className='spacer-xs'></div>
+                <div className="inter-l-light">
+                    {t('Details.Content.2')}{' '}
+                    <b>{t('Details.Content.3')}</b>{' '}
+                    {t('Details.Content.4')}{' '}
+                    <b>{t('Details.Content.5')}</b>{' '}
+                    {t('Details.Content.6')}
+                </div>
+                           
+                <div className='spacer-xs'></div>
+            
+                <div className="details-content-with-image">
+                    <div className="details-content-text-side">
+                        <div className="inter-l-light">
+                            {t('Details.Content.7')}{' '}
+                            <b>{t('Details.Content.8')}</b>{' '}
+                            {t('Details.Content.9')}
+                        </div>
+                        <div className='spacer-xs'></div>
+                        <div className="inter-l-light">{t('Details.Content.10')}</div>
+                        <div className='spacer-xs'></div>
                     </div>
-                    <picture className="image-side">
+                    <picture className="details-content-image-side">
                         <source srcSet="/uoc_board.webp" type="image/webp" />
                         <img src="/uoc_board.png" alt="UOC Board" />
                     </picture>
                 </div>
-                <div className="inter-l-light">{t('Details.Content.6')}</div>
-                <div className='spacer-s'></div>
-                <div className="inter-l-light">{t('Details.Content.7')}</div>
+                <div className="inter-l-light">
+                    {t('Details.Content.11')}{' '}
+                    <i>{t('Details.Content.12')}{' '}</i>{' '}
+                    {t('Details.Content.13')}{' '}
+                    <i>{t('Details.Content.14')}{' '}</i>{'  '}
+                    {t('Details.Content.15')}{' '}
+                    <i>{t('Details.Content.16')}</i>
+                </div>
             </div>
         </div>
     </>

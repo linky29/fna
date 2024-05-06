@@ -116,6 +116,8 @@ body {
   background-color: var(--color-almostwhite);
   font-family: "Inter", sans-serif;
   margin: 0; 
+  background-image: url('/public/background.webp'); 
+  background-repeat: repeat;
 }
 
 
@@ -139,9 +141,9 @@ html {
   margin: 0 auto;
   max-width: var(--max-width-canvas);
   padding: 0;
-  background-color: var(--color-uocblue);
-  /*background-image: url('/public/background.webp'); 
-  background-repeat: repeat;*/
+  background-color: rgba(69, 95, 128, 0.8); 
+  box-shadow: 0 48px 96px rgba(255, 255, 255, 0.5); 
+ /* border: 1px solid rgba(255, 255, 255, 0.2);*/
 }
 
 /* All modules shall have the same basics  */
@@ -188,12 +190,6 @@ html {
 /*                          Colors Regional                        */
 /* --------------------------------------------------------------- */
 
-.details {
-  background-color: var(--background-color-details);
-  border: 2px solid var(--color-lightblue);
-  padding: 20px;
-}
-
 .references {
   background-color: var(--background-color-references);
   border: 2px solid var(--color-lightblue);
@@ -214,11 +210,11 @@ html {
 }
 
 .header-image-logo {
-  flex: 1 1 35%;
+  flex: 1 1 30%;
 }
 
 .header-image-header {
-  flex: 1 1 30%;
+  flex: 1 1 40%;
 }
 
 .header-image-logo img, .header-image-header img  {
@@ -243,38 +239,46 @@ html {
 #basics .action-image img {
   width: 100%; /* Stellt sicher, dass das Bild den verfügbaren Platz innerhalb seines Containers ausfüllt */
   height: auto; /* Behält das ursprüngliche Seitenverhältnis des Bildes bei */
+  border-radius: var(--size-2xs);
 }
 
 /* #endregion */
 
 /* #region Details */
 
+.details {
+  background-color: var(--background-color-details);
+  border: 2px solid var(--color-lightblue);
+  padding: 20px;
+}
+
 #details .module.details {
   display: flex;
   flex-direction: column;
 }
 
-#details .content-with-image {
+.details-content-with-image {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-#details .text-side {
+.details-content-text-side {
   flex: 1; /* Nimmt den verfügbaren Platz ein */
 }
 
-#details .image-side {
-  flex: 0 1 50%; /* Nimmt bis zu 50% des verfügbaren Platzes, schrumpft bei Bedarf */
-  max-width: 300px; /* Maximale Breite des Bildes */
+.details-content-image-side {
+  flex: 0 1 50%;
+  max-width: var(--size-3xl); 
 }
 
-#details img {
-  width: 100%; /* Stellt sicher, dass das Bild die Breite des Containers ausfüllt */
-  height: auto; /* Behält das Seitenverhältnis bei */
+.details-content-image-side img {
+  width: 100%;
+  height: auto;
 }
 
 /* #endregion */
+
 
 .title-with-icon {
   display: flex;

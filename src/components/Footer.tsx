@@ -15,7 +15,7 @@ const Footer = () => {
                     <a href="/imprint">{t('Footer.Imprint')}</a>
                     <a href="/privacy">{t('Footer.Privacy')}</a>
                     <a href={settings.linkedInUrl} target="_blank" rel="noopener noreferrer">
-                        LinkedIn
+                        {t('Footer.LinkedIn')}
                     </a>
                     © {new Date().getFullYear()} {t('Footer.Company')}
                 </p>

@@ -4,6 +4,8 @@ import { useTranslation } from 'react-i18next';
 import { Helmet } from 'react-helmet';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
+import GoogleAnalyticsLoader from './components/GoogleAnalyticsLoader';
+
 // Dynamisch importierte Komponenten
 const Header = lazy(() => import('./components/Header'));
 const Basics = lazy(() => import('./components/Basics'));
@@ -20,8 +22,8 @@ function Head() {
 
   return (
       <Helmet>
-          <meta name="description" content={t('metaDescription')} />
-          <title>{t('pageTitle')}</title>
+          <meta name="description" content={t('Misc.MetaDescription')} />
+          <title>{t('Misc.PageTitle')}</title>
           <link rel="icon" type="image/png" sizes="32x32" href="/favicon.png" />
           <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
           <link rel="dns-prefetch" href="https://fonts.gstatic.com" />
@@ -29,24 +31,25 @@ function Head() {
   );
 }
 
-function App() {
-  return (
+const App: React.FC = () => {
+    const { t } = useTranslation(); 
+
+    return (
     <BrowserRouter>
-        <Suspense fallback={<div>Loading...</div>}>
+        <GoogleAnalyticsLoader />
+        <Suspense fallback={<div>{t('Misc.Loading')}</div>}>
             <div className="canvas">
                 <Head />
                 <div className="spacer-s"></div>
                 <Header />               
                 <Routes>
                     <Route index element={
-                        <Suspense fallback={<div>Loading...</div>}>
-                            <>
-                                <Basics />
-                                <Details />
-                                <Commercials />
-                                <References />
-                                <ContactForm />
-                            </>
+                        <Suspense fallback={<div>{t('Misc.Loading')}</div>}>
+                            <Basics />
+                            <Details />
+                            <Commercials />
+                            <References />
+                            <ContactForm />
                         </Suspense>
                     } />
                     <Route path="/imprint" element={<Imprint />} />
