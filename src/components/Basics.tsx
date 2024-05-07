@@ -18,7 +18,7 @@ const Basics = () => {
                 {[1, 2, 3].map((num) => (
                     <picture key={num} className="action-image">
                         <source srcSet={`/action/${num}.webp`} type="image/webp" />
-                        <img src={`/action/${num}.png`} alt={`Action ${num}`} />
+                        <img src={`/action/${num}.png`} alt={`Action ${num}`} width="400" height="266" />
                     </picture>
                 ))}
             </div>

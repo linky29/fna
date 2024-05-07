@@ -11,7 +11,12 @@
       "German": "DE",
       "English": "EN",
       "French": "FR"
-    }
+    },
+    "AltText": {
+      "Logo": "Scalamento Logo",
+      "Header": "UNIVERSE OF CULTURE - Das Teambuilding-Spiel von Scalamento"
+    },
+    "IconTitle": "Kleines Logo"
   },
 
   "Basics": {
@@ -25,6 +30,7 @@
 
   "Details": {
       "Title": "Mehr Details zum Spiel",
+      "BoardImage": "So sieht ein Spielbrett aus.",
       "Content": {
           "1": "UNIVERSE OF CULTURE ist ein von Scalamento in Kooperation mit der Uni Nürnberg-Erlangen entwickeltes Teambuilding-Spiel. Es hilft den Spielern, das eigene Verhalten in selbst-organisierter Zusammenarbeit zu reflektieren: Wie reagiere ich darauf, wenn jemand nach anderen Regeln spielt? Welche Strategien wählen wir als Gruppe?",
           "2": "Die Spieler durchlaufen in kurzer Zeit die Teamphasen nach",

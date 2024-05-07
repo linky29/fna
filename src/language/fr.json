@@ -11,7 +11,12 @@
             "German": "DE",
             "English": "EN",
             "French": "FR"
-        }
+        },
+        "AltText": {
+          "Logo": "Scalamento Logo",
+          "Header": "UNIVERSE OF CULTURE - Le jeu de renforcement d'équipe de Scalamento"
+        },
+        "IconTitle": "Petit icône"
     },
   
     "Basics": {
@@ -25,6 +30,7 @@
   
     "Details": {
       "Title": "Plus de détails sur le jeu",
+      "BoardImage": "Voici à quoi ressemble un plateau de jeu.",
       "Content": {
         "1": "UNIVERSE OF CULTURE est un jeu de renforcement d'équipe développé par Scalamento en coopération avec l'Université de Nuremberg-Erlangen. Il aide les joueurs à réfléchir à leur comportement dans une collaboration auto-organisée : Comment réagis-je lorsque quelqu'un joue selon d'autres règles ? Quelles stratégies choisissons-nous en tant que groupe ?",
         "2": "Les joueurs traversent les phases d'équipe selon",
