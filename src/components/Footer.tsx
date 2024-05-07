@@ -6,7 +6,7 @@ const Footer = () => {
     const { t } = useTranslation();
   
     return (
-        <div className="container footer-container" id="Footer">
+        <footer className="container footer-container" id="Footer">
             <div className="footer-logo">
                 <ScalamentoWordmarkSvg />
             </div>
@@ -20,7 +20,7 @@ const Footer = () => {
                     © {new Date().getFullYear()} {t('Footer.Company')}
                 </p>
             </div>
-        </div>
+        </footer>
     );
 };
 

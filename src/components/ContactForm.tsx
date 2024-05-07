@@ -112,6 +112,7 @@ const ContactForm: React.FC = () => {
                 <div className="order-form-row">
                     <div className="floating-label-group">
                         <input 
+                            id="name-input"
                             type="text" 
                             name="name" 
                             value={formData.name} 
@@ -119,11 +120,13 @@ const ContactForm: React.FC = () => {
                             required
                             className="input-element inter-l-light"
                             placeholder=" "
+                            autoComplete='name'
                         />
-                        <label className="input-label inter-l-light">{t('ContactForm.Fields.Name')}</label>
+                        <label htmlFor="name-input" className="input-label inter-l-light">{t('ContactForm.Fields.Name')}</label>
                     </div>
                     <div className="floating-label-group">
                         <input 
+                            id="email-input"
                             type="email" 
                             name="email" 
                             value={formData.email} 
@@ -131,21 +134,24 @@ const ContactForm: React.FC = () => {
                             required
                             className="input-element inter-l-light"
                             placeholder=" "
+                            autoComplete='email'
                         />
-                        <label className="input-label inter-l-light">{t('ContactForm.Fields.ReplyTo')}</label>
+                        <label htmlFor="email-input" className="input-label inter-l-light">{t('ContactForm.Fields.ReplyTo')}</label>
                     </div>
                 </div>
 
                 <div className="textarea-floating-label-group">
-                    <textarea 
+                    <textarea
+                        id="message-input" 
                         name="message" 
                         value={formData.message} 
                         onChange={handleChange}
                         required
                         className="textarea-element inter-l-light"
                         placeholder=" "
+                        autoComplete="off"
                     />
-                    <label className="textarea-label inter-l-light">{t('ContactForm.Fields.Message')}</label>
+                    <label htmlFor="message-input" className="textarea-label inter-l-light">{t('ContactForm.Fields.Message')}</label>
                 </div>
 
                 <div className="order-form-text-row">
@@ -153,12 +159,15 @@ const ContactForm: React.FC = () => {
                 </div>
 
                 <div className="order-form-row">
-                    <label className="order-form-consent">
+                    <label htmlFor="consent-checkbox" className="order-form-consent">
                         <input 
+                            id="consent-checkbox"
                             type="checkbox" 
                             name="consent" 
                             checked={formData.consent} 
-                            onChange={handleChange}                           
+                            onChange={handleChange}
+                            required
+                            autoComplete='off'                           
                         />
                         {t('ContactForm.Fields.Consent.Start')}{' '}
                         <a href="/privacy" className="order-form-privacy">

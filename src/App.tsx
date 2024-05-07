@@ -26,8 +26,7 @@ function Head() {
           <meta name="description" content={t('Misc.MetaDescription')} />
           <title>{t('Misc.PageTitle')}</title>
           <link rel="icon" type="image/png" sizes="32x32" href="/favicon.png" />
-          <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-          <link rel="dns-prefetch" href="https://fonts.gstatic.com" />
+          <link rel="preconnect" href="https://consentcdn.cookiebot.com" crossOrigin="anonymous" />
       </Helmet>
   );
 }
@@ -42,20 +41,22 @@ const App: React.FC = () => {
             <div className="canvas">
                 <Head />
                 <LanguageSwitch />
-                <Header />               
-                <Routes>
-                    <Route index element={
-                        <Suspense fallback={<div>{t('Misc.Loading')}</div>}>
-                            <Basics />
-                            <Details />
-                            <Commercials />
-                            <References />
-                            <ContactForm />
-                        </Suspense>
-                    } />
-                    <Route path="/imprint" element={<Imprint />} />
-                    <Route path="/privacy" element={<Privacy />} />
-                </Routes>
+                <Header />
+                <main>
+                    <Routes>
+                        <Route index element={
+                            <Suspense fallback={<div>{t('Misc.Loading')}</div>}>
+                                <Basics />
+                                <Details />
+                                <Commercials />
+                                <References />
+                                <ContactForm />
+                            </Suspense>
+                        } />
+                        <Route path="/imprint" element={<Imprint />} />
+                        <Route path="/privacy" element={<Privacy />} />
+                    </Routes>
+                </main>        
                 <Footer />
             </div>
         </Suspense>

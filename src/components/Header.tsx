@@ -5,7 +5,7 @@ const Header = () => {
     const { t } = useTranslation();
 
     return (
-        <div className="container" id="Header">
+        <header className="container" id="Header">
             <Link to="/" style={{ textDecoration: 'none' }}>
                 <div className="header-images">
                     <picture className="header-image-logo">
@@ -37,7 +37,7 @@ const Header = () => {
                     </picture>
                 </div>
             </Link>
-        </div>
+        </header>
     );
 };
 
