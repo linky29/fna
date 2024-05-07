@@ -13,8 +13,8 @@ const Header = () => {
                         <img
                             src="/header/logo.png"
                             alt={t('Header.AltText.Logo')}
-                            width="200"
-                            height="163"
+                            width="300"
+                            height="244"
                         />
                     </picture>
                     <picture className="header-image-header">
@@ -31,8 +31,8 @@ const Header = () => {
                         <img
                             src="/header/logo.png"
                             alt={t('Header.AltText.Logo')}
-                            width="200"
-                            height="163"
+                            width="300"
+                            height="244"
                         />
                     </picture>
                 </div>

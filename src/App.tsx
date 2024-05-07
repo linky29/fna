@@ -19,16 +19,19 @@ const Imprint = lazy(() => import('./components/Imprint'));
 const Privacy = lazy(() => import('./components/Privacy'));
 
 function Head() {
-  const { t } = useTranslation(); 
+    const { t } = useTranslation(); 
 
-  return (
-      <Helmet>
-          <meta name="description" content={t('Misc.MetaDescription')} />
-          <title>{t('Misc.PageTitle')}</title>
-          <link rel="icon" type="image/png" sizes="32x32" href="/favicon.png" />
-          <link rel="preconnect" href="https://consentcdn.cookiebot.com" crossOrigin="anonymous" />
-      </Helmet>
-  );
+    return (
+        <Helmet>
+            <meta name="description" content={t('Misc.MetaDescription')} />
+            <title>{t('Misc.PageTitle')}</title>
+            <link rel="icon" type="image/png" sizes="32x32" href="/favicon.png" />
+            <link rel="preconnect" href="https://consentcdn.cookiebot.com" />
+            <link rel="preconnect" href="https://www.googletagmanager.com" crossOrigin="anonymous" />
+            <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
+            <link rel="dns-prefetch" href="https://consentcdn.cookiebot.com" />
+        </Helmet>
+    );
 }
 
 const App: React.FC = () => {

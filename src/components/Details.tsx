@@ -37,7 +37,12 @@ const Details = () => {
                     </div>
                     <picture className="details-content-image-side">
                         <source srcSet="/details/uoc_board.webp" type="image/webp" />
-                        <img src="/details/uoc_board.png" width="450" height="289" alt={t('Details.Board')} />
+                        <img 
+                            src="/details/uoc_board.png" 
+                            width="657" 
+                            height="422" 
+                            alt={t('Details.Board')}
+                        />
                     </picture>
                 </div>
                 <div className="inter-l-light">
