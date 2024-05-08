@@ -551,9 +551,8 @@ html {
   position: absolute;
   top: -65%;
   left: 88%;
-  width: var(--size-m);
-  height: var(--size-m);
-  color: var(--color-almostblack);
+  width: calc(var(--size-m) + var(--size-2xs));
+  height: calc(var(--size-m) + var(--size-2xs));
   background-color: var(--color-pink);
   border: 2px solid var(--color-lightblue);
   border-radius: 50%; /* Macht den Block kreisförmig */
@@ -584,7 +583,7 @@ html {
 
   .order-form-price-tag {
     top: -50%;
-    left: 85%;
+    left: 82%;
   }  
 
   .order-form-limited {
