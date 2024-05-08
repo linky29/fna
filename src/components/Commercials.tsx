@@ -5,7 +5,7 @@ const Commercials = () => {
     const { t } = useTranslation();
 
     return (
-        <div className="module commercials" id="commercials">
+        <section className="module commercials" id="commercials">
             <div className="container">
                 <div className='spacer-s'></div>
                 <IconTitle titleKey="Commercials.1.Title" />               
@@ -28,7 +28,7 @@ const Commercials = () => {
                     {t('Commercials.2.Content.3')}{' '}
                 </div>
             </div>
-        </div>
+        </section>
     );
 };
 

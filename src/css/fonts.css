@@ -33,20 +33,12 @@
 /* --------------------------------------------------------------- */
 
 /* Byrd - For Headlines */
-.byrd-2xl-light, .byrd-2xl-extra-bold, .byrd-xl-light, .byrd-xl-extra-bold, .byrd-l-light, .byrd-l-extra-bold, .byrd-m-light, .byrd-m-extra-bold, .byrd-s-light, .byrd-s-extra-bold {
+.byrd-xl-light, .byrd-xl-extra-bold, .byrd-l-light, .byrd-l-extra-bold, .byrd-m-light, .byrd-m-extra-bold, .byrd-s-light, .byrd-s-extra-bold {
     line-height: normal;
 }
 
 .byrd-2xl-extra-bold, .byrd-xl-extra-bold, .byrd-l-extra-bold, .byrd-m-extra-bold, .byrd-s-extra-bold { 
     font-family: 'GTF Byrd ExtraBold'; 
-}
-
-.byrd-2xl-light, .byrd-xl-light, .byrd-l-light, .byrd-m-light, .byrd-s-light {
-    font-family: 'GTF Byrd Light';
-}
-
-.byrd-2xl-light, .byrd-xl-light  {
-    word-wrap: break-word;
 }
 
 /* Inter - For Copy */
@@ -71,28 +63,9 @@
 /*            Font Sizing for really large Screens                 */
 /* --------------------------------------------------------------- */
 
-.byrd-2xl-light, .byrd-2xl-extra-bold { 
-    font-size: var(--font-heading-2xl); 
-}
 
 .byrd-xl-light, .byrd-xl-extra-bold { 
     font-size: var(--font-heading-xl);  
-}
-
-.byrd-l-light, .byrd-l-extra-bold { 
-    font-size: var(--font-heading-l); 
-}
-
-.byrd-m-light, .byrd-m-extra-bold { 
-    font-size: var(--font-heading-m); 
-}
-
-.byrd-s-light, .byrd-s-extra-bold { 
-    font-size: var(--font-heading-s); 
-}
-
-.inter-2xl-bold, .inter-2xl-light { 
-    font-size: var(--font-copy-2xl); 
 }
 
 .inter-xl-bold, .inter-xl-light { 
@@ -105,8 +78,4 @@
 
 .inter-m-bold, .inter-m-light { 
     font-size: var(--font-copy-m);
-}
-
-.inter-s-bold, .inter-s-light { 
-    font-size: var(--font-copy-s); 
 }

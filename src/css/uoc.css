@@ -187,8 +187,24 @@ html {
 /* #endregion */
 
 /* --------------------------------------------------------------- */
-/*                          Colors Regional                        */
+/*                          Regional                               */
 /* --------------------------------------------------------------- */
+
+/* #region Title-Icons */
+
+.title-with-icon {
+  display: flex;
+  align-items: center; /* Zentriert die Elemente vertikal */
+  gap: 10px; /* Fügt einen horizontalen Abstand zwischen dem Icon und dem Text hinzu */
+}
+
+.title-icon img {
+  display: block;
+  width: 32px; /* Stellt die Breite des Icons ein */
+  height: auto; /* Behält das Seitenverhältnis des Icons bei */
+}
+
+/* #endregion */
 
 /* #region Language Switch */
 
@@ -244,11 +260,13 @@ html {
 }
 
 .header-image-logo {
-  flex: 1 1 30%;
+  flex: 1 1 25%;
+  padding: var(--padding-l);
 }
 
 .header-image-header {
-  flex: 1 1 40%;
+  flex: 1 1 50%;
+
 }
 
 .header-image-logo img, .header-image-header img  {
@@ -348,20 +366,6 @@ html {
 
 /* #endregion */
 
-
-.title-with-icon {
-  display: flex;
-  align-items: center; /* Zentriert die Elemente vertikal */
-  gap: 10px; /* Fügt einen horizontalen Abstand zwischen dem Icon und dem Text hinzu */
-}
-
-.title-icon img {
-  display: block;
-  width: 32px; /* Stellt die Breite des Icons ein */
-  height: auto; /* Behält das Seitenverhältnis des Icons bei */
-}
-
-
 /* #region References */
 
 .references {
@@ -420,7 +424,6 @@ html {
 
 
 /* #endregion */
-
 
 /* #region OrderForm */
 
@@ -565,7 +568,20 @@ html {
 }
 
 /* Anpassungen für kleinere Bildschirme */
-@media (max-width: 600px) {
+@media (max-width: 750px) {
+  .order-form-price-tag {
+    top: -60%;
+    left: 85%;
+  }  
+
+  .order-form-limited {
+    width: 80%;
+  } 
+}
+
+
+/* Anpassungen für kleinere Bildschirme */
+@media (max-width: 625px) {
   .order-form-row {
     flex-direction: column;
   }
@@ -588,9 +604,20 @@ html {
 
   .order-form-limited {
     width: 80%;
-  }
-  
+  } 
 }
+
+@media (max-width: 450px) {
+  .order-form-price-tag {
+    top: -45%;
+    left: 77%;
+  }  
+
+  .order-form-limited {
+    width: 80%;
+  } 
+}
+
 
 
 /* #endregion */
@@ -673,7 +700,7 @@ html {
 
 .footer-links p, .footer-links a {
   margin: 0;
-  padding: 10px;
+  padding: var(--padding-m);
   text-decoration: none;
   color: var(--color-almostwhite);
 }
