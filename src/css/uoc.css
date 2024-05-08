@@ -715,6 +715,17 @@ html {
   }
 }
 
+@media (max-width: 480px) { 
+  .footer-logo {
+    width: 6vw;
+
+  }
+  .footer-links p, .footer-links a {
+    padding: var(--padding-s);
+  }  
+}
+
+
 /* #endregion */
 
 /* #region Imprint */
