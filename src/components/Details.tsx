@@ -5,7 +5,7 @@ const Details = () => {
     const { t } = useTranslation();
 
     return (
-    <>
+    <section id="Details">
         <div className="container">
             <IconTitle titleKey="Details.Title" />    
         </div>
@@ -39,12 +39,14 @@ const Details = () => {
                         <source srcSet="/details/uoc_board.webp" type="image/webp" />
                         <img 
                             src="/details/uoc_board.png" 
+                            className='details-content-image'
                             width="657" 
                             height="422" 
                             alt={t('Details.Board')}
                         />
                     </picture>
                 </div>
+                
                 <div className="inter-l-light">
                     {t('Details.Content.11')}{' '}
                     <i>{t('Details.Content.12')}{' '}</i>{' '}
@@ -55,7 +57,7 @@ const Details = () => {
                 </div>
             </div>
         </div>
-    </>
+    </section>
     );
 };
 

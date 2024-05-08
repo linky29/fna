@@ -6,15 +6,15 @@ const Header = () => {
 
     return (
         <header className="container" id="Header">
-            <Link to="/" style={{ textDecoration: 'none' }}>
+            <Link to="/" className="header-link">
                 <div className="header-images">
                     <picture className="header-image-logo">
                         <source srcSet="/header/icon.webp" type="image/webp" />
                         <img
                             src="/header/logo.png"
                             alt={t('Header.AltText.Logo')}
-                            width="300"
-                            height="244"
+                            width="200"
+                            height="163"
                         />
                     </picture>
                     <picture className="header-image-header">
@@ -31,12 +31,14 @@ const Header = () => {
                         <img
                             src="/header/logo.png"
                             alt={t('Header.AltText.Logo')}
-                            width="300"
-                            height="244"
+                            width="200"
+                            height="163"
                         />
                     </picture>
                 </div>
             </Link>
+            <div className="spacer-xs"></div>
+            <div className="inter-l-light">{t('Header.Intro')}</div>
         </header>
     );
 };

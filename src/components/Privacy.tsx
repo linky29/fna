@@ -13,7 +13,7 @@ function Privacy() {
     };
     
     return (
-        <div className="privacy module" id="privacy">
+        <section className="privacy module" id="privacy">
             <div className="container">
                 {/* Hier könnte ein generischer Titel stehen, der in allen Sprachversionen gleich ist */}
                 <div className="privacyTitle byrd-2xl-extra-bold">{t('Privacy.Title')}</div>
@@ -166,7 +166,7 @@ function Privacy() {
                     <div className="privacyContent inter-m-light">{t('Privacy.ExistenceOfAutomatedDecisionMaking.Content')}</div>
                 </div>
             </div>
-        </div>
+        </section>
     );
 }
 

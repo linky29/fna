@@ -91,7 +91,7 @@
   --color-almostwhite: #FBFCFD;
   --color-lightblue:   #8CD3F7;
   --color-blue:        #083BDB;
-  --color-pink:        #D24B9E;
+  --color-pink:        #B34087;
   --color-uocblue:     #0B0028;
 
   /* Mapping */
@@ -215,17 +215,18 @@ html {
 }
 
 .language-switch-button:hover {
-  transform: scale(1.1) rotate(10deg); /* Vergrößert und rotiert den Button leicht */
-  background-color: var(--color-lightblue); /* Ändert die Hintergrundfarbe */
-  transition: all 0.3s ease; /* Sanfter Übergang bei der Hover-Aktion */
+  transform: scale(1.1) rotate(10deg);
+  background-color: var(--color-lightblue);
+  transition: all 0.3s ease;
 }
-
 
 /* #endregion */
 
-.references {
-  background-color: var(--background-color-references);
-  border: 2px solid var(--color-lightblue);
+/* #region Header */
+
+.header-link {
+  color: var(--color-almostwhite);
+  text-decoration: none;
 }
 
 .header-images {
@@ -255,43 +256,39 @@ html {
   height: auto;
 }
 
-@keyframes rotate {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-.header-image-logo:hover img {
-  animation: rotate 4s linear infinite;
-}
-
-
 /* #endregion */
-
-
-
 
 /* #region Basics */
 
-#basics .basics-action-images {
+.basics-action-images {
   display: flex;
-  justify-content: space-between; /* Behält einen gleichmäßigen Abstand bei */
+  justify-content: space-between;
   align-items: center;
 }
 
-#basics .action-image {
-  flex: 1; /* Jedes Bild nimmt einen gleichen Anteil des Containers ein */
-  max-width: 33%; /* Begrenzt die maximale Breite jedes Bildes auf 33% */
-  margin: 0 10px; /* Fügt einen Abstand zwischen den Bildern hinzu */
+.basics-action-image {
+  flex: 1;
+  max-width: 33%;
+  margin: 0 var(--padding-s);
 }
 
-#basics .action-image img {
-  width: 100%; /* Stellt sicher, dass das Bild den verfügbaren Platz innerhalb seines Containers ausfüllt */
-  height: auto; /* Behält das ursprüngliche Seitenverhältnis des Bildes bei */
+.basics-action-image img {
+  width: 100%; 
+  height: auto;
   border-radius: var(--size-2xs);
+}
+
+/* Anpassungen für kleinere Bildschirme */
+@media (max-width: 768px) {
+  .basics-action-image {
+    max-width: 50%; /* Jedes Bild hat nun eine maximale Breite von 50% */
+  }
+}
+
+@media (max-width: 576px) {
+  .basics-action-image {
+    max-width: 100%; /* Jedes Bild hat nun eine maximale Breite von 100% */
+  }
 }
 
 /* #endregion */
@@ -307,6 +304,10 @@ html {
 #details .module.details {
   display: flex;
   flex-direction: column;
+}
+
+.details-content-image {
+  padding-left: var(--padding-m);
 }
 
 .details-content-with-image {
@@ -329,6 +330,22 @@ html {
   height: auto;
 }
 
+@media (max-width: 768px) {
+  .details-content-image {
+    padding: var(--padding-m) 0;
+  }
+  
+  .details-content-with-image {
+    flex-direction: column;
+  }
+
+  .details-content-text-side, .details-content-image-side {
+    flex: none;
+    max-width: 100%;
+  }
+}
+
+
 /* #endregion */
 
 
@@ -347,6 +364,11 @@ html {
 
 /* #region References */
 
+.references {
+  background-color: var(--background-color-references);
+  border: 2px solid var(--color-lightblue);
+}
+
 .references-content {
   display: flex;
   justify-content: space-between;
@@ -359,8 +381,7 @@ html {
   flex-direction: row;
 }
 
-.references-linkout,
-.order-form-privacy {
+.references-linkout {
   text-decoration: none;
   color: var(--color-almostwhite);
 }
@@ -374,40 +395,40 @@ html {
 }
 
 .references-left-column {
-  max-width: 50%; /* Begrenzt die Breite der linken Spalte */
+  max-width: 50%; 
 }
+
+.references-content-voices blockquote {
+  padding: 0 var(--padding-m);
+  margin: 0;    
+}
+.references-content-voices blockquote cite {
+  font-weight: bold;
+  display: block; 
+}
+
+@media (max-width: 576px) {
+  .references-content-voices {
+    flex-direction: column;
+  }
+  
+  .references-left-column, .references-right-column {
+    max-width: 100%; /* Ermöglicht den Spalten, die volle Breite zu nutzen */
+  }
+}
+
 
 
 /* #endregion */
 
-/* #region Footer */
 
-.footer-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: baseline;
-  padding: 20px;
-}
+/* #region OrderForm */
 
-.footer-logo {
-  width: 20vw;
-  max-width: 400px;
-}
-
-.footer-links p, .footer-links a {
-  margin: 0;
-  padding: 10px;
+.order-form-privacy {
   text-decoration: none;
   color: var(--color-almostwhite);
 }
 
-.footer-links a:hover {
-  font-weight: bold;
-}
-
-/* #endregion */
-
-/* #region OrderForm */
 
 /* Basis-Styles für Formularbereiche */
 .floating-label-group,
@@ -439,7 +460,7 @@ html {
 .textarea-element:not(:placeholder-shown) ~ .textarea-label,
 .input-element:focus ~ .input-label,
 .input-element:not(:placeholder-shown) ~ .input-label {
-  top: -20px; /* Weniger hoher Sprung */
+  top: -15px; /* Weniger hoher Sprung */
   font-size: var(--font-copy-s);
   color: var(--color-almostwhite);
 }
@@ -453,12 +474,12 @@ html {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 30px; /* Mehr Abstand zwischen den Reihen */
 }
 
 .floating-label-group {
   flex-grow: 1;
-  margin-right: 10px; /* Fügt Abstand zwischen den Feldern hinzu */
+  margin-right: var(--padding-m);
+  margin-bottom: var(--padding-xl);
 }
 
 .floating-label-group:last-child,
@@ -466,15 +487,8 @@ html {
   margin-right: 0; /* Entfernt den Abstand am rechten Rand des letzten Elements */
 }
 
-/* Anpassungen für kleinere Bildschirme */
-@media (max-width: 600px) {
-  .order-form-row {
-    flex-direction: column;
-  }
-
-  .floating-label-group {
-    margin-right: 0; /* Entfernt den rechten Abstand für schmalere Ansichten */
-  }
+.order-form-consent {
+  max-width: 80%;
 }
 
 /* Allgemeine Styles für Input-Elemente und Textarea */
@@ -511,6 +525,10 @@ html {
   font-size: 0.8rem;
 }
 
+.order-form-limited {
+  width: 90%;
+}
+
 /* Styling für den Submit-Button */
 .order-form-button-submit {
   min-width: calc(var(--size-m) + var(--size-m));
@@ -531,7 +549,7 @@ html {
 /* Positionierung und Styling des Preis-Tags */
 .order-form-price-tag {
   position: absolute;
-  top: -28%;
+  top: -65%;
   left: 88%;
   width: var(--size-m);
   height: var(--size-m);
@@ -547,9 +565,34 @@ html {
   z-index: 2;
 }
 
-.order-form-consent {
-  max-width: 80%;
+/* Anpassungen für kleinere Bildschirme */
+@media (max-width: 600px) {
+  .order-form-row {
+    flex-direction: column;
+  }
+
+  .order-form-consent {
+    max-width: 100%;
+    margin-bottom: var(--padding-l);
+  }
+  
+  .floating-label-group {
+    width: 100%; 
+    margin-right: 0;
+    margin-bottom: var(--padding-xl);
+  }
+
+  .order-form-price-tag {
+    top: -50%;
+    left: 85%;
+  }  
+
+  .order-form-limited {
+    width: 80%;
+  }
+  
 }
+
 
 /* #endregion */
 
@@ -611,11 +654,44 @@ html {
   color: var(--color-almostblack);
 }
 
-/* #endregion */
-
 .ReactModal__Overlay {
   z-index: 50; /* Setzt einen hohen z-index, um sicherzustellen, dass das Overlay über anderen Elementen liegt */
 }
+/* #endregion */
+
+/* #region Footer */
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 20px;
+}
+
+.footer-logo {
+  width: 20vw;
+}
+
+.footer-links p, .footer-links a {
+  margin: 0;
+  padding: 10px;
+  text-decoration: none;
+  color: var(--color-almostwhite);
+}
+
+.footer-links a:hover {
+  font-weight: bold;
+}
+
+@media (max-width: 640px) { 
+  .footer-logo {
+    width: 8vw;
+  }
+}
+
+/* #endregion */
+
+/* #region Imprint */
 
 .flexSection {
   display: flex;
@@ -673,3 +749,4 @@ html {
   font-weight: bold; /* Textgewicht auf "bold" setzen */
 }
 
+/* #endregion */

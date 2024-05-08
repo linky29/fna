@@ -25,7 +25,7 @@ const References = () => {
     const currentQuotes = quotes[i18n.language] || quotes['en']; // Default to English if not available
 
     return (
-        <>
+        <section id="References">
             <div className="container">
                 <IconTitle titleKey="References.Title" />    
             </div>
@@ -35,17 +35,25 @@ const References = () => {
                     <div className="references-content">
                         <div className="references-content-voices">
                             <div className="references-left-column inter-l-light">
-                                <p><i>{currentQuotes.start}{t('References.1.Voice')}{currentQuotes.end}</i></p>
-                                <p><b>{t('References.1.Customer')}</b></p>                               
-                                <p><i>{currentQuotes.start}{t('References.2.Voice')}{currentQuotes.end}</i></p>
-                                <p><b>{t('References.2.Customer')}</b></p>
+                                <blockquote>
+                                    <p>{currentQuotes.start}{t('References.1.Voice')}{currentQuotes.end}</p>
+                                    <footer><cite>{t('References.1.Customer')}</cite></footer>
+                                </blockquote>
+                                <blockquote>
+                                    <p>{currentQuotes.start}{t('References.2.Voice')}{currentQuotes.end}</p>
+                                    <footer><cite>{t('References.2.Customer')}</cite></footer>
+                                </blockquote>
                             </div>
                             <div className="spacer-xs"></div>
                             <div className="references-right-column inter-l-light">
-                                <p><i>{currentQuotes.start}{t('References.3.Voice')}{currentQuotes.end}</i></p>
-                                <p><b>{t('References.3.Customer')}</b></p>                               
-                                <p><i>{currentQuotes.start}{t('References.4.Voice')}{currentQuotes.end}</i></p>
-                                <p><b>{t('References.4.Customer')}</b></p>
+                                <blockquote>
+                                    <p>{currentQuotes.start}{t('References.3.Voice')}{currentQuotes.end}</p>
+                                    <footer><cite>{t('References.3.Customer')}</cite></footer>
+                                </blockquote>
+                                <blockquote>
+                                    <p>{currentQuotes.start}{t('References.4.Voice')}{currentQuotes.end}</p>
+                                    <footer><cite>{t('References.4.Customer')}</cite></footer>
+                                </blockquote>
                             </div>
                         </div>
                         <div className="spacer-s"></div>
@@ -59,7 +67,7 @@ const References = () => {
                     </div>
                 </div>
             </div>
-        </>
+        </section>
     );
 };
 

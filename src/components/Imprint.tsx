@@ -18,7 +18,7 @@ function Imprint() {
     const salesTermsPath = `${basePath}/${language}/${prefix}${safelyGetFileName(salesTermsFileName, language)}`;
           
     return (
-        <div className="imprint module" id="imprint">
+        <section className="imprint module" id="imprint">
             <div className="container">
                 <div className="imprintTitle byrd-2xl-extra-bold">{t('Imprint.Title')}</div>
                 <div className='spacer-s'></div>
@@ -78,7 +78,7 @@ function Imprint() {
                     <div className="imprintContent inter-m-light">{t('Imprint.Disclaimer.Content.3')}</div>
                 </div>
             </div>
-        </div>
+        </section>
     );
 }
 

@@ -87,14 +87,14 @@ const ContactForm: React.FC = () => {
     };
 
     return (
-        <div className="container" id="OrderForm">
+        <section className="container" id="OrderForm">
             <div className="spacer-s"></div>
             
             <IconTitle titleKey="ContactForm.Title" />
             
             <div className="spacer-s"></div>
             
-            <div className="inter-l-light">
+            <div className="inter-l-light order-form-limited">
                 {t('ContactForm.Header.1')}{' '}
                 <b>{t('ContactForm.Header.2')}</b>{' '}
                 {t('ContactForm.Header.3')}{' '}
@@ -178,6 +178,7 @@ const ContactForm: React.FC = () => {
                     <button type="submit" className="order-form-button-submit byrd-m-extra-bold">{t('ContactForm.Submit')}</button>
                 </div>
             </form>
+            
             <Modal
                 isOpen={modalIsOpen}
                 onRequestClose={() => setModalIsOpen(false)}
@@ -190,7 +191,7 @@ const ContactForm: React.FC = () => {
                     <div className="contact-form-modal-button byrd-s-extra-bold" onClick={() => setModalIsOpen(false)}>{t('ContactForm.Modal.Button')}</div>
                 </div>
             </Modal>
-        </div>
+        </section>
     );
 };
 
