@@ -5,6 +5,7 @@ export const settings = {
 
     apiUrl: import.meta.env.VITE_BETAOS_BASE_API_URL,
     linkedInUrl: 'https://www.linkedin.com/company/12950627/',
+    scalamentoUrl: 'https://scalamento.de',
     haufeUrl: 'https://www.haufe.de/personal/hr-management/agilitaet-agile-werte-und-agile-unternehmenskultur_80_386204.html',
     
     // Meta-Informationen

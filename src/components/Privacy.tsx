@@ -15,8 +15,7 @@ function Privacy() {
     return (
         <section className="privacy module" id="privacy">
             <div className="container">
-                {/* Hier könnte ein generischer Titel stehen, der in allen Sprachversionen gleich ist */}
-                <div className="privacyTitle byrd-2xl-extra-bold">{t('Privacy.Title')}</div>
+                <h1 className="byrd-xl-extra-bold">{t('Privacy.Title')}</h1>
 
                 {/* Datenschutzerklärung */}
                 <div className="privacySection">

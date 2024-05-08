@@ -9,6 +9,7 @@ import GoogleAnalyticsLoader from './components/GoogleAnalyticsLoader';
 // Dynamisch importierte Komponenten
 const LanguageSwitch = lazy(() => import('./components/LanguageSwitch'));
 const Header = lazy(() => import('./components/Header'));
+const Intro = lazy(() => import('./components/Intro'));
 const Basics = lazy(() => import('./components/Basics'));
 const Details = lazy(() => import('./components/Details'));
 const Commercials = lazy(() => import('./components/Commercials'));
@@ -45,6 +46,7 @@ const App: React.FC = () => {
                 <Head />
                 <LanguageSwitch />
                 <Header />
+                <Intro />
                 <main>
                     <Routes>
                         <Route index element={

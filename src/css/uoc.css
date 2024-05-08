@@ -696,9 +696,10 @@ html {
 
 .footer-logo {
   width: 20vw;
+  max-width: var(--size-3xl);
 }
 
-.footer-links p, .footer-links a {
+.footer-links p, .footer-links a, .footer-logo a {
   margin: 0;
   padding: var(--padding-m);
   text-decoration: none;

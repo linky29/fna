@@ -20,7 +20,7 @@ function Imprint() {
     return (
         <section className="imprint module" id="imprint">
             <div className="container">
-                <div className="imprintTitle byrd-2xl-extra-bold">{t('Imprint.Title')}</div>
+                <div className="imprintTitle byrd-xl-extra-bold">{t('Imprint.Title')}</div>
                 <div className='spacer-s'></div>
                 {t('Imprint.Header')}<br />
                 {/* Adressen */}

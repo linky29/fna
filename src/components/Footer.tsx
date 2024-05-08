@@ -23,7 +23,9 @@ const Footer = () => {
     return (
         <footer className="container footer-container" id="Footer">
             <div className="footer-logo">
-                {useSignet ? <ScalamentoSignetSvg /> : <ScalamentoWordmarkSvg />}
+                <a href={settings.scalamentoUrl} target="_blank" rel="noopener noreferrer">
+                    {useSignet ? <ScalamentoSignetSvg /> : <ScalamentoWordmarkSvg />}
+                </a>
             </div>
             <div className="footer-links">
                 <p className="inter-m-light">

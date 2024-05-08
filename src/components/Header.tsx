@@ -37,8 +37,6 @@ const Header = () => {
                     </picture>
                 </div>
             </Link>
-            <div className="spacer-xs"></div>
-            <div className="inter-l-light">{t('Header.Intro')}</div>
         </header>
     );
 };

@@ -5,8 +5,9 @@
       "Loading": "Chargement..."
     },
   
+    "Intro": "Bienvenue! Vous vous intéressez au jeu de société UNIVERSE OF CULTURE? Ici, vous trouverez toutes les informations!", 
+
     "Header": {
-        "Intro": "Bienvenue! Vous vous intéressez au jeu de société UNIVERSE OF CULTURE? Ici, vous trouverez toutes les informations!", 
         "Language": {
             "German": "DE",
             "English": "EN",
