@@ -55,6 +55,9 @@ const ContactForm: React.FC = () => {
             const response = await fetch(`${settings.apiUrl}mail`, {
                 method: 'POST',
                 body: JSON.stringify({
+                    fromName: settings.contactForm.fromName,
+                    fromMail: settings.contactForm.fromAddress,
+                    to: settings.contactForm.mailTo,
                     replyTo: formData.email,
                     subject: "Bestellanfrage von " + formData.name + " fuer UoC",
                     body: formData.message                   

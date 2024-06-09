@@ -38,5 +38,11 @@ export const settings = {
             de: 'agb_verkauf.pdf',
             fr: 'conditions-generales-de-vente.pdf',
         },
+    },
+
+    contactForm: {
+        fromAddress: 'info@scalamento.de',
+        fromName: 'Universe of Culture Website',
+        mailTo: 'stefan.link@scalamento.de'
     }
 };
