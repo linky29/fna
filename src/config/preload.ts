@@ -1,5 +1,5 @@
 import { settings } from './settings';
-
+/*
 document.addEventListener("DOMContentLoaded", () => {
   // Setze Cookiebot-Skript
   const cookiebotScript = document.createElement('script');
@@ -27,4 +27,4 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   `;
   document.head.appendChild(inlineScript);
-});
+});*/
