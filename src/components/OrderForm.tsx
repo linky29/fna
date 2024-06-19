@@ -70,11 +70,14 @@ const OrderForm: React.FC = () => {
 
             if (response.ok) {
                 setModalHeader(t('OrderForm.Modal.Success.Header'));
-                setModalMessage(t('OrderForm.Modal.Success.Message'));                
+                // Nachricht ist: Alles super, wenn was is melde dich bei mailadresse
+                const successMessage = t('OrderForm.Modal.Success.Message.1') + " " + settings.OrderForm.fromAddress + " " + t('OrderForm.Modal.Success.Message.2');
+                setModalMessage(successMessage);
+
             } else {
                 // Verwendung der Fehlermeldung vom Server, falls vorhanden
                 setModalHeader(t('OrderForm.Modal.Failure.Header'));
-                const errorMessage = responseBody.message || t('OrderForm.Modal.Failure.Message');
+                const errorMessage = t('OrderForm.Modal.Failure.Message.1') + " " + settings.OrderForm.fromAddress + " " + t('OrderForm.Modal.Failure.Message.2') + " " + responseBody.message + t('OrderForm.Modal.Failure.Message.3');
                 setModalMessage(errorMessage);
             }
         } catch (error: unknown) {

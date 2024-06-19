@@ -129,13 +129,20 @@
       },
       "Modal": {
           "Success": {
-          "Header": "Vielen Dank für deine Nachricht!",
-          "Message": "Wir melden uns so schnell wie möglich bei dir. Das sollte unter der Woche in der Regel nicht länger als 24 Stunden dauern. Wenn doch, melde dich bitte gerne direkt unter info@scalamento.de bei uns."
+            "Header": "Vielen Dank für deine Nachricht!",
+            "Message": {
+              "1": "Wir melden uns so schnell wie möglich bei dir. Das sollte unter der Woche in der Regel nicht länger als 24 Stunden dauern. Wenn doch, melde dich bitte gerne direkt unter",
+              "2": "bei uns."
+            }
           },
           "Failure": {
-          "Header": "Ups, da ist was schiefgelaufen!",
-          "Message": "Leider ist beim Versenden deiner Nachricht etwas schief gelaufen. Bitte versuche es später noch einmal oder kontaktiere uns direkt unter info@scalamento.de.",
-          "Info": "Fehlermeldung: "
+            "Header": "Ups, da ist was schiefgelaufen!",
+            "Message": {
+              "1": "Leider ist beim Versenden deiner Nachricht etwas schief gelaufen. Bitte versuche es später noch einmal oder kontaktiere uns direkt unter",
+              "2": " und gib uns diese Infos:",
+              "3": ". Vielen Dank für deine Hilfe und dein Verständnis!"
+            },
+            "Info": "Fehlermeldung: "
           },
           "Validation": {
           "Header": "Bitte überprüfe deine Eingaben!",
@@ -151,7 +158,8 @@
       "Imprint": "Impressum & AGB",
       "Privacy": "Datenschutz",
       "Company": "Scalamento GmbH",
-      "LinkedIn": "LinkedIn"
+      "LinkedIn": "LinkedIn",
+      "AriaLabel": "Link zur Scalamento GmbH"
   },
 
   "Imprint": {

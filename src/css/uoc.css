@@ -631,7 +631,7 @@ html {
 
 .order-form-modal-content {
   background-color: var(--color-pink);
-  color: var(--color-almostblack);
+  color: var(--color-almostwhite);
   border: var(--line-size-m) solid var(--color-lightblue);     
 }
 

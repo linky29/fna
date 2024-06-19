@@ -1,4 +1,4 @@
-/*import { settings } from './settings';
+import { settings } from './settings';
 
 document.addEventListener("DOMContentLoaded", () => {
   // Setze Cookiebot-Skript
@@ -27,4 +27,4 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   `;
   document.head.appendChild(inlineScript);
-});*/
+});

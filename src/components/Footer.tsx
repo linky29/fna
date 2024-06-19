@@ -23,7 +23,7 @@ const Footer = () => {
     return (
         <footer className="container footer-container" id="Footer">
             <div className="footer-logo">
-                <a href={settings.scalamentoUrl} target="_blank" rel="noopener noreferrer">
+                <a href={settings.scalamentoUrl} target="_blank" rel="noopener noreferrer" aria-label={t('Footer.Label')}>
                     {useSignet ? <ScalamentoSignetSvg /> : <ScalamentoWordmarkSvg />}
                 </a>
             </div>
