@@ -5,7 +5,7 @@ const Header = () => {
     const { t } = useTranslation();
 
     return (
-        <header className="container" id="Header">
+        <header id="Header" className="container">
             <Link to="/" className="header-link">
                 <div className="header-images">
                     <picture className="header-image-logo">

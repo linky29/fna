@@ -44,7 +44,7 @@ const References = () => {
                                     <footer><cite>{t('References.2.Customer')}</cite></footer>
                                 </blockquote>
                             </div>
-                            <div className="spacer-xs"></div>
+                            <div className="spacer-xs" />
                             <div className="references-right-column inter-l-light">
                                 <blockquote>
                                     <p>{currentQuotes.start}{t('References.3.Voice')}{currentQuotes.end}</p>
@@ -56,7 +56,7 @@ const References = () => {
                                 </blockquote>
                             </div>
                         </div>
-                        <div className="spacer-s"></div>
+                        <div className="spacer-s" />
                         <div className="inter-l-light">
                             {t('References.Haufe.Pre')}{' '}
                             <a href={settings.haufeUrl} target="_blank" rel="noopener noreferrer" className="references-linkout">

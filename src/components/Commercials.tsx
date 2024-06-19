@@ -5,11 +5,11 @@ const Commercials = () => {
     const { t } = useTranslation();
 
     return (
-        <section className="module commercials" id="commercials">
+        <section id="commercials" className="module commercials">
             <div className="container">
-                <div className='spacer-s'></div>
+                <div className="spacer-s" />
                 <IconTitle titleKey="Commercials.1.Title" />               
-                <div className='spacer-s'></div>
+                <div className="spacer-s" />
                 <div className="inter-l-light">
                     {t('Commercials.1.Content.1')}{' '}
                     <b>{t('Commercials.1.Content.2')}</b>{' '}
@@ -19,9 +19,9 @@ const Commercials = () => {
                     <b>{t('Commercials.1.Content.6')}</b>{' '}
                     {t('Commercials.1.Content.7')}
                 </div>
-                <div className='spacer-m'></div>
+                <div className="spacer-m" />
                 <IconTitle titleKey="Commercials.2.Title" />
-                <div className='spacer-s'></div>
+                <div className="spacer-s" />
                 <div className="inter-l-light">
                     {t('Commercials.2.Content.1')}{' '}
                     <b>{t('Commercials.2.Content.2')}</b>{' '}

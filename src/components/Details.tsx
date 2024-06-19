@@ -10,7 +10,7 @@ const Details = () => {
             <IconTitle titleKey="Details.Title" />    
         </div>
 
-        <div className="module details" id="details">
+        <div id="details" className="module details">
             <div className="container">
                 <div className="inter-l-light">{t('Details.Content.1')}</div>
                 <div className='spacer-xs'></div>

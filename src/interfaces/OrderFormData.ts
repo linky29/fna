@@ -1,5 +1,5 @@
-// interfaces/ContactFormData.ts
-export interface ContactFormData {
+// interfaces/OrderFormData.ts
+export interface OrderFormData {
     name: string;
     email: string;
     message: string;

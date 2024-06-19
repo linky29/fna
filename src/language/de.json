@@ -100,7 +100,7 @@
     }
   },
 
-  "ContactForm": {
+  "OrderForm": {
       "Title": "Bestellt hier euer Spiel!",
       "Header": {
           "1": "Lust auf Universe of Culture bekommen? Dann schick uns hier rasch eine Nachricht und lass uns dabei gerne wissen, ",

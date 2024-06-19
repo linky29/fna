@@ -174,15 +174,15 @@ html {
   display: block;
 }
 
-.spacer-3xl  { height: var(--spacer-3xl); width: var(--spacer-3xl); }
+.spacer-3xl  { height: var(--spacer-3xl);  width: var(--spacer-3xl); }
 .spacer-2xl  { height: var(--spacer-2xl);  width: var(--spacer-2xl); }
-.spacer-xl   { height: var(--spacer-xl);   width: var(--spacer-xl); }
-.spacer-l    { height: var(--spacer-l);    width: var(--spacer-l); }
-.spacer-m    { height: var(--spacer-m);    width: var(--spacer-m); }
-.spacer-s    { height: var(--spacer-s);    width: var(--spacer-s); }
-.spacer-xs   { height: var(--spacer-xs);   width: var(--spacer-xs); }
+.spacer-xl   { height: var(--spacer-xl);   width: var(--spacer-xl);  }
+.spacer-l    { height: var(--spacer-l);    width: var(--spacer-l);   }
+.spacer-m    { height: var(--spacer-m);    width: var(--spacer-m);   }
+.spacer-s    { height: var(--spacer-s);    width: var(--spacer-s);   }
+.spacer-xs   { height: var(--spacer-xs);   width: var(--spacer-xs);  }
 .spacer-2xs  { height: var(--spacer-2xs);  width: var(--spacer-2xs); }
-.spacer-3xs  { height: var(--spacer-3xs); width: var(--spacer-3xs); }
+.spacer-3xs  { height: var(--spacer-3xs);  width: var(--spacer-3xs); }
 
 /* #endregion */
 
@@ -194,14 +194,14 @@ html {
 
 .title-with-icon {
   display: flex;
-  align-items: center; /* Zentriert die Elemente vertikal */
-  gap: 10px; /* Fügt einen horizontalen Abstand zwischen dem Icon und dem Text hinzu */
+  align-items: center;
+  gap: var(--spacer-xs);
 }
 
 .title-icon img {
   display: block;
-  width: 32px; /* Stellt die Breite des Icons ein */
-  height: auto; /* Behält das Seitenverhältnis des Icons bei */
+  width: var(--spacer-m);
+  height: auto; 
 }
 
 /* #endregion */
@@ -220,7 +220,7 @@ html {
   height: var(--spacer-l);
   color: var(--color-almostwhite);
   background-color: var(--color-blue);
-  border: 2px solid var(--color-lightblue);
+  border: var(--spacer-4xs) solid var(--color-lightblue);
   border-radius: 50%;
   padding: 0;
   margin: 0 0.3rem; 
@@ -315,8 +315,8 @@ html {
 
 .details {
   background-color: var(--background-color-details);
-  border: 2px solid var(--color-lightblue);
-  padding: 20px;
+  border: var(--spacer-4xs) solid var(--color-lightblue);
+  padding: var(--padding-m);
 }
 
 #details .module.details {
@@ -370,7 +370,7 @@ html {
 
 .references {
   background-color: var(--background-color-references);
-  border: 2px solid var(--color-lightblue);
+  border: var(--spacer-4xs) solid var(--color-lightblue);
 }
 
 .references-content {
@@ -451,8 +451,8 @@ html {
 .input-label,
 .textarea-label {
   position: absolute;
-  left: 10px; 
-  top: 8px;
+  left: var(--spacer-xns);
+  top: var(--spacer-2xs);
   transition: top 0.2s ease, font-size 0.2s ease, color 0.2s ease;
   color: var(--color-almostblack);
   pointer-events: none;
@@ -463,7 +463,7 @@ html {
 .textarea-element:not(:placeholder-shown) ~ .textarea-label,
 .input-element:focus ~ .input-label,
 .input-element:not(:placeholder-shown) ~ .input-label {
-  top: -15px; /* Weniger hoher Sprung */
+  top: calc(-1 * var(--size-xs));
   font-size: var(--font-copy-s);
   color: var(--color-almostwhite);
 }
@@ -482,7 +482,7 @@ html {
 .floating-label-group {
   flex-grow: 1;
   margin-right: var(--padding-m);
-  margin-bottom: var(--padding-xl);
+  margin-bottom: var(--padding-l);
 }
 
 .floating-label-group:last-child,
@@ -498,25 +498,23 @@ html {
 .floating-label-group input,
 .textarea-floating-label-group textarea {
   width: 100%;
-  min-height: 40px;
-  padding: 8px 8px 8px 16px; /* Mehr Abstand nach links */
+  padding: var(--padding-s);
   box-sizing: border-box;
   border: 1px solid #ccc;
   border-radius: 4px;
   color: var(--color-almostblack);
   transition: border-color 0.3s;
-  align-items: center; /* Zentriert den Text vertikal */
 }
 
 .floating-label-group input:focus,
 .textarea-floating-label-group textarea:focus {
-  border-color: #007bff;
+  border-color: var(--color-blue);
   outline: none;
 }
 
 /* Besondere Eigenschaften für die Textarea */
 .textarea-floating-label-group textarea {
-  min-height: 80px;
+  min-height: var(--size-m);
   resize: vertical;
 }
 
@@ -624,20 +622,20 @@ html {
 
 /* #region Modal */
 
-.contact-form-modal {
+.order-form-modal {
   display: flex;
   flex-direction: column;
   align-items: center; 
   min-width: var(--size-l);
 }
 
-.contact-form-modal-content {
+.order-form-modal-content {
   background-color: var(--color-pink);
   color: var(--color-almostblack);
   border: var(--line-size-m) solid var(--color-lightblue);     
 }
 
-.contact-form-modal-content {
+.order-form-modal-content {
       top: 50%;
       left: 50%;
       transform: translate(-50%, -50%);
@@ -648,15 +646,15 @@ html {
       position: fixed;
 }
 
-.contact-form-modal-header {
+.order-form-modal-header {
   padding: 0 0 var(--spacer-s) 0;
 }
 
-.contact-form-modal-message {
+.order-form-modal-message {
   padding: 0 0 var(--spacer-s);
 }
 
-.contact-form-modal-button {
+.order-form-modal-button {
     border-radius: var(--padding-s);
     display: flex;
     padding: var(--spacer-xs) var(--spacer-s);
@@ -668,13 +666,13 @@ html {
     width: calc(var(--size-l) + var(--size-s));
 }
 
-.contact-form-modal-button {
+.order-form-modal-button {
   background: var(--color-almostblack);
   border: var(--line-size-m) solid var(--color-lightblue);
   color: var(--color-pink);
 }
 
-.contact-form-modal-button:hover {
+.order-form-modal-button:hover {
   background: var(--color-pink);
   border: var(--line-size-m) solid var(--color-lightblue);
   color: var(--color-almostblack);
@@ -691,7 +689,6 @@ html {
   display: flex;
   justify-content: space-between;
   align-items: baseline;
-  padding: 20px;
 }
 
 .footer-logo {
@@ -699,11 +696,23 @@ html {
   max-width: var(--size-3xl);
 }
 
-.footer-links p, .footer-links a, .footer-logo a {
-  margin: 0;
-  padding: var(--padding-m);
+.footer-logo a, .footer-links a {
   text-decoration: none;
   color: var(--color-almostwhite);
+}
+
+.footer-links {
+  display: flex;
+  align-items: center;
+}
+
+.footer-links p {
+  margin: 0;
+}
+
+.footer-links a {
+  margin: 0;
+  padding: var(--padding-m);
 }
 
 .footer-links a:hover {
@@ -719,7 +728,6 @@ html {
 @media (max-width: 480px) { 
   .footer-logo {
     width: 6vw;
-
   }
   .footer-links p, .footer-links a {
     padding: var(--padding-s);

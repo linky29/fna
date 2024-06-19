@@ -4,8 +4,8 @@ const Intro = () => {
     const { t } = useTranslation();
 
     return (
-        <section className="container" id="Intro">
-            <div className="spacer-xs"></div>
+        <section id="Intro" className="container">
+            <div className="spacer-xs" />
             <div className="inter-l-light">{t('Intro')}</div>
         </section>
     );

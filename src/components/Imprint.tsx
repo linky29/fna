@@ -21,7 +21,7 @@ function Imprint() {
         <section className="imprint module" id="imprint">
             <div className="container">
                 <div className="imprintTitle byrd-xl-extra-bold">{t('Imprint.Title')}</div>
-                <div className='spacer-s'></div>
+                <div className="spacer-s" />
                 {t('Imprint.Header')}<br />
                 {/* Adressen */}
                 <div className="imprintSection flexSection">

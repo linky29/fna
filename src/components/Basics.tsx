@@ -25,13 +25,13 @@ const Basics = () => {
     }, []);
 
     return (
-        <section className="container" id="basics">
+        <section id="basics" className="container">
             <IconTitle titleKey="Basics.Title" />
-            <div className='spacer-s'></div>
+            <div className="spacer-s" />
             <div className="inter-l-light">{t('Basics.Content.1')}</div>
-            <div className='spacer-s'></div>
+            <div className="spacer-s" />
             <div className="inter-l-light">{t('Basics.Content.2')}</div>
-            <div className='spacer-s'></div>
+            <div className="spacer-s" />
             <div className="basics-action-images">
                 {[...Array(visibleImages).keys()].map((num) => (
                     <picture key={num + 1} className="basics-action-image">
@@ -40,7 +40,7 @@ const Basics = () => {
                     </picture>
                 ))}
             </div>
-            <div className='spacer-s'></div>
+            <div className="spacer-s" />
             <div className="inter-l-light">{t('Basics.Content.3')}</div>
         </section>
     );

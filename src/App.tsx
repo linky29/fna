@@ -14,7 +14,7 @@ const Basics = lazy(() => import('./components/Basics'));
 const Details = lazy(() => import('./components/Details'));
 const Commercials = lazy(() => import('./components/Commercials'));
 const References = lazy(() => import('./components/References'));
-const ContactForm = lazy(() => import('./components/ContactForm'));
+const OrderForm = lazy(() => import('./components/OrderForm'));
 const Footer = lazy(() => import('./components/Footer'));
 const Imprint = lazy(() => import('./components/Imprint'));
 const Privacy = lazy(() => import('./components/Privacy'));
@@ -55,7 +55,7 @@ const App: React.FC = () => {
                                 <Details />
                                 <Commercials />
                                 <References />
-                                <ContactForm />
+                                <OrderForm />
                             </Suspense>
                         } />
                         <Route path="/imprint" element={<Imprint />} />
