@@ -1,5 +1,5 @@
-import { settings } from './settings';
-/*
+/*import { settings } from './settings';
+
 document.addEventListener("DOMContentLoaded", () => {
   // Setze Cookiebot-Skript
   const cookiebotScript = document.createElement('script');
