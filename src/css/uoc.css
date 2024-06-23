@@ -627,6 +627,7 @@ html {
   flex-direction: column;
   align-items: center; 
   min-width: var(--size-l);
+  max-width: var(--size-4xl);
 }
 
 .order-form-modal-content {
@@ -655,27 +656,24 @@ html {
 }
 
 .order-form-modal-button {
-    border-radius: var(--padding-s);
-    display: flex;
-    padding: var(--spacer-xs) var(--spacer-s);
-    justify-content: center;
-    align-items: center;
-    gap: var(--spacer-2xs);
-    transition: background-color 0.3s, color 0.3s;
-    text-transform: uppercase; 
-    width: calc(var(--size-l) + var(--size-s));
-}
-
-.order-form-modal-button {
-  background: var(--color-almostblack);
+  background: var(--color-almostwhite);
   border: var(--line-size-m) solid var(--color-lightblue);
   color: var(--color-pink);
+  border-radius: var(--padding-s);
+  display: flex;
+  padding: var(--spacer-xs) var(--spacer-s);
+  justify-content: center;
+  align-items: center;
+  gap: var(--spacer-2xs);
+  transition: background-color 0.3s, color 0.3s;
+  text-transform: uppercase; 
+  width: calc(var(--size-l) + var(--size-s));
+  cursor: pointer;
 }
 
 .order-form-modal-button:hover {
-  background: var(--color-pink);
-  border: var(--line-size-m) solid var(--color-lightblue);
-  color: var(--color-almostblack);
+  background: var(--color-almostblack);
+  color: var(--color-pink);
 }
 
 .ReactModal__Overlay {

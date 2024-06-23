@@ -128,23 +128,31 @@
         "Sender": "Nom de l'expéditeur saisi dans le formulaire",
         "Message": "Message"
       },
+      
       "Modal": {
         "Success": {
-          "Header": "Merci pour votre message!",
-          "Message": "Nous reviendrons vers vous dès que possible. Cela ne devrait généralement pas prendre plus de 24 heures en semaine. Si c'est le cas, veuillez nous contacter directement à info@scalamento.de."
+          "Header": "Merci pour votre message !",
+          "Message": {
+            "1": "Nous vous répondrons dans les plus brefs délais. Cela ne devrait généralement pas prendre plus de 24 heures en semaine. Si c'est le cas, n'hésitez pas à nous contacter directement à",
+            "2": "."
+          }
         },
         "Failure": {
-          "Header": "Oups, quelque chose s'est mal passé!",
-          "Message": "Malheureusement, quelque chose s'est mal passé lors de l'envoi de votre message. Veuillez réessayer plus tard ou nous contacter directement à info@scalamento.de.",
-          "Info": "Message d'erreur: "
+          "Header": "Oups, quelque chose a mal tourné !",
+          "Message": {
+            "1": "Malheureusement, une erreur s'est produite lors de l'envoi de votre message. Veuillez réessayer plus tard ou nous contacter directement à",
+            "2": " et fournissez-nous ces informations :",
+            "3": ". Merci pour votre aide et votre compréhension !"
+          }
         },
         "Validation": {
-          "Header": "Veuillez vérifier vos entrées!",
-          "InvalidEmail": "L'adresse e-mail semble invalide. Veuillez réessayer.",
+          "Header": "Veuillez vérifier vos saisies !",
+          "InvalidEmail": "L'adresse e-mail semble être invalide. Veuillez réessayer.",
           "ConsentNotChecked": "Veuillez confirmer que vous acceptez le traitement de vos données."
         },
         "Button": "Fermer"
       },
+
       "Required": "* Champ obligatoire"
     },
   

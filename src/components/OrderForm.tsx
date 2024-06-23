@@ -81,9 +81,10 @@ const OrderForm: React.FC = () => {
                 setModalMessage(errorMessage);
             }
         } catch (error: unknown) {
-            let errorMessage = t('OrderForm.Modal.Failure.Message');
+            
+            let errorMessage = t('OrderForm.Modal.Failure.Message.1') + " " + settings.OrderForm.fromAddress + " " + t('OrderForm.Modal.Failure.Message.2') + " ";
             if (error instanceof Error) {
-                errorMessage += " " + t('OrderForm.Modal.Failure.Info') + error.message;
+                errorMessage += error.message + t('OrderForm.Modal.Failure.Message.3');
             }
             setModalHeader(t('OrderForm.Modal.Failure.Header'));
             setModalMessage(errorMessage);

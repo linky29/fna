@@ -6,6 +6,7 @@
     },
 
     "Intro": "Welcome! Are you interested in the board game UNIVERSE OF CULTURE? Here you can find all the information!",  
+    
     "Header": {
       "Language": {
         "German": "DE",
@@ -127,23 +128,31 @@
         "Sender": "Sender Name Entered in the Form",
         "Message": "Message"
       },
+
       "Modal": {
         "Success": {
           "Header": "Thank you for your message!",
-          "Message": "We will get back to you as soon as possible. This should generally not take longer than 24 hours on weekdays. If it does, please contact us directly at info@scalamento.de."
+          "Message": {
+            "1": "We will get back to you as soon as possible. This usually shouldn't take longer than 24 hours on weekdays. If it does, please feel free to contact us directly at",
+            "2": "."
+          }
         },
         "Failure": {
           "Header": "Oops, something went wrong!",
-          "Message": "Unfortunately, something went wrong when sending your message. Please try again later or contact us directly at info@scalamento.de.",
-          "Info": "Error message: "
+          "Message": {
+            "1": "Unfortunately, something went wrong while sending your message. Please try again later or contact us directly at",
+            "2": " and provide us with this information:",
+            "3": ". Thank you for your help and understanding!"
+          }
         },
         "Validation": {
-          "Header": "Please check your entries!",
-          "InvalidEmail": "The email address seems invalid. Please try again.",
+          "Header": "Please check your inputs!",
+          "InvalidEmail": "The email address seems to be invalid. Please try again.",
           "ConsentNotChecked": "Please confirm that you agree to the processing of your data."
         },
         "Button": "Close"
       },
+      
       "Required": "* Required field"
     },
   

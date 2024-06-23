@@ -4,6 +4,7 @@
     "PageTitle": "UNIVERSE OF CULTURE - Das Teambuilding-Spiel von Scalamento",
     "Loading": "Lade..."
   },
+  
   "Intro": "Herzlich Willkommen! Du interessierst dich für das Brettspiel UNIVERSE OF CULTURE? Hier findest du alle Informationen!",
 
   "Header": {
@@ -127,6 +128,7 @@
           "Sender": "Im Formular angegebener Name des Absenders",
           "Message": "Nachricht"
       },
+
       "Modal": {
           "Success": {
             "Header": "Vielen Dank für deine Nachricht!",
@@ -141,8 +143,7 @@
               "1": "Leider ist beim Versenden deiner Nachricht etwas schief gelaufen. Bitte versuche es später noch einmal oder kontaktiere uns direkt unter",
               "2": " und gib uns diese Infos:",
               "3": ". Vielen Dank für deine Hilfe und dein Verständnis!"
-            },
-            "Info": "Fehlermeldung: "
+            }
           },
           "Validation": {
           "Header": "Bitte überprüfe deine Eingaben!",
@@ -151,6 +152,7 @@
           },
           "Button": "Schließen"
       },
+
       "Required": "* Pflichtfeld"
   },
 
