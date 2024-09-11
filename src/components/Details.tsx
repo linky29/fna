@@ -36,7 +36,13 @@ const Details = () => {
                         <div className='spacer-xs'></div>
                     </div>
                     <picture className="details-content-image-side">
-                        <source srcSet="/details/uoc_board.webp" type="image/webp" />
+                        <source 
+                            srcSet="
+                                /details/uoc_board@1x.webp 1x, 
+                                /details/uoc_board@1.5x.webp 1.5x, 
+                                /details/uoc_board@2x.webp 2x" 
+                            type="image/webp" 
+                        />
                         <img 
                             src="/details/uoc_board.png" 
                             className='details-content-image'
