@@ -516,6 +516,9 @@ html {
 .textarea-floating-label-group textarea {
   min-height: var(--size-m);
   resize: vertical;
+  /* For whatever reason the textarea is not inheriting the font-family */
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
 }
 
 /* Zusätzliche Textzeile für Pflichtfeld-Ankündigung */

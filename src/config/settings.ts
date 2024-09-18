@@ -41,7 +41,7 @@ export const settings = {
     },
 
     OrderForm: {
-        fromAddress: 'info@uoc.de',
+        fromAddress: 'mail@universe-of-culture.de',
         fromName: 'Universe of Culture Website',
         mailTo: 'stefan.link@scalamento.de'
     }

@@ -51,11 +51,11 @@
 }
 
 .inter-2xl-bold, .inter-xl-bold, .inter-l-bold, .inter-m-bold, .inter-s-bold { 
-    font-weight: bold; 
+    font-weight: 700; 
 }
 
 .inter-2xl-light, .inter-xl-light, .inter-l-light, .inter-m-light, .inter-s-light { 
-    font-weight: light; 
+    font-weight: 300; 
 }
 
 
