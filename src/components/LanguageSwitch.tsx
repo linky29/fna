@@ -19,11 +19,11 @@ const Header = () => {
             onClick={() => changeLanguage('en')}>
                 {t('Header.Language.English')}
             </button>
-            <button 
+            {/*<button 
             className={`byrd-m-extra-bold language-switch-button ${i18n.language === 'fr' ? 'language-switch-button-selected' : ''}`} 
             onClick={() => changeLanguage('fr')}>
                 {t('Header.Language.French')}
-            </button>
+            </button>*/}
         </div>
     );
 };
