@@ -1,11 +1,11 @@
 {
   "Misc": {
-    "MetaDescription": "UNIVERSE OF CULTURE ist ein Teambuilding-Spiel, das die Dynamiken selbstorganisierter Teams nachempfinden lässt. Erfahre hier mehr über das Spiel und bestelle es direkt!",
-    "PageTitle": "UNIVERSE OF CULTURE - Das Teambuilding-Spiel von Scalamento",
+    "MetaDescription": "Förderverein der Neuapostolischen Kirchengemeinde Hamburg-Alstertal e.V.",
+    "PageTitle": "Förderverein der Neuapostolischen Kirchengemeinde Hamburg-Alstertal e.V.",
     "Loading": "Lade..."
   },
   
-  "Intro": "Herzlich Willkommen! Du interessierst dich für das Brettspiel UNIVERSE OF CULTURE? Hier findest du alle Informationen!",
+  "Intro": "Herzlich Willkommen auf der Website des Fördervereins der Neuapostolischen Kirchengemeinde Hamburg-Alstertal e.V.!",
 
   "Header": {
     "Language": {
@@ -14,102 +14,45 @@
       "French": "FR"
     },
     "AltText": {
-      "Logo": "UoC Logo",
-      "Header": "UNIVERSE OF CULTURE - Das Teambuilding-Spiel von Scalamento"
+      "Logo": "Logo des Vereins",
+      "Header": "Headerbild des Vereins"
     },
-    "IconTitle": "Kleines Logo"
+    "IconTitle": "Kleines Logo",
+    "Title": "Förderverein der Neuapostolischen Kirchengemeinde Hamburg-Alstertal e.V."
   },
 
   "Basics": {
-      "Title": "Das Spiel",
-      "Content": {
-          "1": "Der Kern jeder hochperformanten Organisation ist das eigenverantwortliche, am Markt agierende Team. Doch wie fühlt es sich  eigentlich an, wenn Teams in ein eigenverantwortliches, auf Prinzipien basierendes Miteinander umsteigen? Welche Effekte können entstehen?",
-          "2": "Mit UNIVERSE OF CULTURE könnt ihr die Dynamiken selbstorganisierter Teams  nachempfinden. Taucht ein in ein spannendes, aufregendes und emotionales Spiel und erlebt selbst, wie Höchstleistung zwischen Menschen entsteht!",
-          "3": "Keine Sorge, das Regelwerk ist ganz und gar ungalaktisch. Auf dem weltweit bekannten Mensch-Ärgere-Dich-Nicht-Spielprinzip beruhend seid ihr und euer Team im Handumdrehen einsatzbereit für euren Ausflug in das Universum der Kulturen. Scalamento wünscht euch eine gute und erkenntnisreiche Reise!"
-      }
-  },
-
-  "Details": {
-      "Title": "Mehr Details zum Spiel",
-      "BoardImage": "So sieht ein Spielbrett aus.",
-      "Content": {
-          "1": "UNIVERSE OF CULTURE ist ein von Scalamento in Kooperation mit der Uni Nürnberg-Erlangen entwickeltes Teambuilding-Spiel. Es hilft den Spielern, das eigene Verhalten in selbst-organisierter Zusammenarbeit zu reflektieren: Wie reagiere ich darauf, wenn jemand nach anderen Regeln spielt? Welche Strategien wählen wir als Gruppe?",
-          "2": "Die Spieler durchlaufen in kurzer Zeit die Teamphasen nach",
-          "3": "Bruce Wayne Tuckman: Forming, Storming, Norming und Performing.",
-          "4": "Dies gelingt allein dadurch, dass das Spiel nur non-verbale Kommunikation zulässt, Worte also verboten sind. Gespielt wird UNIVERSE OF CULTURE in",
-          "5": "drei Gruppen von je 3-8 Personen.",
-          "6": "Grundlage des Spiels ist das Prinzip von 'Mensch-Ärgere-Dich-Nicht'. Die Spieler eignen sich die Spielregeln zu Beginn des Spiels selbst an – dies gehört zum Spielablauf.",
-          "7": "Ein gut moderierter Spieldurchlauf dauert in der Regel",
-          "8": "60-90 Minuten",
-          "9": "inkl. einer Retrospektive zum Zusammentragen der Learnings. Das Spiel kann nur einmalig gespielt werden, weil die Spieler nach der Durchführung den Kniff des Spiels durchschaut haben. Erfahrungsgemäß gehen viele Spieler mit prägenden Eindrücken vom Spieltisch.",
-          "10":  "Der Effekt von UNIVERSE OF CULTURE entfaltet sich dadurch, dass alle Spieler meinen, mit demselben Regelsatz zu spielen. Allerdings weichen die Regeln zwischen den drei Gruppen leicht ab und sind teilweise bewusst ungenau formuliert. Im späteren Verlauf des Spiels sind die Auswirkungen der abweichenden Spielregeln in der Spieldynamik deutlich zu erkennen.",
-          "11": "Persönliche Erkenntnisse reichen von",
-          "12": "'Ich dachte echt, alle um mich herum seien doof, weil sie anders spielten, als es in den Regeln stand'",
-          "13": "über",
-          "14": "'Im Nachhinein bin ich erschrocken darüber, wie abwertend ich auf die Anderen geblickt habe!'",
-          "15": "bis hin zu",
-          "16": "'Mir ist jetzt klar, wie wichtig es ist, in einer neuen Gruppe erstmal nach den zugrundeliegenden Prinzipien Ausschau zu halten'."
-      }
-  },
-  
-  "Commercials": {
-      "1":  {
-          "Title": "Für wie viele Personen ist das Spiel ausgelegt?",
-          "Content": {
-              "1": "Ein Spielset enthält 3 Spielbretter und ist für",
-              "2": "9-24 Personen",
-              "3": "ausgelegt. Es ist mit Scalamento gebrandet und in den Sprachen",
-              "4": "deutsch",
-              "5": "und",
-              "6": "englisch",
-              "7": "erhältlich."
-          }
-      },
-
-      "2":  {
-          "Title": "Was kostet das Spiel?",
-          "Content": {
-              "1": "Der Preis pro Spielset beträgt",
-              "2": "79€ netto inklusive Versand",
-              "3": "innerhalb Deutschlands. Für staatliche Bildungseinrichtungen, Vereine und Non-Profit-Organisationen berechnen wir reduziert 49€ netto."
-          }
-      }
-  },
-
-  "References": {
-      "Title": "Was andere über das Spiel sagen",
-      "1": {
-        "Voice": "Ich fand die Idee des Spiels klasse und bin jetzt erst recht überzeugt – Universe of Culture hat einen festen Platz in meinem Werkzeugkoffer und ich denke, ich werde es noch oft und in verschiedenen Varianten spielen lassen.",
-        "Customer": "Martin Skowronek, LEB Niedersachsen e.V."
-      },
-      "2": {
-        "Voice": "Die Teilnehmenden waren sehr zurückhaltend mit Feedback in der Reflexionsrunde. Meine Kolleginnen, die die Azubis durch den weiteren Tag geführt haben, haben mir aber berichtet, dass in der abschließenden Feedbackrunde zum Azubi-Tag 'das Spiel' von mehreren Teilnehmenden als 'Highlight' bezeichnet worden ist.",
-        "Customer": "Julian Nolte, stw Berlin"
-    },
-    "3": {
-      "Voice": "Nach dem ersten Mischen der Spieler wurde es dann lustig. Verzweifelte Gesichter, wilde Gesten und der noch schwierigere Moment nicht sprechen zu dürfen. Interessant war die Frage am Schluss „Was war denn jetzt das richtige Verhalten? Sollten wir uns anpassen? Sollte jeder so Spielen, wie er es für richtig hält? Sollten wir unsere Regeln durchsetzen?“ Somit waren wir mitten im Thema und konnten die Diskussionen zielführend für die Situationen im Arbeitsalltag nutzen.",
-      "Customer": "Julia Meihöfer von Datadrivers"
-    },
-    "4": {
-        "Voice": "Das Spiel hat wesentlich dazu beigetragen, dass sich die Klassensituation verändert hat und ein sehr viel besseres Klassenklima und ein Gemeinschaftsgefühl entstanden ist.",
-        "Customer": "Heidrun Freier, Fachschule Sozialpädagogik"
-    },
-    "Haufe": {
-        "Pre": "Weitere Details zum Spiel findet ihr auch im",
-        "Mid": "Praxisbuch Agilität",
-        "End": "erschienen im Haufe-Verlag."
+    "Title": "Zweck und Ziele des Vereins",
+    "Content": {
+      "1": "Der Förderverein der Neuapostolischen Kirchengemeinde Hamburg-Alstertal e.V. hat sich zum Ziel gesetzt, die gemeindliche Arbeit zu stärken und zu ergänzen. Im Zentrum stehen die Förderung kirchlicher Projekte und die Unterstützung gemeinnütziger Initiativen, die im Einklang mit dem Glauben und den Werten der neuapostolischen Kirche stehen.",
+      "2": "Wir fördern das gemeinschaftliche Miteinander und schaffen finanzielle Grundlagen, um kirchliche Aktivitäten und gemeindliche Projekte zu unterstützen. Dies geschieht durch gezielte Mittelbeschaffung und Weiterleitung an steuerbegünstigte Körperschaften oder öffentliche Einrichtungen.",
+      "3": "Unser Verein versteht sich als Teil einer lebendigen Gemeinde, die auf Eigenverantwortung und Prinzipientreue baut. Durch unser Engagement möchten wir Räume für Begegnungen schaffen, den Glauben stärken und die kulturellen und sozialen Dynamiken innerhalb der Gemeinde fördern.",
+      "4": "Die Arbeit unseres Vereins ist geprägt von Transparenz, Einfachheit und einer offenen Struktur, die es jedem ermöglicht, sich aktiv zu beteiligen. Wir laden alle Interessierten ein, gemeinsam mit uns an einer lebendigen und zukunftsorientierten Gemeindearbeit mitzuwirken.",
+      "5": "Wir freuen uns darauf, mit euch zusammen das Potenzial unserer Gemeinde zu entfalten und einen spürbaren Unterschied im Leben unserer Mitglieder und der Gemeinschaft zu machen."
     }
   },
+  
+  "Membership": {
+    "Title": "Werde Teil unseres Vereins",
+    "Content": {
+        "1": "Gemeinsam gestalten wir eine starke Gemeinschaft, die auf Zusammenhalt und gegenseitiger Unterstützung basiert.",
+        "2": "Profitiere von exklusiven Veranstaltungen, spannenden Projekten und der Möglichkeit, aktiv mitzuwirken.",
+        "3": "Als Mitglied hast du die Chance, unsere Zukunft mitzugestalten und wichtige Entscheidungen zu beeinflussen.",
+        "4": "Lerne Gleichgesinnte kennen, tausche dich aus und werde Teil eines inspirierenden Netzwerks.",
+        "5": "Sei dabei und unterstütze uns dabei, unsere Ziele und Visionen zu verwirklichen – wir freuen uns auf dich!"
+    }
+  },
+ 
 
-  "OrderForm": {
-      "Title": "Bestellt hier euer Spiel!",
+  "ContactForm": {
+      "Title": "Nimm Kontakt mit uns auf",
       "Header": {
-          "1": "Lust auf Universe of Culture bekommen? Dann schick uns hier rasch eine Nachricht und lass uns dabei gerne wissen, ",
-          "2": "wie viele Spielsets",
-          "3": "(ein Spielset reicht für bis zu 24 Spieler) und",
-          "4": "in welcher Sprache",
-          "5": "(englisch oder deutsch)",
-          "6": "du dein(e) Spielset(s) benötigst. Wir melden uns dann schnellstmöglich bei dir."
+          "1": "Lust auf unseren Verein bekommen?",
+          "2": "Schreib uns eine Nachricht und werde Teil unserer Gemeinschaft!",
+          "3": "",
+          "4": "",
+          "5": "",
+          "6": ""
       },
       "Fields": {
           "Name": "Dein Name*",
@@ -159,7 +102,7 @@
   "Footer": {
       "Imprint": "Impressum & AGB",
       "Privacy": "Datenschutz",
-      "Company": "Scalamento GmbH",
+      "Company": "Förderverein NAK Alstertal e.V.",
       "LinkedIn": "LinkedIn",
       "AriaLabel": "Link zur Scalamento GmbH"
   },
@@ -170,38 +113,29 @@
       "VisitorAddress": {
         "Title": "Besucheradresse",
         "Address": {
-          "1": "Scalamento GmbH",
-          "2": "Elfriede-Lohse-Wächtler-Weg 26",
-          "3": "22081 Hamburg"
+          "1": "Förderverein der Neuapostolischen Kirchengemeinde Hamburg-Alstertal e.V.",
+          "2": "Dweerblöcken 8",
+          "3": "22393 Hamburg"
         }
       },
       "Address": {
         "Title": "Anschrift",
         "Address": {
-          "1": "Scalamento GmbH",
-          "2": "Elfriede-Lohse-Wächtler-Weg 26",
-          "3": "22081 Hamburg"
+          "1": "Förderverein der Neuapostolischen Kirchengemeinde Hamburg-Alstertal e.V.",
+          "2": "Dweerblöcken 8",
+          "3": "22393 Hamburg"
         }
       },
       "ManagingDirector": {
-        "Title": "Geschäftsführer",
-        "Name":     "Dr. Stefan Link"
+        "Title": "Vorstand",
+        "Name":     "Anja Link, Torsten Müller, Silke Scharrenberg"
       },
       "Contact": {
         "Title": "Kontakt",
         "Details": { 
           "1": "+49 151 200 16587",
-          "2": "info@scalamento.de"
+          "2": "verein@nak-alstertal.de"
           }
-      },
-      "CommercialRegister": {
-        "Title": "Registergericht, Hamburg, HRB 172844",
-        "TaxNumber": "USt-Id Nr. DE349799123"
-      },
-      "TermsAndConditions": {
-        "Title": "Allgemeine Geschäftsbedingungen",
-        "General": "Download AGB Allgemein",
-        "Sales": "Download AGB Verkauf"
       },
       "Disclaimer": {
         "Title": "Haftungsausschluss",
@@ -277,13 +211,13 @@
       "ControllerInformation": {
         "Headline": "Name und Anschrift des für die Verarbeitung Verantwortlichen",
         "Content": {
-          "1": "Verantwortlicher im Sinne der Datenschutz-Grundverordnung, sonstiger in den Mitgliedstaaten der Europäischen Union geltenden Datenschutzgesetze und anderer Bestimmungen mit datenschutzrechtlichem Charakter ist die:",
-          "2": "Scalamento GmbH",
-          "3": "Elfriede-Lohse-Wächtler-Weg 26",
-          "4": "22081 Hamburg",
+          "1": "Verantwortlicher im Sinne der Datenschutz-Grundverordnung, sonstiger in den Mitgliedstaaten der Europäischen Union geltenden Datenschutzgesetze und anderer Bestimmungen mit datenschutzrechtlichem Charakter ist der",
+          "2": "Förderverein der Neuapostolischen Kirchengemeinde Hamburg-Alstertal e.V.",
+          "3": "Dweerblöcken 8",
+          "4": "22393 Hamburg",
           "5": "Deutschland" ,
-          "6": "E-Mail: info@scalamento.de",
-          "7": "Website: https://www.scalamento.de"
+          "6": "E-Mail: verein@nak-alstertal.de",
+          "7": "Website: https://www.nak-alstertal.de"
         }
       },
       "GeneralDataCollection": {

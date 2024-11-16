@@ -1,8 +1,6 @@
 import { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 import { settings } from '../config/settings';
-import ScalamentoWordmarkSvg from './ScalamentoWordmarkSvg';
-import ScalamentoSignetSvg from './ScalamentoSignetSvg';
 
 const Footer = () => {
     const { t } = useTranslation();
@@ -22,11 +20,6 @@ const Footer = () => {
 
     return (
         <footer className="container footer-container" id="Footer">
-            <div className="footer-logo">
-                <a href={settings.scalamentoUrl} target="_blank" rel="noopener noreferrer" aria-label={t('Footer.Label')}>
-                    {useSignet ? <ScalamentoSignetSvg /> : <ScalamentoWordmarkSvg />}
-                </a>
-            </div>
             <div className="footer-links">
                 <p className="inter-m-light">
                     <a href="/imprint">{t('Footer.Imprint')}</a>

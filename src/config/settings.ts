@@ -5,7 +5,7 @@ export const settings = {
 
     apiUrl: import.meta.env.VITE_BETAOS_BASE_API_URL,
     linkedInUrl: 'https://www.linkedin.com/company/12950627/',
-    scalamentoUrl: 'https://www.scalamento.de',
+    fnaUrl: 'https://www.nak-alstertal.de',
     haufeUrl: 'https://www.haufe.de/personal/hr-management/agilitaet-agile-werte-und-agile-unternehmenskultur_80_386204.html',
     
     // Meta-Informationen
@@ -40,7 +40,7 @@ export const settings = {
         },
     },
 
-    OrderForm: {
+    ContactForm: {
         fromAddress: 'mail@universe-of-culture.de',
         fromName: 'Universe of Culture Website',
         mailTo: 'stefan.link@scalamento.de'

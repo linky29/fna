@@ -11,10 +11,8 @@ const LanguageSwitch = lazy(() => import('./components/LanguageSwitch'));
 const Header = lazy(() => import('./components/Header'));
 const Intro = lazy(() => import('./components/Intro'));
 const Basics = lazy(() => import('./components/Basics'));
-const Details = lazy(() => import('./components/Details'));
-const Commercials = lazy(() => import('./components/Commercials'));
-const References = lazy(() => import('./components/References'));
-const OrderForm = lazy(() => import('./components/OrderForm'));
+const Membership = lazy(() => import('./components/Membership'));
+const ContactForm = lazy(() => import('./components/ContactForm'));
 const Footer = lazy(() => import('./components/Footer'));
 const Imprint = lazy(() => import('./components/Imprint'));
 const Privacy = lazy(() => import('./components/Privacy'));
@@ -52,10 +50,8 @@ const App: React.FC = () => {
                         <Route index element={
                             <Suspense fallback={<div>{t('Misc.Loading')}</div>}>
                                 <Basics />
-                                <Details />
-                                <Commercials />
-                                <References />
-                                <OrderForm />
+                                <Membership />
+                                <ContactForm />
                             </Suspense>
                         } />
                         <Route path="/imprint" element={<Imprint />} />

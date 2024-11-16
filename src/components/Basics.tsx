@@ -34,22 +34,14 @@ const Basics = () => {
             <div className="spacer-s" />
             <div className="basics-action-images">
                 {[...Array(visibleImages).keys()].map((num) => (
-                    <picture key={num + 1} className="basics-action-image">
-                        <source 
-                            srcSet={`
-                                /action/${num + 1}@1x.webp 1x, 
-                                /action/${num + 1}@1.5x.webp 1.5x, 
-                                /action/${num + 1}@2x.webp 2x, 
-                            `} 
-                            type="image/webp" 
-                        />
-                        <img 
-                            src={`/action/${num + 1}.png`} 
-                            alt={`Action ${num + 1}`} 
-                            width="400" 
-                            height="266" 
-                        />
-                    </picture>
+                    <img
+                        key={num + 1}
+                        className="basics-action-image"
+                        src={`/action/${num + 1}.png`}
+                        alt={`Action ${num + 1}`}
+                        width="400"
+                        height="266"
+                    />
                 ))}
             </div>
             <div className="spacer-s" />
