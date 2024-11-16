@@ -42,7 +42,6 @@
         "5": "SEPA-Lastschriftmandat"
     }
   },
- 
 
   "ContactForm": {
       "Title": "Nimm Kontakt mit uns auf",
@@ -64,8 +63,6 @@
               "End": "einverstanden."
           }
       },
-      "PriceTag": "79 € netto inklusive Versand",
-      "Submit":  "Nachricht senden",
 
       "Message": {
           "Sender": "Im Formular angegebener Name des Absenders",
@@ -104,12 +101,11 @@
       "Privacy": "Datenschutz",
       "Company": "Förderverein NAK Alstertal e.V.",
       "LinkedIn": "LinkedIn",
-      "AriaLabel": "Link zur Scalamento GmbH"
+      "AriaLabel": "Link zur NAK Alstertal e.V."
   },
 
   "Imprint": {
       "Title": "Impressum",
-      "Header": "'Universe of Culture' ist eine Marke der Scalamento GmbH.",
       "VisitorAddress": {
         "Title": "Besucheradresse",
         "Address": {

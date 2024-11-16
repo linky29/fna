@@ -1,11 +1,11 @@
 {
     "Misc": {
-      "MetaDescription": "UNIVERSE OF CULTURE is a team-building game that simulates the dynamics of self-organized teams. Learn more about the game and order it directly here!",
-      "PageTitle": "UNIVERSE OF CULTURE - The Team Building Game from Scalamento",
+      "MetaDescription": "Förderverein der Neuapostolischen Kirchengemeinde Hamburg-Alstertal e.V.",
+      "PageTitle": "Förderverein der Neuapostolischen Kirchengemeinde Hamburg-Alstertal e.V.",
       "Loading": "Loading..."
-    },
+      },
 
-    "Intro": "Welcome! Are you interested in the board game UNIVERSE OF CULTURE? Here you can find all the information!",  
+    "Intro": "Welcome to the website of the Support Association of the New Apostolic Church Congregation Hamburg-Alstertal e.V.!",  
     
     "Header": {
       "Language": {
@@ -14,102 +14,44 @@
         "French": "FR"
       },
       "AltText": {
-        "Logo": "UoC Logo",
-        "Header": "UNIVERSE OF CULTURE - The Team Building Game from Scalamento"
-      },
-      "IconTitle": "Small Icon"  
+        "Logo": "Logo des Vereins",
+        "Header": "Headerbild des Vereins"
+        },
+      "IconTitle": "Small Icon"  ,
+      "Title": "Förderverein der Neuapostolischen Kirchengemeinde Hamburg-Alstertal e.V."
     },
   
-    "Basics": {
-      "Title": "The Game",
-      "Content": {
-        "1": "The core of every high-performing organization is the self-reliant, market-acting team. But how does it actually feel when teams switch to a self-reliant, principle-based cooperation? What effects can arise?",
-        "2": "With UNIVERSE OF CULTURE, you can experience the dynamics of self-organized teams. Immerse yourself in an exciting, thrilling, and emotional game and experience for yourself how peak performance emerges between people!",
-        "3": "Don't worry, the rules are not intergalactic at all. Based on the worldwide well-known Mensch-Ärgere-Dich-Nicht game principle, you and your team will be ready in no time for your excursion into the universe of cultures. Scalamento wishes you a good and insightful journey!"
-      }
-    },
+"Basics": {
+  "Title": "Purpose and Goals of the Association",
+  "Content": {
+    "1": "The Support Association of the New Apostolic Church Congregation Hamburg-Alstertal e.V. aims to strengthen and complement the work of the congregation. At its core is the promotion of church projects and support for charitable initiatives that align with the faith and values of the New Apostolic Church.",
+    "2": "We promote community togetherness and establish financial foundations to support church activities and congregational projects. This is achieved through targeted fundraising and allocation of funds to tax-privileged organizations or public institutions.",
+    "3": "Our association sees itself as part of a vibrant community built on self-responsibility and adherence to principles. Through our commitment, we strive to create spaces for encounters, strengthen faith, and foster cultural and social dynamics within the congregation.",
+    "4": "The work of our association is characterized by transparency, simplicity, and an open structure that allows everyone to actively participate. We invite all those interested to join us in contributing to vibrant and forward-looking congregational work.",
+    "5": "We look forward to working together with you to unlock the potential of our congregation and make a tangible difference in the lives of our members and the community."
+  }
+},
   
-    "Details": {
-      "Title": "More Details About the Game",
-      "BoardImage": "This is what a game board looks like.",
-      "Content": {
-        "1": "UNIVERSE OF CULTURE is a team-building game developed by Scalamento in cooperation with the University of Nuremberg-Erlangen. It helps players reflect on their behavior in self-organized collaboration: How do I react when someone plays by different rules? What strategies do we choose as a group?",
-        "2": "Players go through the team phases according to",
-        "3": "Bruce Wayne Tuckman: Forming, Storming, Norming, and Performing.",
-        "4": "This is achieved simply by the fact that the game only allows non-verbal communication, meaning words are forbidden. UNIVERSE OF CULTURE is played in",
-        "5": "three groups of 3-8 people each.",
-        "6": "The basis of the game is the 'Mensch-Ärgere-Dich-Nicht' principle. Players learn the game rules at the beginning of the game themselves - this is part of the gameplay.",
-        "7": "A well-moderated gameplay usually lasts",
-        "8": "60-90 minutes",
-        "9": "including a retrospective to compile the learnings. The game can only be played once because after the run-through, players understand the twist of the game. Typically, many players leave the game table with lasting impressions.",
-        "10": "The effect of UNIVERSE OF CULTURE unfolds because all players think they are playing by the same rule set. However, the rules vary slightly between the three groups and are deliberately formulated somewhat vaguely. As the game progresses, the effects of the different game rules become apparent in the game dynamics.",
-        "11": "Personal insights range from",
-        "12": "'I really thought everyone around me was dumb because they were playing differently than the rules said'",
-        "13": "to",
-        "14": "'In retrospect, I was shocked by how condescending I looked at others!'",
-        "15": "to",
-        "16": "'Now I realize how important it is to first look for the underlying principles in a new group.'"
-      }
-    },
-    
-    "Commercials": {
-      "1":  {
-        "Title": "For How Many People Is the Game Designed?",
-        "Content": {
-          "1": "A game set contains 3 game boards and is designed for",
-          "2": "9-24 people",
-          "3": ". It is branded with Scalamento and available in the languages",
-          "4": "German",
-          "5": "and",
-          "6": "English",
-          "7": "."
-        }
-      },
-  
-      "2":  {
-        "Title": "What Is the Price of the Game?",
-        "Content": {
-          "1": "The price per game set is",
-          "2": "€79 net, including shipping",
-          "3": "within Germany. For public educational institutions, clubs, and non-profit organizations, we charge a reduced price of €49 net."
-        }
-      }
-    },
-  
-    "References": {
-      "Title": "What Others Say About the Game",
-      "1": {
-        "Voice": "I thought the idea of the game was great and am now even more convinced - Universe of Culture has a permanent place in my toolkit, and I think I'll let it be played often and in different variations.",
-        "Customer": "Martin Skowronek, LEB Niedersachsen e.V."
-      },
-      "2": {
-        "Voice": "The participants were very reserved with feedback in the reflection round. However, my colleagues, who guided the trainees through the rest of the day, reported to me that in the final feedback round for the trainee day, 'the game' was described as the 'highlight' by several participants.",
-        "Customer": "Julian Nolte, stw Berlin"
-      },
-      "3": {
-        "Voice": "After the first mixing of the players, it became fun. Desperate faces, wild gestures, and the even more difficult moment of not being allowed to speak. An interesting question at the end was, 'What was the right behavior now? Should we adapt? Should everyone play the way they think is right? Should we enforce our rules?' So we were right in the middle of the topic and were able to use the discussions to guide the situations in everyday work.",
-        "Customer": "Julia Meihöfer from Datadrivers"
-      },
-      "4": {
-        "Voice": "The game has contributed significantly to changing the class situation, creating a much better class atmosphere and sense of community.",
-        "Customer": "Heidrun Freier, Fachschule Sozialpädagogik"
-      },
-      "Haufe": {
-        "Pre": "You can also find more details about the game in the",
-        "Mid": "Agility Handbook",
-        "End": "published by Haufe."
-      }
-    },
-  
+"Membership": {
+  "Title": "Join Our Association",
+  "Content": {
+    "1": "If you would like to support us, we warmly welcome you to become a member. As a member, you will benefit from numerous advantages and have the opportunity to actively contribute to shaping our congregational work.",
+    "2": "Here you can find our",
+    "3": "Membership Application Form",
+    "4": "and our",
+    "5": "SEPA Direct Debit Mandate"
+  }
+},
+
     "ContactForm": {
-      "Title": "Order Your Game Here!",
+      "Title": "Get in touch with us!",
       "Header": {
-        "1": "Fascinated by Universe of Culture? Then send us a message here and let us know,",
-        "2": "how many game sets",
-        "3": "(one game set is enough for up to 24 players) and",
-        "4": "in which language",
-        "5": "(English or German)",
-        "6": "you need your game set(s). We will get back to you as soon as possible."
+        "1": "Lust auf unseren Verein bekommen?",
+        "2": "Schreib uns eine Nachricht und werde Teil unserer Gemeinschaft!",
+        "3": "",
+        "4": "",
+        "5": "",
+        "6": ""
       },
       "Fields": {
         "Name": "Your Name*",
@@ -121,8 +63,6 @@
           "End": "."
         }
       },
-      "PriceTag": "€79 net, including shipping",
-      "Submit": "Send Message",
   
       "Message": {
         "Sender": "Sender Name Entered in the Form",
@@ -159,44 +99,39 @@
     "Footer": {
       "Imprint": "Imprint & Terms",
       "Privacy": "Privacy",
-      "Company": "Scalamento GmbH",
+      "Company": "Förderverein NAK Alstertal e.V.",
       "LinkedIn": "LinkedIn",
-      "AriaLabel": "Link to Scalamento GmbH"
+      "AriaLabel": "Link to Förderverein NAK Alstertal e.V."
     },
   
     "Imprint": {
         "Title": "Legal Notice",
-        "Header": "'Universe of Culture' is a trademark of Scalamento GmbH.",
         "VisitorAddress": {
           "Title": "Visitor Address",
           "Address": {
-            "1": "Scalamento GmbH",
-            "2": "Elfriede-Lohse-Wächtler-Weg 26",
-            "3": "22081 Hamburg"
-          }
+            "1": "Förderverein der Neuapostolischen Kirchengemeinde Hamburg-Alstertal e.V.",
+            "2": "Dweerblöcken 8",
+            "3": "22393 Hamburg"
+            }
         },
         "Address": {
           "Title": "Registered Address",
           "Address": {
-            "1": "Scalamento GmbH",
-            "2": "Elfriede-Lohse-Wächtler-Weg 26",
-            "3": "22081 Hamburg"
-          }
+            "1": "Förderverein der Neuapostolischen Kirchengemeinde Hamburg-Alstertal e.V.",
+            "2": "Dweerblöcken 8",
+            "3": "22393 Hamburg"
+            }
         },
         "ManagingDirector": {
-          "Title": "Managing Director",
-          "Name": "Dr. Stefan Link"
-        },
+          "Title": "Vorstand",
+          "Name":     "Anja Link, Torsten Müller, Silke Scharrenberg"
+          },
         "Contact": {
           "Title": "Contact",
           "Details": { 
             "1": "+49 151 200 16587",
-            "2": "info@scalamento.de"
+            "2": "verein@nak-alstertal.de"
             }
-        },
-        "CommercialRegister": {
-          "Title": "Commercial Register, Hamburg, HRB 172844",
-          "TaxNumber": "VAT ID No. DE349799123"
         },
         "TermsAndConditions": {
           "Title": "General Terms and Conditions",
@@ -278,13 +213,13 @@
         "Headline": "Name and Address of the Controller",
         "Content": {
         "1": "The controller for the purposes of the General Data Protection Regulation (GDPR), other data protection laws applicable in Member states of the European Union and other provisions related to data protection is:",
-        "2": "Scalamento GmbH",
-        "3": "Elfriede-Lohse-Wächtler-Weg 26",
-        "4": "22081 Hamburg",
+        "2": "Förderverein der Neuapostolischen Kirchengemeinde Hamburg-Alstertal e.V.",
+        "3": "Dweerblöcken 8",
+        "4": "22393 Hamburg",
         "5": "Deutschland" ,
-        "6": "E-Mail: info@scalamento.de",
-        "7": "Website: https://www.scalamento.de"
-        }
+        "6": "E-Mail: verein@nak-alstertal.de",
+        "7": "Website: https://www.nak-alstertal.de"
+      }
     },
     "GeneralDataCollection": {
         "Headline": "Collection of General Data and Information",
