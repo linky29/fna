@@ -113,9 +113,6 @@ const ContactForm: React.FC = () => {
             <div className="spacer-m" />
 
             <form className="order-form" onSubmit={handleSubmit}>
-                <div className="order-form-price-tag inter-l-bold">
-                    {t('ContactForm.PriceTag')}
-                </div>
                 <div className="order-form-row">
                     <div className="floating-label-group">
                         <input 
