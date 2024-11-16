@@ -1,7 +1,7 @@
 {
-  "name": "uoc",
+  "name": "fna",
   "private": true,
-  "version": "1.0.13",
+  "version": "0.1.0",
   "type": "module",
   "scripts": {
     "prebuild": "npm version patch",
