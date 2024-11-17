@@ -98,7 +98,7 @@
   },
 
   "Footer": {
-      "Imprint": "Impressum & AGB",
+      "Imprint": "Impressum",
       "Privacy": "Datenschutz",
       "Company": "Förderverein NAK Alstertal e.V.",
       "AriaLabel": "Link zur NAK Alstertal e.V."
@@ -129,8 +129,7 @@
       "Contact": {
         "Title": "Kontakt",
         "Details": { 
-          "1": "+49 151 200 16587",
-          "2": "verein@nak-alstertal.de"
+          "1": "verein@nak-alstertal.de"
           }
       },
       "Disclaimer": {
@@ -213,7 +212,7 @@
           "4": "22393 Hamburg",
           "5": "Deutschland" ,
           "6": "E-Mail: verein@nak-alstertal.de",
-          "7": "Website: https://www.nak-alstertal.de"
+          "7": "Website: https://verein.nak-alstertal.de"
         }
       },
       "GeneralDataCollection": {

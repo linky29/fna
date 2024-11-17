@@ -26,7 +26,7 @@ export const settings = {
 
     ContactForm: {
         fromAddress: 'verein@nak-alstertal.de',
-        fromName: 'Förderverein der Neuapostolischen Kirche Alstertal e.V. - Website',
+        fromName: 'Foerderverein der Neuapostolischen Kirche Alstertal e.V. - Website',
         mailTo: 'stefan.link@scalamento.de'
     }
 };

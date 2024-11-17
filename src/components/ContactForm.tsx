@@ -59,7 +59,7 @@ const ContactForm: React.FC = () => {
                     fromMail: settings.ContactForm.fromAddress,
                     to: settings.ContactForm.mailTo,
                     replyTo: formData.email,
-                    subject: "Bestellanfrage von " + formData.name + " fuer UoC",
+                    subject: "Nachricht von von " + formData.name,
                     body: formData.message                   
                 }),
 
@@ -159,7 +159,7 @@ const ContactForm: React.FC = () => {
                 </div>
 
                 <div className="contact-form-row">
-                    <label htmlFor="consent-checkbox" className="contact-form-consent">
+                    <label htmlFor="consent-checkbox" className="contact-form-consent inter-l-light">
                         <input 
                             id="consent-checkbox"
                             type="checkbox" 
