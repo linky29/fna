@@ -101,19 +101,15 @@ const ContactForm: React.FC = () => {
             
             <div className="spacer-s" />
             
-            <div className="inter-l-light order-form-limited">
+            <div className="inter-l-light contact-form-limited">
                 {t('ContactForm.Header.1')}{' '}
-                <b>{t('ContactForm.Header.2')}</b>{' '}
-                {t('ContactForm.Header.3')}{' '}
-                <b>{t('ContactForm.Header.4')}</b>{' '}
-                {t('ContactForm.Header.5')}{' '}
-                {t('ContactForm.Header.6')}
+                {t('ContactForm.Header.2')}{' '}
             </div>
 
             <div className="spacer-m" />
 
-            <form className="order-form" onSubmit={handleSubmit}>
-                <div className="order-form-row">
+            <form className="contact-form" onSubmit={handleSubmit}>
+                <div className="contact-form-row">
                     <div className="floating-label-group">
                         <input 
                             id="name-input"
@@ -158,12 +154,12 @@ const ContactForm: React.FC = () => {
                     <label htmlFor="message-input" className="textarea-label inter-l-light">{t('ContactForm.Fields.Message')}</label>
                 </div>
 
-                <div className="order-form-text-row">
+                <div className="contact-form-text-row">
                     {t('ContactForm.Required')}
                 </div>
 
-                <div className="order-form-row">
-                    <label htmlFor="consent-checkbox" className="order-form-consent">
+                <div className="contact-form-row">
+                    <label htmlFor="consent-checkbox" className="contact-form-consent">
                         <input 
                             id="consent-checkbox"
                             type="checkbox" 
@@ -174,12 +170,12 @@ const ContactForm: React.FC = () => {
                             autoComplete='off'                           
                         />
                         {t('ContactForm.Fields.Consent.Start')}{' '}
-                        <a href="/privacy" className="order-form-privacy">
+                        <a href="/privacy" className="contact-form-privacy">
                             <b>{t('ContactForm.Fields.Consent.Privacy')}</b>{' '}
                         </a>
                         {t('ContactForm.Fields.Consent.End')}
                     </label>
-                    <button type="submit" className="order-form-button-submit byrd-m-extra-bold">{t('ContactForm.Submit')}</button>
+                    <button type="submit" className="contact-form-button-submit byrd-m-extra-bold">{t('ContactForm.Submit')}</button>
                 </div>
             </form>
             
@@ -187,12 +183,12 @@ const ContactForm: React.FC = () => {
                 isOpen={modalIsOpen}
                 onRequestClose={() => setModalIsOpen(false)}
                 contentLabel="ContactFormModal"
-                className="order-form-modal-content"
+                className="contact-form-modal-content"
             >
-                <div className="order-form-modal">
-                    <div className="order-form-modal-header inter-l-bold">{modalHeader}</div>
-                    <div className="order-form-modal-message inter-l-light">{modalMessage}</div>
-                    <div className="order-form-modal-button byrd-s-extra-bold" onClick={() => setModalIsOpen(false)}>{t('ContactForm.Modal.Button')}</div>
+                <div className="contact-form-modal">
+                    <div className="contact-form-modal-header inter-l-bold">{modalHeader}</div>
+                    <div className="contact-form-modal-message inter-l-light">{modalMessage}</div>
+                    <div className="contact-form-modal-button byrd-s-extra-bold" onClick={() => setModalIsOpen(false)}>{t('ContactForm.Modal.Button')}</div>
                 </div>
             </Modal>
         </section>

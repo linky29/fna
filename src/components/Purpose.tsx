@@ -3,7 +3,7 @@ import { useTranslation } from 'react-i18next';
 import IconTitle from './IconTitle';
 import { settings } from '../config/settings';
 
-const Basics = () => {
+const Purpose = () => {
     const { t } = useTranslation();
     const [visibleImages, setVisibleImages] = useState(3);
 
@@ -25,18 +25,30 @@ const Basics = () => {
     }, []);
 
     return (
-        <section id="basics" className="container">
-            <IconTitle titleKey="Basics.Title" />
+        <section id="purpose" className="container">
+            <IconTitle titleKey="Purpose.Title" />
             <div className="spacer-s" />
-            <div className="inter-l-light">{t('Basics.Content.1')}</div>
+            <div className="inter-l-light">{t('Purpose.Content.1')}</div>
             <div className="spacer-s" />
-            <div className="inter-l-light">{t('Basics.Content.2')}</div>
+            <div className="inter-l-light">{t('Purpose.Content.2')}</div>
             <div className="spacer-s" />
-            <div className="basics-action-images">
+            <div className="inter-l-light">
+                {t('Purpose.Content.3')}{' '}
+                <a 
+                    className="purpose-action-link" 
+                    href="/templates/satzung.pdf" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                >
+                    <b>{t('Purpose.Content.4')}</b>
+                </a>
+            </div>
+            <div className="spacer-s" />
+            <div className="purpose-action-images">
                 {[...Array(visibleImages).keys()].map((num) => (
                     <img
                         key={num + 1}
-                        className="basics-action-image"
+                        className="purpose-action-image"
                         src={`/action/${num + 1}.png`}
                         alt={`Action ${num + 1}`}
                         width="400"
@@ -44,10 +56,8 @@ const Basics = () => {
                     />
                 ))}
             </div>
-            <div className="spacer-s" />
-            <div className="inter-l-light">{t('Basics.Content.3')}</div>
         </section>
     );
 };
 
-export default Basics;
+export default Purpose;

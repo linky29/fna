@@ -21,37 +21,37 @@
     "Title": "Förderverein der Neuapostolischen Kirchengemeinde Hamburg-Alstertal e.V."
   },
 
-  "Basics": {
+  "Purpose": {
     "Title": "Zweck und Ziele des Vereins",
     "Content": {
-      "1": "Der Förderverein der Neuapostolischen Kirchengemeinde Hamburg-Alstertal e.V. hat sich zum Ziel gesetzt, die gemeindliche Arbeit zu stärken und zu ergänzen. Im Zentrum stehen die Förderung kirchlicher Projekte und die Unterstützung gemeinnütziger Initiativen, die im Einklang mit dem Glauben und den Werten der neuapostolischen Kirche stehen.",
-      "2": "Wir fördern das gemeinschaftliche Miteinander und schaffen finanzielle Grundlagen, um kirchliche Aktivitäten und gemeindliche Projekte zu unterstützen. Dies geschieht durch gezielte Mittelbeschaffung und Weiterleitung an steuerbegünstigte Körperschaften oder öffentliche Einrichtungen.",
-      "3": "Unser Verein versteht sich als Teil einer lebendigen Gemeinde, die auf Eigenverantwortung und Prinzipientreue baut. Durch unser Engagement möchten wir Räume für Begegnungen schaffen, den Glauben stärken und die kulturellen und sozialen Dynamiken innerhalb der Gemeinde fördern.",
-      "4": "Die Arbeit unseres Vereins ist geprägt von Transparenz, Einfachheit und einer offenen Struktur, die es jedem ermöglicht, sich aktiv zu beteiligen. Wir laden alle Interessierten ein, gemeinsam mit uns an einer lebendigen und zukunftsorientierten Gemeindearbeit mitzuwirken.",
-      "5": "Wir freuen uns darauf, mit euch zusammen das Potenzial unserer Gemeinde zu entfalten und einen spürbaren Unterschied im Leben unserer Mitglieder und der Gemeinschaft zu machen."
+      "1": "Zweck des Vereins ist die ideelle und finanzielle Förderung kirchlicher und gemeinnütziger Zwecke der Neuapostolischen Kirchengemeinde Hamburg-Alstertal. Hierzu gehören insbesondere die Förderung von Aktivitäten, die der Glaubenspflege, der Förderung christlicher Werte und dem Aufbau eines gemeinschaftlichen Lebens dienen.",
+      "2": "Der Verein sammelt Spenden und Zuwendungen, um Projekte und Vorhaben, die diesen Zielen dienen, finanziell zu unterstützen. Durch die enge Zusammenarbeit mit der Kirchengemeinde und den Mitgliedern des Vereins werden Maßnahmen ergriffen, um die Gemeinschaft zu stärken und nachhaltig positive Impulse zu setzen.",
+      "3": "Unser Ziel ist es, einen bleibenden Beitrag zur Förderung des kirchlichen Lebens und der sozialen Gemeinschaft zu leisten. Mehr dazu findest du",
+      "4": "in unserer Satzung.",
+      "5": ""
     }
   },
   
   "Membership": {
-    "Title": "Werde Teil unseres Vereins",
+    "Title": "Mitgliedschaft im Verein",
     "Content": {
-        "1": "Sofern du uns unterstützen möchtest, freuen wir uns über deine Mitgliedschaft. Als Mitglied profitierst du von zahlreichen Vorteilen und hast die Möglichkeit, aktiv an der Gestaltung unserer Gemeindearbeit mitzuwirken.",
-        "2": "Hier findest du unser",
-        "3": "Aufnahmeantrag zur Mitgliedschaft",
-        "4": "und unser",
-        "5": "SEPA-Lastschriftmandat"
+      "1": "Wir laden alle ein, die unsere Ziele und Werte teilen, Teil unseres Fördervereins zu werden. Als Mitglied unterstützt du aktiv die in unserer Satzung festgelegten Zwecke und trägst dazu bei, unsere Gemeindearbeit und gemeinnützigen Projekte zu fördern.",
+      "2": "Jede natürliche oder juristische Person kann Mitglied werden, die unsere Ziele unterstützt und bereit ist, die Satzung des Vereins anzuerkennen. Es gibt keine weiteren Einschränkungen außer den üblichen gesetzlichen Vorgaben für die Mitgliedschaft in Vereinen.",
+      "3": "Hier findest du unser",
+      "4": "Aufnahmeantrag zur Mitgliedschaft",
+      "5": "und wenn du möchtest auch unser",
+      "6": "SEPA-Lastschriftmandat.",
+      "7": "Bitte sende deinen Aufnahmeantrag und/oder dein SEPA-Lastschriftmandat idealerweise per E-Mail an",
+      "8": "Sollte dir ein digitaler Versand nicht möglich sein, kannst du uns die Unterlagen auch per Post zukommen lassen. Die Adresse findest du im Impressum.",
+      "9": "Solltest du Fragen zur Mitgliedschaft haben, melde dich gerne jederzeit über das Kontaktformular bei uns oder schreibe uns eine E-Mail."
     }
   },
 
   "ContactForm": {
-      "Title": "Nimm Kontakt mit uns auf",
+      "Title": "Kontakt zum Verein",
       "Header": {
-          "1": "Lust auf unseren Verein bekommen?",
-          "2": "Schreib uns eine Nachricht und werde Teil unserer Gemeinschaft!",
-          "3": "",
-          "4": "",
-          "5": "",
-          "6": ""
+          "1": "Du hast Fragen, Anregungen, Ideen oder einen Hinweis? Wir freuen uns über deine Nachricht! Wir sind immer offen für neue Impulse und freuen uns über jede Kontaktaufnahme.",
+          "2": "Deine Angaben werden verschlüsselt übertragen und vertraulich behandelt. Wir verwenden sie ausschließlich zur Beantwortung deiner Anfrage und geben sie nicht an Dritte weiter."
       },
       "Fields": {
           "Name": "Dein Name*",
@@ -63,6 +63,7 @@
               "End": "einverstanden."
           }
       },
+      "Submit": "Nachricht senden",
 
       "Message": {
           "Sender": "Im Formular angegebener Name des Absenders",
@@ -73,7 +74,7 @@
           "Success": {
             "Header": "Vielen Dank für deine Nachricht!",
             "Message": {
-              "1": "Wir melden uns so schnell wie möglich bei dir. Das sollte unter der Woche in der Regel nicht länger als 24 Stunden dauern. Wenn doch, melde dich bitte gerne direkt unter",
+              "1": "Wir melden uns so schnell wie möglich bei dir. Das sollte unter der Woche in der Regel nicht länger als 48 Stunden dauern. Wenn doch, melde dich bitte gerne direkt unter",
               "2": "bei uns."
             }
           },
@@ -100,7 +101,6 @@
       "Imprint": "Impressum & AGB",
       "Privacy": "Datenschutz",
       "Company": "Förderverein NAK Alstertal e.V.",
-      "LinkedIn": "LinkedIn",
       "AriaLabel": "Link zur NAK Alstertal e.V."
   },
 
@@ -124,7 +124,7 @@
       },
       "ManagingDirector": {
         "Title": "Vorstand",
-        "Name":     "Anja Link, Torsten Müller, Silke Scharrenberg"
+        "Name":  "Anja Link, Torsten Müller, Silke Scharrenberg"
       },
       "Contact": {
         "Title": "Kontakt",

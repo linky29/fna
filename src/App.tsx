@@ -10,7 +10,7 @@ import GoogleAnalyticsLoader from './components/GoogleAnalyticsLoader';
 const LanguageSwitch = lazy(() => import('./components/LanguageSwitch'));
 const Header = lazy(() => import('./components/Header'));
 const Intro = lazy(() => import('./components/Intro'));
-const Basics = lazy(() => import('./components/Basics'));
+const Purpose = lazy(() => import('./components/Purpose'));
 const Membership = lazy(() => import('./components/Membership'));
 const ContactForm = lazy(() => import('./components/ContactForm'));
 const Footer = lazy(() => import('./components/Footer'));
@@ -49,7 +49,7 @@ const App: React.FC = () => {
                     <Routes>
                         <Route index element={
                             <Suspense fallback={<div>{t('Misc.Loading')}</div>}>
-                                <Basics />
+                                <Purpose />
                                 <Membership />
                                 <ContactForm />
                             </Suspense>

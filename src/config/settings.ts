@@ -4,9 +4,8 @@ export const settings = {
     googleAnalyticsId: import.meta.env.VITE_GOOGLE_ANALYTICS_ID,
 
     apiUrl: import.meta.env.VITE_BETAOS_BASE_API_URL,
-    linkedInUrl: 'https://www.linkedin.com/company/12950627/',
+    email: 'verein@nak-alstertal.de',
     fnaUrl: 'https://www.nak-alstertal.de',
-    haufeUrl: 'https://www.haufe.de/personal/hr-management/agilitaet-agile-werte-und-agile-unternehmenskultur_80_386204.html',
     
     // Meta-Informationen
     geometry: {
@@ -25,24 +24,9 @@ export const settings = {
         }
     },
 
-    agb: {
-        basePath: '/agb',
-        prefix: 'scalamento_gmbh_',
-        generalTermsFileName: {
-            en: 'terms-and-conditions.pdf',
-            de: 'agb.pdf',
-            fr: 'conditions-generales-de-vente.pdf',
-        },
-        salesTermsFileName: {
-            en: 'terms-and-conditions.pdf',
-            de: 'agb_verkauf.pdf',
-            fr: 'conditions-generales-de-vente.pdf',
-        },
-    },
-
     ContactForm: {
-        fromAddress: 'mail@universe-of-culture.de',
-        fromName: 'Universe of Culture Website',
+        fromAddress: 'verein@nak-alstertal.de',
+        fromName: 'Förderverein der Neuapostolischen Kirche Alstertal e.V. - Website',
         mailTo: 'stefan.link@scalamento.de'
     }
 };
